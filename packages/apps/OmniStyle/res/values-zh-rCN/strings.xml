@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Copyright (C) 2017 The OmniROM Project
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 2 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+-->
+<resources>
+    <string name="browse_header">顶部图片</string>
+    <string name="custom_header_image_notice">已设置顶部图片</string>
+    <string name="header_creator_label">创建者\uff1a </string>
+    <string name="wallpaper_location_local">本地</string>
+    <string name="wallpaper_location_remote">在线</string>
+    <string name="no_network_message">无网络连接</string>
+    <string name="download_wallpaper_list_failed_notice">壁纸目录加载失败</string>
+    <string name="pick_header">选择顶部图片</string>
+    <string name="sort_by_creator_menu">按创作者排序</string>
+    <string name="sort_by_tag_menu">按标签排序</string>
+    <string name="sort_by_default_menu">按名称排序</string>
+    <string name="download_header_notice">正在下载顶部图片</string>
+    <string name="download_header_failed_notice">顶部图片下载失败</string>
+    <string name="header_location_local">本地</string>
+    <string name="header_location_online">在线</string>
+</resources>
