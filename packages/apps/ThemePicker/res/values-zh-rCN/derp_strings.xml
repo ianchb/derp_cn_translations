@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: DerpFest AOSP
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+
+    <string name="qs_gradient_title">快速设置渐变主题</string>
+    <string name="qs_gradient_dark_theme_only">此功能仅在深色主题中可用</string>
+
+    <string name="udfps_animation_title">指纹动画</string>
+    <string name="new_title">新建</string>
+
+    <!-- Title of a page that shows the user the preview of a clock font selection [CHAR_LIMIT=20] -->
+    <string name="preview_name_lockfont">时钟字体</string>
+
+    <!-- The revised title for the tab with a default set of color options. [CHAR_LIMIT=20]-->
+    <string name="preset_color_tab_3">DerpFest 颜色</string>
+</resources>
