@@ -37,5 +37,10 @@ Besides, some hard-coded text, such as `Action chip opacity` and `Adjust the opa
     <td><img width="270" height="600" alt="image" src="https://github.com/user-attachments/assets/1fa7e805-c5a3-4db8-89bf-7cb895fb9a8c" /></td>
     <td><img width="270" height="600" alt="image" src="https://github.com/user-attachments/assets/46fca34a-07c9-4b89-b2b9-6f837fb2cd6b" /></td>
   </tr>
+  <tr>
+    <td><img width="270" height="600" alt="image" src="https://github.com/user-attachments/assets/f01c5040-557b-4cf4-aa9c-131ef61ada4a" /></td>
+    <td><img width="270" height="600" alt="image" src="https://github.com/user-attachments/assets/2df33b70-c58e-4da4-b024-edfb37f596e2" /></td>
+    <td><img width="270" height="600" alt="image" src="https://github.com/user-attachments/assets/32af6fd3-420d-4182-aa7b-3ddc9657660b" /></td>
+    <td><img width="270" height="600" alt="image" src="https://github.com/user-attachments/assets/3e98e675-94af-4339-8fb7-2fc93cfd2748" /></td>
+  </tr>
 </table>
-
