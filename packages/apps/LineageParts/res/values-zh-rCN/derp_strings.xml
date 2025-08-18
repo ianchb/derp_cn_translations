@@ -51,4 +51,15 @@
     <string name="status_bar_logo_style_tux">Tux</string>
     <string name="status_bar_logo_style_ubuntu">Ubuntu</string>
     <string name="status_bar_logo_style_mint">Linux Mint</string>
+
+    <!-- Data disabled indicator -->
+    <string name="data_disabled_icon_title">移动数据禁用指示器</string>
+    <string name="data_disabled_icon_summary">移动数据禁用时在信号图标旁显示指示器</string>
+
+    <!-- 4G icon instead LTE -->
+    <string name="status_bar_4g_icon_title">4G 图标</string>
+    <string name="status_bar_4g_icon_summary">将“LTE”图标替换为“4G”</string>
+
+    <!-- Volume dialog timeout -->
+    <string name="volume_dialog_timeout_title">音量面板超时时间</string>
 </resources>

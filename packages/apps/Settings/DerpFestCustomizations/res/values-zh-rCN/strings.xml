@@ -21,7 +21,6 @@
     <string name="buttons_summary">设置按键的默认行为和操作</string>
     <string name="lockscreen_title">锁屏</string>
     <string name="lockscreen_summary">配置锁屏和息屏显示的选项</string>
-    <string name="lockscreen_clock_title">时钟</string>
     <string name="misc_title">杂项</string>
     <string name="misc_summary">其他未分类的设置选项</string>
 
@@ -38,121 +37,29 @@
     <string name="keybox_data_error">Keybox 数据加载失败</string>
     <string name="keybox_data_invalid">无效的 Keybox XML 文件</string>
 
+    <!-- PIF -->
+    <string name="pif_title">Play Integrity</string>
+    <string name="pif_summary">管理设备用于 Google Play 服务的 Play Integrity 数据</string>
+    <string name="pif_data_title">加载 PIF 数据</string>
+    <string name="pif_data_summary">选择要加载的 PIF JSON 文件</string>
+    <string name="pif_data_delete_title">删除 PIF 数据</string>
+    <string name="pif_data_delete_summary">移除当前加载的 PIF 数据</string>
+    <string name="pif_data_loaded">PIF 数据加载成功</string>
+    <string name="pif_data_cleared">PIF 数据已清除</string>
+    <string name="pif_data_error">PIF 数据加载失败</string>
+    <string name="pif_data_invalid">无效的 PIF JSON 文件</string>
+    <string name="pif_data_summary_loaded">已加载PIF 数据：%1$d props (%2$s)</string>
+
     <string name="dark_mode_summary_default">启用系统深色主题</string>
     <string name="dark_mode_summary_powersave">已启用省电模式</string>
 
-    <!-- StatusBar -->
-    <string name="icon_manager_title">图标管理</string>
-    <string name="icon_manager_summary">控制状态栏图标的可见性</string>
-    <string name="traffic_title">流量指示器</string>
-    <string name="status_bar_clock_date_title">时钟和日期</string>
-    <string name="status_bar_clock_date_summary">自定义状态栏时钟和日期</string>
-    <string name="status_bar_clock_title">时钟设置</string>
-    <string name="status_bar_clock_show">显示时钟和日期</string>
-    <string name="status_bar_clock_style_title">时钟样式</string>
-    <string name="status_bar_clock_style_right">右侧</string>
-    <string name="status_bar_clock_style_center">居中</string>
-    <string name="status_bar_clock_style_left">左侧</string>
-    <string name="status_bar_date_title">日期设置</string>
-    <string name="status_bar_am_pm_title">AM/PM 样式</string>
-    <string name="status_bar_am_pm_info">已启用 24 小时制</string>
-    <string name="status_bar_am_pm_normal">正常</string>
-    <string name="status_bar_am_pm_small">小</string>
-    <string name="status_bar_am_pm_hidden">隐藏（默认）</string>
-    <string name="clock_seconds_display">显示秒数</string>
-    <string name="clock_date_display">日期</string>
-    <string name="clock_date_display_none">不显示</string>
-    <string name="clock_date_display_small">小字体</string>
-    <string name="clock_date_display_normal">正常字体</string>
-    <string name="clock_date_style">日期样式</string>
-    <string name="clock_date_style_normal">正常</string>
-    <string name="clock_date_style_lowercase">小写</string>
-    <string name="clock_date_style_uppercase">大写</string>
-    <string name="clock_date_format_custom">自定义 Java 格式</string>
-    <string name="clock_date_format">日期格式</string>
-    <string name="clock_date_string_edittext_title">必须符合 DateFormat 格式，例如 MM/dd/yy</string>
-    <string name="clock_date_string_edittext_summary">输入字符串</string>
-    <string name="clock_date_right">时间右侧</string>
-    <string name="clock_date_left">时间左侧</string>
-    <string name="clock_date_position">日期位置</string>
-    <string name="status_bar_clock_auto_hide_title">自动隐藏时钟</string>
-    <string name="status_bar_clock_auto_hide_summary">定期隐藏和显示时钟</string>
-    <string name="status_bar_clock_auto_hide_hdur_title">隐藏持续时间</string>
-    <string name="status_bar_clock_auto_hide_sdur_title">显示持续时间</string>
-
-    <!-- Units -->
-    <string name="unit_second">秒</string>
-    <string name="unit_ms">ms</string>
-
-    <!-- Status bar - Brightness slider -->
-    <string name="category_name_qs_brightness_slider">亮度调节滑块</string>
-    <string name="qs_brightness_slider_title">亮度滑块</string>
-    <string name="qs_brightness_slider_summary">调整快速设置中的亮度滑块</string>
-    <string name="qs_brightness_slider_never">从不显示</string>
-    <string name="qs_brightness_slider_expanded">展开时显示</string>
-    <string name="qs_brightness_slider_always">始终显示</string>
-    <string name="qs_brightness_slider_position_title">亮度滑块位置</string>
-    <string name="qs_brightness_slider_position_top">顶部</string>
-    <string name="qs_brightness_slider_position_bottom">底部</string>
- 
-    <!-- Status bar - Auto brightness icon -->
-    <string name="qs_auto_brightness_title">自动亮度图标</string>
-    <string name="qs_auto_brightness_summary">在滑块旁显示自动亮度开关</string>
-
-    <!-- QS Transparency -->
-    <string name="qs_transparency_title">背景不透明度</string>
-    <string name="qs_transparency_summary">设置快速设置背景的不透明度</string>
-
-    <!-- Data usage info in QS footer -->
-    <string name="qs_footer_datausage_title">流量使用量</string>
-    <string name="qs_footer_datausage_summary">在快速设置底部显示流量使用量摘要</string>
-
-    <!-- Unlimited google photos storage -->
-    <string name="use_photos_spoof_title">无限相册存储</string>
-    <string name="use_photos_spoof_summary">将设备伪装为 Pixel XL（仅对 Google 相册生效），提供无限存储空间用于备份</string>
+    <!-- Categories -->
+    <string name="general_category_title">通用</string>
+    <string name="general_category_summary">通用的全局系统设置</string>
 
     <!-- Ignore window secure -->
     <string name="ignore_window_secure_title">忽略窗口安全标志</string>
     <string name="ignore_window_secure_summary">移除所有应用的截屏和录屏限制。这在某些情况下可能很方便，但可能导致隐私泄露。</string>
-
-    <!-- Ambient edge lighting -->
-    <string name="ambient_edge_light_action_title">息屏边缘光效</string>
-    <string name="ambient_edge_light_title">边缘光效</string>
-    <string name="ambient_edge_light_enable_title">启用边缘光效</string>
-    <string name="ambient_edge_light_summary">当收到通知时在屏幕边缘显示光效</string>
-    <string name="ambient_edge_light_color_mode_category_title">颜色</string>
-    <string name="ambient_edge_light_color_mode_auto">自动</string>
-    <string name="ambient_edge_light_color_mode_app">应用颜色</string>
-    <string name="ambient_edge_light_color_mode_manual">手动</string>
-    <string name="ambient_edge_light_color_mode_auto_summary">将边缘光效颜色设置为系统颜色</string>
-    <string name="ambient_edge_light_color_mode_app_summary">将边缘光效颜色设置为应用颜色</string>
-    <string name="ambient_edge_light_color_mode_manual_summary">手动选择颜色</string>
-    <string name="ambient_edge_light_advanced_category_title">高级</string>
-    <string name="ambient_edge_light_duration_title">光效持续时间</string>
-    <string name="ambient_edge_light_repeat_count_title">重复次数</string>
-    <string name="ambient_edge_light_width_title">光效宽度</string>
-    <string name="ambient_edge_light_face_down_title">翻转以启用</string>
-    <string name="ambient_edge_light_face_down_summary">仅在手机面朝下时显示边缘光效</string>
-
-    <!-- Fingerprint Ripple Effect -->
-    <string name="enable_fingerprint_ripple_effect_title">解锁动画</string>
-    <string name="enable_fingerprint_ripple_effect_summary">使用指纹解锁时显示涟漪效果</string>
-
-    <!-- Brightness slider styles -->
-    <string name="brightness_slider_style_title">亮度滑块样式</string>
-    <string name="brightness_slider_style_default">默认</string>
-    <string name="brightness_slider_style_filled">Filled</string>
-    <string name="brightness_slider_style_thin">Thin</string>
-    <string name="brightness_slider_style_cyberpunk">CyberPunk</string>
-    <string name="brightness_slider_style_gradientroundedbar">Gradient Rounded Bar</string>
-    <string name="brightness_slider_style_outline">Outline</string>
-    <string name="brightness_slider_style_shaded">Shaded</string>
-    <string name="brightness_slider_style_translucent">Translucent</string>
-    <string name="brightness_slider_style_leafyoutline">Leafy Outline</string>
-    <string name="brightness_slider_style_minimalthumb">Minimal Thumb</string>
-    <string name="brightness_slider_style_roundedclip">Rounded Clip</string>
-    <string name="brightness_slider_style_bang">Bang</string>
-    <string name="brightness_slider_style_acun">Acun</string>
 
     <!-- Monet settings -->
     <string name="monet_settings_title">Monet 个性化</string>
@@ -177,6 +84,7 @@
     <string name="monet_engine_style_spritz">墨水风</string>
     <string name="monet_engine_style_rainbow">彩虹</string>
     <string name="monet_engine_style_fruit_salad">水果沙拉</string>
+    <string name="monet_engine_style_content">内容强调</string>
     <string name="monet_engine_style_monochromatic">单色</string>
     <string name="monet_engine_color_source_title">颜色来源</string>
     <string name="monet_engine_color_source_both">双壁纸（默认）</string>
@@ -187,12 +95,39 @@
     <string name="monet_engine_wallpaper_color_summary">壁纸颜色选择器</string>
     <string name="monet_engine_wallpaper_color_not_available">不可用</string>
 
-    <!-- Colored keyguard clock -->
-    <string name="lockscreen_clock_colored_title">彩色时钟</string>
-    <string name="lockscreen_clock_colored_summary_on">时钟颜色受 Monet 影响</string>
-    <string name="lockscreen_clock_colored_summary_off">时钟颜色始终为黑色或白色</string>
+    <!-- Ambient edge lighting -->
+    <string name="ambient_edge_light_action_title">息屏边缘光效</string>
+    <string name="ambient_edge_light_title">边缘光效</string>
+    <string name="ambient_edge_light_enable_title">启用边缘光效</string>
+    <string name="ambient_edge_light_summary">当收到通知时在屏幕边缘显示光效</string>
+    <string name="ambient_edge_light_color_mode_category_title">颜色</string>
+    <string name="ambient_edge_light_color_mode_auto">自动</string>
+    <string name="ambient_edge_light_color_mode_app">应用颜色</string>
+    <string name="ambient_edge_light_color_mode_manual">手动</string>
+    <string name="ambient_edge_light_color_mode_auto_summary">将边缘光效颜色设置为系统颜色</string>
+    <string name="ambient_edge_light_color_mode_app_summary">将边缘光效颜色设置为应用颜色</string>
+    <string name="ambient_edge_light_color_mode_manual_summary">手动选择颜色</string>
+    <string name="ambient_edge_light_advanced_category_title">高级</string>
+    <string name="ambient_edge_light_duration_title">光效持续时间</string>
+    <string name="ambient_edge_light_repeat_count_title">重复次数</string>
+    <string name="ambient_edge_light_width_title">光效宽度</string>
+    <string name="ambient_edge_light_face_down_title">翻转以启用</string>
+    <string name="ambient_edge_light_face_down_summary">仅在手机面朝下时显示边缘光效</string>
+
+    <!-- Privacy Settings -->
+    <string name="privacy_indicators_title">隐私指示器</string>
+    <string name="privacy_indicators_summary">当应用使用摄像头、麦克风或位置信息时显示指示器</string>
+    <string name="mic_camera_privacy_indicators_title">摄像头与麦克风</string>
+    <string name="mic_camera_privacy_indicators_summary">当应用使用摄像头或麦克风时显示指示器</string>
+    <string name="location_privacy_indicator_title">位置信息</string>
+    <string name="location_privacy_indicator_summary">当应用使用位置信息时显示指示器</string>
+
+    <!-- Fingerprint Ripple Effect -->
+    <string name="enable_fingerprint_ripple_effect_title">解锁动画</string>
+    <string name="enable_fingerprint_ripple_effect_summary">使用指纹解锁时显示涟漪效果</string>
 
     <!-- Ongoing action chip -->
+    <string name="ongoing_chip_category_title">动态提示</string>
     <string name="ongoing_progress_settings_title">状态栏动态提示</string>
     <string name="ongoing_progress_settings_summary">状态栏动态提示选项</string>
     <string name="ongoing_action_chip_title">实时任务提示</string>
@@ -224,7 +159,12 @@
     <string name="compact_heads_up_notifications_enabled_title">紧凑型通知</string>
     <string name="compact_heads_up_notifications_enabled_summary">以紧凑形式显示通知</string>
 
+    <!-- Hide statusbar on lockscreen -->
+    <string name="lockscreen_hide_status_bar_title">隐藏状态栏</string>
+    <string name="lockscreen_hide_status_bar_summary">启用后，锁屏界面将隐藏状态栏</string>
+
     <!-- Island Notification -->
+    <string name="island_notifications_category_title">灵动岛式通知</string>
     <string name="island_notification_title">灵动岛式通知</string>
     <string name="island_notification_summary">以灵动岛样式显示通知</string>
     <string name="island_notification_footer_text">
@@ -252,64 +192,101 @@
     <string name="qs_header_offset_title">顶部图片偏移量</string>
     <string name="qs_header_offset_summary">调整顶部图片尺寸</string>
 
-    <!-- Privacy Settings -->
-    <string name="privacy_indicators_title">隐私指示器</string>
-    <string name="privacy_indicators_summary">当应用使用摄像头、麦克风或位置信息时显示指示器</string>
-    <string name="mic_camera_privacy_indicators_title">摄像头与麦克风</string>
-    <string name="mic_camera_privacy_indicators_summary">当应用使用摄像头或麦克风时显示指示器</string>
-    <string name="location_privacy_indicator_title">位置信息</string>
-    <string name="location_privacy_indicator_summary">当应用使用位置信息时显示指示器</string>
+    <!-- Screen Off animation -->
+    <string name="screen_off_animation_title">灭屏动画</string>
+    <string name="screen_off_animation_default">默认</string>
+    <string name="screen_off_animation_crt">CRT</string>
+    <string name="screen_off_animation_scale">缩放</string>
 
-    <!-- Status bar notification ticker -->
-    <string name="status_bar_notification_ticker_title">滚动通知</string>
-    <string name="status_bar_notification_ticker_summary">当弹窗通知不可用时，在状态栏显示通知内容</string>
-    <string name="status_bar_notification_ticker_enable_title">启用滚动通知</string>
-    <string name="status_bar_notification_ticker_blacklist_title">应用黑名单</string>
-    <string name="status_bar_notification_ticker_blacklist_summary">禁止选定应用显示滚动通知</string>
+    <!-- Pulse music visualizer -->
+    <string name="pulse_help_policy_notice_title">关于律动脉冲</string>
+    <string name="pulse_help_policy_notice_summary">律动脉冲是设备播放音乐时炫酷的音频可视化工具</string>
+    <string name="pulse_ambient_edge_light_category_title">息屏边缘光效</string>
+    <string name="pulse_visualizer_category_title">律动脉冲</string>
+    <string name="pulse_settings">律动脉冲</string>
+    <string name="pulse_settings_summary">在导航栏、锁屏和息屏显示音频可视化效果</string>
+    <string name="show_navbar_pulse_title">导航栏律动</string>
+    <string name="show_navbar_pulse_summary">在导航栏显示音频可视化效果</string>
+    <string name="show_lockscreen_pulse_title">锁屏律动</string>
+    <string name="show_lockscreen_pulse_summary">在锁屏上显示音频可视化效果</string>
+    <string name="show_ambient_pulse_title">息屏律动</string>
+    <string name="show_ambient_pulse_summary">在息屏时显示音频可视化效果</string>
+    <string name="pulse_render_mode_title">渲染模式</string>
+    <string name="pulse_render_mode_fading_bars">渐隐方块式</string>
+    <string name="pulse_render_mode_solid_lines">线条式</string>
+    <string name="pulse_legacy_mode_advanced_category">渐隐方块式</string>
+    <string name="pulse_custom_fudge_factor">灵敏度</string>
+    <string name="pulse_lavalamp_speed_title">熔岩灯速度</string>
+    <string name="pulse_solid_units_count">线条数量</string>
+    <string name="pulse_solid_units_opacity">线条透明度</string>
+    <string name="pulse_solid_dimen_category">线条式设置</string>
+    <string name="pulse_color_mode_title">颜色</string>
+    <string name="pulse_color_accent">强调色</string>
+    <string name="pulse_color_custom">自定义</string>
+    <string name="pulse_color_lava_lamp">熔岩灯</string>
+    <string name="pulse_color_auto">专辑封面</string>
+    <string name="pulse_color_user_title">选择颜色</string>
+    <string name="pulse_smoothing_enabled_title">启用平滑动画</string>
+    <string name="pulse_smoothing_enabled_summary">使线条动画更加平滑</string>
+    <string name="pulse_custom_dimen">线条宽度</string>
+    <string name="pulse_custom_div">线条间距</string>
+    <string name="pulse_filled_block_size">方块大小</string>
+    <string name="pulse_empty_block_size">方块间距</string>
+    <string name="pulse_solid_units_rounded_title">圆角线条</string>
+    <string name="pulse_solid_units_rounded_summary">使线条圆角化</string>
 
-    <!-- Statusbar logo -->
-    <string name="status_bar_logo_title">自定义 Logo</string>
+    <!-- Pulse Gravity and mirror options -->
+    <string name="pulse_custom_gravity_title">对齐方式</string>
+    <string name="pulse_custom_gravity_bottom">底部</string>
+    <string name="pulse_custom_gravity_top">顶部</string>
+    <string name="pulse_custom_gravity_center">居中</string>
+    <string name="visualizer_center_mirrored_title">中心镜像</string>
+    <string name="visualizer_center_mirrored_summary">将可视化设置为中心镜像模式</string>
+    <string name="pulse_vertical_mirror_title">垂直镜像</string>
+    <string name="pulse_vertical_mirror_summary">创建另一个垂直翻转的律动效果</string>
 
-    <!-- Statusbar battery -->
-    <string name="status_bar_battery_title">电量显示</string>
-    <string name="status_bar_battery_style_title">电量显示样式</string>
-    <string name="status_bar_battery_style_icon_portrait">纵向图标</string>
-    <string name="status_bar_battery_style_circle">环形</string>
-    <string name="status_bar_battery_style_text">纯文本</string>
-    <string name="status_bar_battery_style_icon_rlandscape">横向图标（右侧）</string>
-    <string name="status_bar_battery_style_icon_landscape">横向图标（左侧）</string>
-    <string name="status_bar_battery_style_icon_ios_15">IOS 15</string>
-    <string name="status_bar_battery_style_icon_ios_16">IOS 16</string>
+    <!-- Units -->
+    <string name="unit_milliseconds">ms</string>
+    <string name="unit_pixels">px</string>
 
-    <!-- Status bar - Battery percentage -->
-    <string name="status_bar_battery_percentage_title">电量百分比</string>
-    <string name="status_bar_battery_percentage_default">隐藏</string>
-    <string name="status_bar_battery_percentage_text_inside">图标内部</string>
-    <string name="status_bar_battery_percentage_text_next">图标右侧</string>
-    <string name="status_bar_battery_percentage_text_left">图标左侧</string>
+    <!-- Single tap for keyguard affordance -->
+    <string name="keyguard_affordance_single_tap_title">锁屏快捷操作单击触发</string>
+    <string name="keyguard_affordance_single_tap_summary">单击即可执行锁屏快捷操作功能</string>
 
-    <!-- Status bar - Bluetooth battery level -->
-    <string name="status_bar_bluetooth_battery_level_title">蓝牙设备电量</string>
-    <string name="status_bar_bluetooth_battery_level_summary">在状态栏中显示已连接蓝牙设备的电池电量</string>
+    <!-- Small landscape notifications -->
+    <string name="small_landscape_notification_title">小型横屏通知</string>
+    <string name="small_landscape_notification_summary">按 AOSP 设计，在横屏模式下的通知面板中显示更窄的通知</string>
 
-    <!-- Statusbar brightness -->
-    <string name="status_bar_toggle_brightness">亮度控制</string>
-    <string name="status_bar_toggle_brightness_summary">在状态栏上滑动以调整亮度</string>
+    <!-- Bluetooth QS Tile behavior -->
+    <string name="click_bluetooth_tile_behavior_title">蓝牙磁贴点击行为</string>
+    <string name="b_bluetooth_tile">开关蓝牙</string>
+    <string name="modern_panel_bluetooth_tile">打开蓝牙快速设置面板</string>
 
-    <!-- Statusbar pulldown -->
-    <string name="status_bar_quick_qs_pulldown_title">快速下拉</string>
-    <string name="status_bar_quick_qs_pulldown_summary">从状态栏%1$s边缘下拉可直接打开快速设置</string>
-    <string name="status_bar_quick_qs_pulldown_summary_left">左侧</string>
-    <string name="status_bar_quick_qs_pulldown_summary_right">右侧</string>
-    <string name="status_bar_quick_qs_pulldown_off">关闭</string>
-    <string name="status_bar_quick_qs_pulldown_left">左侧</string>
-    <string name="status_bar_quick_qs_pulldown_right">右侧</string>
+    <!-- QS Panel -->
+    <string name="brightness_category_title">亮度滑块</string>
+    <string name="qs_show_brightness_title">显示位置</string>
+    <string name="qs_show_brightness_hide">隐藏</string>
+    <string name="qs_show_brightness_normal">在快速设置面板显示</string>
+    <string name="qs_show_brightness_both">在快速设置、快速下拉面板中显示</string>
+    <string name="qs_brightness_position_position_title">移到底端</string>
+    <string name="qs_brightness_position_position_summary">在快速设置面板底栏显示亮度滑块</string>
+    <string name="qs_show_auto_brightness_title">显示自动亮度图标</string>
+    <string name="qs_show_auto_brightness_summary">在亮度调节滑块旁显示自动亮度开关图标</string>
+    <string name="qs_show_settings_icon_title">显示设置图标</string>
+    <string name="qs_show_settings_icon_summary">在快速设置底栏显示设置图标</string>
+    <string name="qs_show_power_menu_icon_title">显示电源菜单图标</string>
+    <string name="qs_show_power_menu_icon_summary">在快速设置底栏显示电源菜单图标</string>
+    <string name="footer_category_title">底栏</string>
+    <string name="footer_category_summary">自定义快速设置底栏的显示项目</string>
 
-    <!-- Netflix Spoof -->
-    <string name="netflix_spoof_title">Netflix 机型伪装</string>
-    <string name="netflix_spoof_summary">将您的设备伪装为其他型号（对 Netflix 生效）</string>
-
-    <!-- Spoofing -->
-    <string name="spoofing_title">伪装</string>
-    <string name="spoofing_title_summary">伪装为不同的设备以解锁应用功能</string>
+    <!-- Data usage info in QS footer -->
+    <string name="qs_footer_datausage_title">流量使用量</string>
+    <string name="qs_footer_datausage_summary">在快速设置底部显示流量使用量摘要</string>
+    <string name="qs_show_edit_button_title">显示编辑按钮</string>
+    <string name="qs_show_edit_button_summary">在快速设置面板中显示编辑按钮</string>
+    <string name="qs_enable_tile_squishing_title">磁贴形状</string>
+    <string name="qs_enable_tile_squishing_summary">选择磁贴在快速设置面板中的显示样式</string>
+    <string name="qs_tile_shape_mode_normal">标准</string>
+    <string name="qs_tile_shape_mode_all_round">全部圆角</string>
+    <string name="qs_tile_shape_mode_all_squared">全部圆角矩形</string>
 </resources>

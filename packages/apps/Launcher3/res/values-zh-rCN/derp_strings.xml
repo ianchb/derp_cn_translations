@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2023 Neoteric OS
-     Copyright (C) 2025 DerpFest
+     SPDX-FileCopyrightText: DerpFest AOSP
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
@@ -96,7 +95,7 @@
 
     <!-- Kill App recents action shortcut -->
     <string name="recent_task_option_kill_app">强行停止</string>
-    <string name="recents_app_killed">应用已关闭</string>
+    <string name="recents_app_killed" formatted="false">已关闭 %s</string>
 
     <!-- Hotseat Background -->
     <string name="hotseat_bg_title">应用坞背景</string>
@@ -117,13 +116,6 @@
     <!-- Top shadow -->
     <string name="show_top_shadow_title">显示顶部阴影</string>
     <string name="show_top_shadow_summary">在状态栏下方添加阴影</string>
-    
-    <!-- Background blur -->
-    <string name="background_blur_title">背景模糊度</string>
-    <string name="background_blur_summary">为最近任务页面与应用抽屉设置背景模糊度</string>
-
-    <!-- Background opacity -->
-    <string name="background_opacity_title">背景不透明度\n警告：使用风险自负</string>
 
     <!-- About info -->
     <string name="about_app_subtitle">基于 AOSP Launcher3</string>
@@ -183,12 +175,6 @@
     <string name="pref_scroll_vibration_title">滚动时振动</string>
     <string name="pref_scroll_vibration_summary">如果支持，在最近任务页面滚动时提供振动反馈</string>
 
-    <!-- Icon pack -->
-    <string name="icon_pack_title">图标包</string>
-    <string name="icon_pack_default_label">默认</string>
-    <string name="icon_pack_add">安装更多</string>
-    <string name="icon_pack_no_market">没有可用的应用商店</string>
-
     <!-- LMOFreeform -->
     <string name="floating_window">自由窗口</string>
 
@@ -213,6 +199,15 @@
     <!-- A widget category label for grouping widgets related to weather. [CHAR_LIMIT=30] -->
     <string name="widget_category_weather">天气</string>
 
+    <!-- App label -->
+    <string name="icon_two_lines_title">应用标签使用两行显示</string>
+
+    <!-- Icon pack -->
+    <string name="icon_pack_title">图标包</string>
+    <string name="icon_pack_default_label">默认</string>
+    <string name="icon_pack_add">安装更多</string>
+    <string name="icon_pack_no_market">没有可用的应用商店</string>
+
     <!-- QuickSpace -->
     <string name="show_quickspace_title">资讯一览</string>
     <string name="show_quickspace_summary">在主屏幕顶端显示</string>
@@ -235,46 +230,52 @@
     <string name="quickspace_psa_title">显示随机消息</string>
     <string name="quickspace_psa_summary">偶尔在资讯一览显示趣味消息</string>
 
+    <!-- Quickspace Memory Info -->
+    <string name="quickspace_memory_info_title">显示内存信息</string>
+    <string name="quickspace_memory_info_summary">在消息中显示“资讯一览”内存使用量</string>
+    <string name="quickspace_app_memory_info_title">显示应用内存信息</string>
+    <string name="quickspace_app_memory_info_summary">在消息中显示推荐/不推荐使用的应用内存使用量</string>
+
     <string-array name="quickspace_psa_morning">
-        <item>Good morning!</item>
-        <item>Good morning, gamer!</item>
-        <item>What a beautiful day!</item>
-        <item>Have a nice day!</item>
-        <item>What about a small 5 minutes nap?</item>
-        <item>That\'s one way to wake up.</item>
-        <item>You should change your alarm sounds.</item>
-        <item>Looks like it\'s a beautiful day, isn\'t it?</item>
-        <item>Let\'s get this bread.</item>
-        <item>Check the weather just in case</item>
-        <item>Feeling a bit sleepy yet</item>
-        <item>Have you looked outside yet?</item>
-        <item>Let\'s get this done.</item>
+        <item>早上好！</item>
+        <item>早安，玩家！</item>
+        <item>今天天气真不错！</item>
+        <item>祝你今天愉快！</item>
+        <item>要不要眯个 5 分钟？</item>
+        <item>这醒来的方式挺别致。</item>
+        <item>你的闹铃该换了。</item>
+        <item>今天天气超棒，对吧？</item>
+        <item>开工大吉！</item>
+        <item>记得看一眼天气预报</item>
+        <item>还困着呢？</item>
+        <item>看过窗外了吗？</item>
+        <item>开始干活吧。</item>
     </string-array>
     <string-array name="quickspace_psa_evening">
-        <item>Good night!</item>
-        <item>Sleep well!</item>
-        <item>See you tomorrow!</item>
-        <item>Sweet dreams!</item>
-        <item>Don\'t stay up too long</item>
-        <item>Have a good sleep</item>
-        <item>Get some sleep</item>
-        <item>Time to relax</item>
-        <item>Enjoy the night!</item>
-        <item>Time to charge the batteries!</item>
-        <item>Tomorrow might be a great day</item>
-        <item>Get your bones ready for tomorrow</item>
+        <item>晚安！</item>
+        <item>睡个好觉！</item>
+        <item>明天见！</item>
+        <item>做个好梦！</item>
+        <item>别熬夜太久哦</item>
+        <item>祝你睡个好觉</item>
+        <item>该休息啦</item>
+        <item>放松时间到</item>
+        <item>享受夜晚吧！</item>
+        <item>该充电啦！</item>
+        <item>明天会是美好的一天</item>
+        <item>为明天养精蓄锐吧</item>
     </string-array>
     <string-array name="quickspace_psa_midnight">
-        <item>Um... good night?</item>
-        <item>It\'s a bit late now</item>
-        <item>You should fix your sleep schedule</item>
-        <item>Are you more productive at this time?</item>
+        <item>呃...晚安？</item>
+        <item>现在有点晚了哦</item>
+        <item>你该调整作息了</item>
+        <item>你这个时候效率更高吗？</item>
     </string-array>
     <string-array name="quickspace_psa_random">
         <item>It do be like that sometimes</item>
         <item>Is it time to flash another ROM already?</item>
-        <item>Enjoying Android 15?</item>
-        <item>Hyped about Android 16?</item>
+        <item>Enjoying Android 16?</item>
+        <item>Hyped about Android 16 QPR1?</item>
         <item>Oh hey, what\'s up?</item>
         <item>Time to brag my #setup</item>
         <item>Focus on your tasks</item>
@@ -286,20 +287,19 @@
         <item>Have fun!</item>
         <item>Let\'s get this grind, gamer!</item>
         <item>\u003C\u003C\u003C\u003C\u003C\u003C\u003C HEAD</item>
+        <item>You need DerpLauncher Premium to see this</item>
         <item>You need DerpFest Premium to see this</item>
         <item>A carbonized owl statue</item>
         <item>...cause 404 sucks!</item>
         <item>Eat your veggies and send logs</item>
         <item>Oh no, it\'s updog again</item>
         <item>I\'ve come to make an announcement</item>
-        <item>What is a kang?</item>
         <item>Lots of options!</item>
         <item>I am not your F1 button</item>
         <item>Don\'t pass me!</item>
         <item>Did you finish your homework? ツ</item>
         <item>Stay Home, Stay Safe</item>
         <item>Do something nice today</item>
-        <item>Having COVID symptoms? Get tested!</item>
         <item>This is best ROM Experience, isn\'t it?</item>
         <item>How is everything going?</item>
         <item>No illusions, welcome to reality!</item>
@@ -307,13 +307,10 @@
         <item>That\'s enough, stop tapping me!</item>
         <item>Only for pro users</item>
         <item>You are what you flash, don\'t be a potato</item>
-        <item>How to cherry-pick correctly?</item>
         <item>Thank you for your support</item>
-        <item>Are you guys really giving us &quot;teasers&quot; about adding paid features on a ROM that was free to use previously?</item>
         <item>One of the buildbot\'s best picks</item>
         <item>If you love an app, please, support it by purchasing it</item>
         <item>What a lovely experience, isn\'t it?</item>
-        <item>What a buggy experience, isn\'t it?</item>
         <item>nice</item>
         <item>ツ</item>
         <item>#StayDerped \m/</item>
@@ -325,5 +322,47 @@
         <item>Charlie Watts is dead and you are alive</item>
         <item>rm -rf \/</item>
     </string-array>
-
+    <string-array name="quickspace_psa_blaze_it">
+        <item>420</item>
+        <item>#420 blaze it</item>
+        <item>Let\'s roll one up...</item>
+        <item>Enjoying the herbs, are ya?</item>
+        <item>Ever been to Amsterdam?</item>
+    </string-array>
+    <string-array name="quickspace_psa_encouraged_apps_messages">
+        <item>Enjoying §...?</item>
+        <item>Great choice in §!</item>
+        <item>§... Love to see it!</item>
+        <item>§? Cool.</item>
+        <item>Using §? Nice!</item>
+        <item>§ is amazing indeed.</item>
+    </string-array>
+    <string-array name="quickspace_psa_discouraged_apps_messages">
+        <item>Confident in §...?</item>
+        <item>Not so sure about §...</item>
+        <item>Uhm... using §?</item>
+        <item>§? You can do better than that.</item>
+        <item>Are you sure about §?</item>
+        <item>So you\'re still using §...</item>
+    </string-array>
+    <string-array name="quickspace_psa_encouraged_apps_keywords">
+        <item>viper</item>
+        <item>wavelet</item>
+        <item>telegram</item>
+    <!--<item>youtube</item>
+        <item>metrolist</item>
+    -->
+    </string-array>
+    <string-array name="quickspace_psa_discouraged_apps_keywords">
+    <!--<item>musically</item> //that's tiktok btw -->
+        <item>discord</item>
+    <!--<item>snapchat</item>
+        <item>reddit</item>
+        <item>twitter</item>
+        <item>facebook</item>
+        <item>instagram</item>
+        <item>whatsapp</item>
+        <item>pinterest</item>
+    -->
+    </string-array>
 </resources>

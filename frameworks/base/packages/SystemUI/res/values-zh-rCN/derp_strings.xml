@@ -12,40 +12,20 @@
     <string name="reboot_suggestion_description">您的设备已连续运行超过一周。建议重新启动。</string>
     <string name="reboot_suggestion_now">重启</string>
 
-    <!-- Face unlock -->
-    <string name="face_unlock_recognizing">正在识别人脸...</string>
-
     <!-- Name of the nfc status bar icon. -->
     <string name="status_bar_nfc">NFC</string>
 
     <!-- Label for current user in power menu options dialog -->
     <string name="global_action_restart_systemui">系统界面</string>
 
-    <!-- Status bar network traffic monitor strings -->
-    <string name="kilobitspersecond_short" translatable="false">kb/s</string>
-    <string name="megabitspersecond_short" translatable="false">Mb/s</string>
-    <string name="gigabitspersecond_short" translatable="false">Gb/s</string>
-    <string name="kilobytespersecond_short" translatable="false">kB/s</string>
-    <string name="megabytespersecond_short" translatable="false">MB/s</string>
-    <string name="gigabytespersecond_short" translatable="false">GB/s</string>
-
-    <!-- Kill button in notification guts -->
-    <string name="force_stop_dlg_title">强行停止？</string>
-    <string name="force_stop_dlg_text">如果您强行停止某个应用，可能会导致其出现异常。</string>
-
-    <!-- Data usage info in QS footer -->
-    <string name="usage_data">已于今日使用</string>
-    <string name="usage_data_default_suffix">移动数据</string>
-    <string name="usage_wifi_default_suffix">Wi-Fi</string>
-
-    <!-- Label for UI element which allows to use lens on screenshot [CHAR LIMIT=30] -->
-    <string name="screenshot_lens_label">智能镜头</string>
-
     <!-- QuickSettings: InternetDialog: Summary for how many devices are connected to the hotspot [CHAR LIMIT=NONE] -->
     <plurals name="quick_settings_internet_hotspot_summary_num_devices">
         <item quantity="one">%d 部设备已连接</item>
         <item quantity="other">%d 部设备已连接</item>
     </plurals>
+
+    <!-- Face unlock -->
+    <string name="face_unlock_recognizing">正在识别人脸...</string>
 
     <!-- Name of the roaming status bar icon. -->
     <string name="status_bar_roaming">漫游状态</string>
@@ -91,12 +71,6 @@
     <string name="quick_settings_sound_vibrate">振动</string>
     <string name="quick_settings_sound_silent">静音</string>
 
-    <!-- Volume Tile -->
-    <string name="quick_settings_volume_tile_label">音量</string>
-    <string name="quick_settings_volume_tile_muted">静音</string>
-    <string name="quick_settings_volume_tile_low">低</string>
-    <string name="quick_settings_volume_tile_high">高</string>
-
     <!-- Preferred network tile -->
     <string name="quick_settings_preferred_network_label">首选的网络</string>
     <string name="quick_settings_preferred_network_lte">4G / LTE</string>
@@ -121,15 +95,26 @@
     <string name="usb_use_MIDI">MIDI</string>
     <string name="usb_use">USB 用于</string>
 
-    <!-- Island notification -->
-    <string name="now_playing_on">正在 %1$s 播放</string>
-    <string name="by_artist">《%1$s》· %2$s</string>
-
     <!-- DerpFest Tile -->
-    <string name="quick_derpfest_label">DerpFest</string>
+    <string name="quick_derpfest_label">DerpFest 自定义设置</string>
     <string name="quick_derpfest_toast">哈哈，你真的以为长按就能带你去什么地方！！！</string>
 
     <!-- Refresh rate QS tile -->
     <string name="refresh_rate_tile_label">刷新率</string>
     <string name="refresh_rate_unknown">未知</string>
+
+    <!-- Island notification -->
+    <string name="now_playing_on">正在 %1$s 播放</string>
+    <string name="by_artist">《%1$s》· %2$s</string>
+
+    <!-- Label for UI element which allows to use lens on screenshot [CHAR LIMIT=30] -->
+    <string name="screenshot_lens_label">智能镜头</string>
+
+    <!-- 5G toggle in Internet Dialog -->
+    <string name="enable_fiveg">启用 5G</string>
+
+    <!-- Data usage info in QS footer -->
+    <string name="usage_data">已于今日使用</string>
+    <string name="usage_data_default_suffix">移动数据</string>
+    <string name="usage_wifi_default_suffix">Wi-Fi</string>
 </resources>

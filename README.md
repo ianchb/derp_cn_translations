@@ -1,30 +1,31 @@
 # Simplified Chinese translations for DerpFest
 
-- DerpFest Version: **15.2**
+These translations will be tested on **renoir**. Status: [<img src="https://badges.ws/badge/Build-Pending-orange" />](https://github.com/ianchb/derp_cn_translations)
+- DerpFest Version: **16**
 --------
 
 # Related repos:  
-- [nkn-pa/platform_frameworks_base](https://github.com/nkn-pa/platform_frameworks_base) | Branch: `15.2`
-- [DerpFest-LOS/android_packages_apps_Settings](https://github.com/DerpFest-LOS/android_packages_apps_Settings) | Branch: `15.2`
-- [DerpFest-LOS/android_packages_apps_GameSpace](https://github.com/DerpFest-LOS/android_packages_apps_GameSpace) | Branch: `15.2`
+- [DerpFest-AOSP/android_frameworks_base](https://github.com/DerpFest-AOSP/android_frameworks_base) | Branch: `16`
+- [DerpFest-AOSP/android_packages_apps_Settings](https://github.com/DerpFest-AOSP/android_packages_apps_Settings) | Branch: `16`
+- [DerpFest-AOSP/android_packages_apps_GameSpace](https://github.com/DerpFest-AOSP/android_packages_apps_GameSpace) | Branch: `16`
 - [DerpFest-AOSP/packages_apps_OmniStyle](https://github.com/DerpFest-AOSP/packages_apps_OmniStyle) | Branch: `15`
-- [DerpFest-LOS/android_packages_apps_DerpLauncher](https://github.com/DerpFest-LOS/android_packages_apps_DerpLauncher) | Branch: `15.2`
-- [DerpFest-LOS/android_packages_apps_DerpFestCustomizations](https://github.com/DerpFest-LOS/android_packages_apps_DerpFestCustomizations) | Branch: `15.2`
-- [DerpFest-LOS/android_packages_apps_ThemePicker](https://github.com/DerpFest-LOS/android_packages_apps_ThemePicker) | Branch: `15.2`
-
+- [DerpFest-AOSP/android_packages_apps_DerpLauncher](https://github.com/DerpFest-AOSP/android_packages_apps_DerpLauncher) | Branch: `16`
+- [DerpFest-AOSP/android_packages_apps_DerpFestCustomizations](https://github.com/DerpFest-AOSP/android_packages_apps_DerpFestCustomizations) | Branch: `16`
+- [DerpFest-AOSP/android_packages_apps_ThemePicker](https://github.com/DerpFest-AOSP/android_packages_apps_ThemePicker) | Branch: `16`
+- [DerpFest-AOSP/android_packages_apps_LineageParts](https://github.com/DerpFest-AOSP/android_packages_apps_LineageParts) | Branch: `16`
 
 --------
 
 # Date of ...
-- ...synchronizing code: **2025/07/31**
-- ...updating translations: **2025/08/03**
+- ...synchronizing code: **2025/08/18**
+- ...updating translations: **2025/08/19**
 
 --------
 
 # Translation missing/inaccurate?
 
 This project is only intended to provide translations of DerpFest's custom content, however, some translations in it come directly from projects such as LineageOS and will not be changed.  
-Besides, some hard-coded text, such as `Action chip opacity` and `Adjust the opacity of the Action chip`, will not be translated for now.
+Besides, some hard-coded texts, such as `Sidebar Customization`, will not be translated for now.
 
 --------
 
