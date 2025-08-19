@@ -1,6 +1,6 @@
 # Simplified Chinese translations for DerpFest
 
-These translations will be tested on **renoir**. Status: [<img src="https://badges.ws/badge/Build-Pending-orange" />](https://github.com/ianchb/derp_cn_translations)
+These translations will be tested on **renoir**. Status: [<img src="https://badges.ws/badge/Build-Success-green" />](https://github.com/ianchb/derp_cn_translations)
 - DerpFest Version: **16**
 --------
 
@@ -33,15 +33,15 @@ Besides, some hard-coded texts, such as `Sidebar Customization`, will not be tra
 
 <table>
   <tr>
-    <td><img width="270" height="600" alt="image" src="https://github.com/user-attachments/assets/dd1a9204-e22a-4796-883b-2d3c7f041cfc" /></td>
-    <td><img width="270" height="600" alt="image" src="https://github.com/user-attachments/assets/1dbddfb6-bf8d-436b-9d97-920962924065" /></td>
-    <td><img width="270" height="600" alt="image" src="https://github.com/user-attachments/assets/1fa7e805-c5a3-4db8-89bf-7cb895fb9a8c" /></td>
-    <td><img width="270" height="600" alt="image" src="https://github.com/user-attachments/assets/46fca34a-07c9-4b89-b2b9-6f837fb2cd6b" /></td>
+    <td><img width="270" height="600" alt="image" src="https://github.com/user-attachments/assets/c59ae6ca-f8ed-4abf-a0a9-4b29bdcce802" /></td>
+    <td><img width="270" height="600" alt="image" src="https://github.com/user-attachments/assets/f6ed92d9-09e8-44af-80b9-8e3445e25a79" /></td>
+    <td><img width="270" height="600" alt="image" src="https://github.com/user-attachments/assets/15b2a177-ad4e-41f8-9453-4693f3375c4d" /></td>
+    <td><img width="270" height="600" alt="image" src="https://github.com/user-attachments/assets/fbee0fce-9207-4e8c-b80a-9a679d05db81" /></td>
   </tr>
   <tr>
-    <td><img width="270" height="600" alt="image" src="https://github.com/user-attachments/assets/f01c5040-557b-4cf4-aa9c-131ef61ada4a" /></td>
-    <td><img width="270" height="600" alt="image" src="https://github.com/user-attachments/assets/2df33b70-c58e-4da4-b024-edfb37f596e2" /></td>
-    <td><img width="270" height="600" alt="image" src="https://github.com/user-attachments/assets/32af6fd3-420d-4182-aa7b-3ddc9657660b" /></td>
-    <td><img width="270" height="600" alt="image" src="https://github.com/user-attachments/assets/3e98e675-94af-4339-8fb7-2fc93cfd2748" /></td>
+    <td><img width="270" height="600" alt="image" src="https://github.com/user-attachments/assets/ca7f4050-ca89-40a8-b320-25c9bbba13c0" /></td>
+    <td><img width="270" height="600" alt="image" src="https://github.com/user-attachments/assets/da2ea8a1-ffa1-438f-b882-52d4cf5a7742" /></td>
+    <td><img width="270" height="600" alt="image" src="https://github.com/user-attachments/assets/a97fdbbc-9df6-41cb-bd59-77635ab5b13d" /></td>
+    <td><img width="270" height="600" alt="image" src="https://github.com/user-attachments/assets/d197e5b3-59c0-4f2e-b8b1-c3ea6ec6d0d1" /></td>
   </tr>
 </table>
