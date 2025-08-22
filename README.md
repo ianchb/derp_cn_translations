@@ -1,6 +1,6 @@
 # Simplified Chinese translations for DerpFest
 
-These translations will be tested on **renoir**. Status: [<img src="https://badges.ws/badge/Build-Success-green" />](https://github.com/ianchb/derp_cn_translations)
+These translations will be tested on **renoir**. Status: [<img src="https://badges.ws/badge/Build-Pending-orange" />](https://github.com/ianchb/derp_cn_translations)
 - DerpFest Version: **16**
 --------
 
@@ -17,8 +17,8 @@ These translations will be tested on **renoir**. Status: [<img src="https://badg
 --------
 
 # Date of ...
-- ...synchronizing code: **2025/08/18**
-- ...updating translations: **2025/08/19**
+- ...synchronizing code: **2025/08/22**
+- ...updating translations: **2025/08/22**
 
 --------
 

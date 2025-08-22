@@ -124,13 +124,21 @@
     <string name="about">关于</string>
     <string name="about_summary">关于 DerpLauncher 的信息</string>
 
-    <!-- DT2S -->
-    <string name="pref_sleep_gesture_title">双击休眠</string>
-    <string name="pref_sleep_gesture_summary">双击空白区域关闭屏幕</string>
-
     <!-- Haptics on DT2S -->
-    <string name="pref_haptics_on_dt2s_title">双击休眠时的触觉反馈</string>
-    <string name="pref_haptics_on_dt2s_summary">是否在执行双击休眠手势时启用触觉反馈</string>
+    <string name="pref_haptics_on_dt_gestures_title">双击手势触觉反馈</string>
+    <string name="pref_haptics_on_dt_gestures_summary">是否在执行双击手势时提供触觉反馈</string>
+
+    <!-- Haptics on swipe down gestures -->
+    <string name="pref_haptics_on_swipe_down_gestures_title">下滑手势触觉反馈</string>
+    <string name="pref_haptics_on_swipe_down_gestures_summary">是否在执行下滑手势时提供触觉反馈</string>
+
+    <!-- Swipe down side control -->
+    <string name="pref_swipe_down_side_title">下滑位置</string>
+    <string name="pref_swipe_down_side_summary">选择从屏幕的哪一侧下滑时响应手势</string>
+    <string name="pref_swipe_down_side_both">两侧</string>
+    <string name="pref_swipe_down_side_left">仅左侧</string>
+    <string name="pref_swipe_down_side_right">仅右侧</string>
+    <string name="pref_swipe_down_side_disabled">禁用</string>
 
     <!-- Recents icons -->
     <string name="recents_chips_title">使用紧凑设计的操作按钮图标</string>
@@ -186,6 +194,13 @@
     <!-- Auto keyboard -->
     <string name="pref_auto_keyboard_title">自动打开键盘</string>
     <string name="pref_auto_keyboard_summary">抽屉展开时即刻开始搜索</string>
+
+    <!-- All Apps Blur -->
+    <string name="blur_category_title">模糊效果</string>
+    <string name="allapps_blur_title">“所有应用”模糊</string>
+    <string name="allapps_blur_summary">模糊处理“所有应用”面板后的内容</string>
+    <string name="allapps_blur_radius_title">模糊半径</string>
+    <string name="allapps_blur_radius_summary">调整模糊效果的强度</string>
 
     <!-- A widget category label for grouping widgets related to battery. [CHAR_LIMIT=30] -->
     <string name="widget_category_battery">电池</string>
@@ -365,4 +380,28 @@
         <item>pinterest</item>
     -->
     </string-array>
+
+    <!-- Gestures -->
+    <string name="gestures_category_title">手势</string>
+    <string name="pref_homescreen_dt_gestures_title">双击</string>
+    <string name="pref_homescreen_dt_gestures_summary">选择在主屏幕上双击时的行为</string>
+
+    <!-- Swipe down gestures -->
+    <string name="pref_homescreen_swipe_down_gestures_title">下滑</string>
+    <string name="pref_homescreen_swipe_down_gestures_summary">配置在主屏幕上的下滑手势</string>
+
+    <!-- Gesture actions -->
+    <string name="pref_homescreen_gestures_none">无</string>
+    <string name="pref_homescreen_gestures_sleep">关闭屏幕</string>
+    <string name="pref_homescreen_gestures_torch">手电筒</string>
+    <string name="pref_homescreen_gestures_volume_panel">音量面板</string>
+    <string name="pref_homescreen_gestures_clear_notifications">清除通知</string>
+    <string name="pref_homescreen_gestures_screenshot">屏幕截图</string>
+    <string name="pref_homescreen_gestures_notifications">通知面板</string>
+    <string name="pref_homescreen_gestures_qs_panel">快速设置面板</string>
+    <string name="pref_homescreen_gestures_powermenu">电源菜单</string>
+    <string name="pref_homescreen_gestures_clear_all_apps">清除全部应用</string>
+
+    <!-- Shake Clear Recents -->
+    <string name="recents_shake_clear_all_title">摇动手机清理全部任务</string>
 </resources>
