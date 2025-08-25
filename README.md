@@ -1,6 +1,6 @@
 # Simplified Chinese translations for DerpFest
 
-These translations will be tested on **renoir**. Status: [<img src="https://badges.ws/badge/Build-Pending-orange" />](https://sourceforge.net/projects/self-build-mi-11-lite-rom/)
+These translations will be tested on **renoir**. Status: [<img src="https://badges.ws/badge/Build-Success-green" />](https://sourceforge.net/projects/self-build-mi-11-lite-rom/)
 - DerpFest Version: **16**
 --------
 
