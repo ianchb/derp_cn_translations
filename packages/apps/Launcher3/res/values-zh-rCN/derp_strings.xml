@@ -90,6 +90,8 @@
     <string name="label_search">搜索</string>
     <string name="label_lens">Google 智能镜头</string>
     <string name="label_voice_search">语音搜索</string>
+    <string name="label_ai_mode">AI 模式</string>
+    <string name="ai_mode_not_available">AI 功能不可用</string>
     <string name="dock_search_title">Google 搜索栏</string>
     <string name="dock_search_summary">在底部应用坞下方显示搜索栏</string>
 
@@ -201,6 +203,10 @@
     <string name="allapps_blur_summary">模糊处理“所有应用”面板后的内容</string>
     <string name="allapps_blur_radius_title">模糊半径</string>
     <string name="allapps_blur_radius_summary">调整模糊效果的强度</string>
+
+    <!-- Force All Apps on Bottom Sheet -->
+    <string name="force_all_apps_on_bottom_sheet_title">强制在底部动作栏显示“所有应用”</string>
+    <string name="force_all_apps_on_bottom_sheet_summary">强制以底部动作栏的形式展示“所有应用”，而非全屏显示</string>
 
     <!-- A widget category label for grouping widgets related to battery. [CHAR_LIMIT=30] -->
     <string name="widget_category_battery">电池</string>
