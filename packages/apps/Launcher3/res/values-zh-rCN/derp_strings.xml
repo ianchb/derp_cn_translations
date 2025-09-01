@@ -92,8 +92,12 @@
     <string name="label_voice_search">语音搜索</string>
     <string name="label_ai_mode">AI 模式</string>
     <string name="ai_mode_not_available">AI 功能不可用</string>
+    <string name="dock_ai_music_search_title">歌曲搜索</string>
+    <string name="dock_ai_music_search_summary">在点击“AI 模式”按钮时启动歌曲搜索</string>
     <string name="dock_search_title">Google 搜索栏</string>
     <string name="dock_search_summary">在底部应用坞下方显示搜索栏</string>
+    <string name="qsb_outer_opacity_title">搜索栏外边框不透明度</string>
+    <string name="qsb_outer_opacity_summary">调整搜索栏外边框的不透明度</string>
 
     <!-- Kill App recents action shortcut -->
     <string name="recent_task_option_kill_app">强行停止</string>

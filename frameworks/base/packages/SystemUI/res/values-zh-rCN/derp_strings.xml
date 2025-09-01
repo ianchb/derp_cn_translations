@@ -115,6 +115,7 @@
 
     <!-- Data usage info in QS footer -->
     <string name="usage_data">已于今日使用</string>
+    <string name="usage_data_weekly">已于本周使用</string>
     <string name="usage_data_default_suffix">移动数据</string>
     <string name="usage_wifi_default_suffix">Wi-Fi</string>
 

@@ -351,4 +351,19 @@
     <string name="reset_auto_brightness_adjustment_title">重置偏好设置</string>
     <string name="reset_auto_brightness_adjustment_summary">清除系统记录的亮度偏好设置并重置为默认值</string>
     <string name="reset_auto_brightness_adjustment_done">自动亮度偏好设置已重置</string>
+
+    <!-- Data Usage Cycle -->
+    <string name="billing_cycle_type_title">移动数据用量周期类型</string>
+    <string name="billing_cycle_type_monthly">按月计费</string>
+    <string name="billing_cycle_type_weekly">按周计费</string>
+    <string name="billing_cycle_type_daily">按日计费</string>
+    <string name="billing_cycle_less_than_one_hour_left">剩余不到 1 小时</string>
+    <string name="billing_cycle_hours_left">{count, plural,
+        =1      {剩余 # 小时}
+        other   {剩余 # 小时}
+        }</string>
+    <string name="cycle_type_weekly_title">用量周期重置日</string>
+    <string name="cycle_type_weekly_sub">每周的星期几：\n1 = 星期一</string>
+    <string name="cycle_type_daily_title">用量周期重置时刻</string>
+    <string name="cycle_type_daily_sub">每日的具体小时：</string>
 </resources>

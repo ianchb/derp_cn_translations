@@ -276,12 +276,22 @@
     <string name="qs_show_settings_icon_summary">在快速设置底栏显示设置图标</string>
     <string name="qs_show_power_menu_icon_title">显示电源菜单图标</string>
     <string name="qs_show_power_menu_icon_summary">在快速设置底栏显示电源菜单图标</string>
+    <string name="data_usage_category_title">数据使用量</string>
+    <string name="data_usage_category_summary">配置在快速设置底栏显示的数据使用量摘要</string>
     <string name="footer_category_title">底栏</string>
     <string name="footer_category_summary">自定义快速设置底栏的显示项目</string>
 
     <!-- Data usage info in QS footer -->
-    <string name="qs_footer_datausage_title">流量使用量</string>
-    <string name="qs_footer_datausage_summary">在快速设置底部显示流量使用量摘要</string>
+    <string name="qs_footer_datausage_title">数据使用量</string>
+    <string name="qs_footer_datausage_summary">在快速设置底栏显示数据使用量摘要</string>
+    <string name="qs_footer_datausage_summary_daily">在快速设置底栏显示今日数据使用量摘要</string>
+    <string name="qs_footer_datausage_summary_weekly">在快速设置底栏显示本周数据使用量摘要</string>
+    <string name="qs_data_usage_cycle_type_title">数据使用量周期</string>
+    <string name="qs_data_usage_cycle_type_summary">设置数据使用量显示周期（今日/本周）</string>
+    <string name="qs_data_usage_cycle_daily">今日</string>
+    <string name="qs_data_usage_cycle_weekly">本周</string>
+    <string name="qs_show_data_usage_cycle_info_title">显示周期信息</string>
+    <string name="qs_show_data_usage_cycle_info_summary">显示数据使用量周期信息</string>
     <string name="qs_show_edit_button_title">显示编辑按钮</string>
     <string name="qs_show_edit_button_summary">在快速设置面板中显示编辑按钮</string>
     <string name="qs_enable_tile_squishing_title">磁贴形状</string>
