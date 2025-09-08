@@ -299,4 +299,24 @@
     <string name="qs_tile_shape_mode_normal">标准</string>
     <string name="qs_tile_shape_mode_all_round">全部圆角</string>
     <string name="qs_tile_shape_mode_all_squared">全部圆角矩形</string>
+
+    <!-- QS Layout Settings -->
+    <string name="qs_layout_settings_title">快速设置布局</string>
+    <string name="qs_layout_category_title">快速设置布局</string>
+    <string name="qs_layout_category_summary">配置快速设置面板的布局</string>
+    <string name="qs_layout_columns_title">列数</string>
+    <string name="qs_layout_columns_summary">列数（同时影响快速设置和常用快速设置面板）</string>
+    <string name="qs_layout_rows_title">行数</string>
+    <string name="qs_layout_rows_summary">行数</string>
+    <string name="qqs_layout_category_title">常用快速设置布局</string>
+    <string name="qqs_layout_category_summary">配置常用快速设置面板的布局（列数与快速设置面板相同）</string>
+    <string name="qqs_layout_rows_title">行数</string>
+    <string name="qqs_layout_rows_summary">行数</string>
+    <string name="qs_layout_columns_landscape_title">列数（横屏）</string>
+    <string name="qs_layout_columns_landscape_summary">横屏模式下的列数（同时影响快速设置和常用快速设置面板）</string>
+    <string name="qs_layout_rows_landscape_title">行数（横屏）</string>
+    <string name="qs_layout_rows_landscape_summary">横屏模式下的行数</string>
+    <string name="qqs_layout_rows_landscape_title">行数（横屏）</string>
+    <string name="qqs_layout_rows_landscape_summary">横屏模式下的行数</string>
+    <string name="qs_layout_default">默认（系统）</string>
 </resources>

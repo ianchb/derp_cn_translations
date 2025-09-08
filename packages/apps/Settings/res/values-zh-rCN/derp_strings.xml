@@ -366,4 +366,13 @@
     <string name="cycle_type_weekly_sub">每周的星期几：\n1 = 星期一</string>
     <string name="cycle_type_daily_title">用量周期重置时刻</string>
     <string name="cycle_type_daily_sub">每日的具体小时：</string>
+
+    <!-- wake gestures haptics -->
+    <string name="doze_gesture_vibrate_title">振动反馈</string>
+    <string name="doze_gesture_vibrate_summary">执行此手势时振动</string>
+
+    <!-- wake gestures on AOD -->
+    <string name="doze_gesture_allow_ambient_title">在息屏显示时启用</string>
+    <string name="doze_gesture_allow_ambient_summary">允许此手势在息屏显示时生效</string>
+
 </resources>
