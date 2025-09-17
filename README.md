@@ -1,7 +1,13 @@
 # Simplified Chinese translations for DerpFest
 
-These translations will be tested on **renoir**. Status: [<img src="https://badges.ws/badge/Build-Success-green" />](https://sourceforge.net/projects/self-build-mi-11-lite-rom/)
+These translations will be tested on **renoir**. Status: [<img src="https://badges.ws/badge/Build-Success-green" />](https://sourceforge.net/projects/self-build-mi-11-lite-rom/)  
+
+--------
+
+[![Download Self-build Mi 11 Lite ROM](https://a.fsdn.com/con/app/sf-download-button)](https://sourceforge.net/projects/self-build-mi-11-lite-rom/files/latest/download)  
+Note: It may take some time for the flashable ZIP to be available for download after a successful build.  
 - DerpFest Version: **16**
+
 --------
 
 # Related repos:  
