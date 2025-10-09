@@ -157,6 +157,7 @@
     <!-- Memory info -->
     <string name="meminfo_text">%1$s 可用 | %2$s</string>
     <string name="recents_meminfo_title">内存信息</string>
+    <string name="recents_meminfo_summary">在底部显示内存用量</string>
 
     <!-- App drawer searchbar -->
     <string name="drawer_search_title">应用搜索栏</string>
@@ -260,6 +261,8 @@
     <string name="quickspace_memory_info_summary">在消息中显示“资讯一览”内存使用量</string>
     <string name="quickspace_app_memory_info_title">显示应用内存信息</string>
     <string name="quickspace_app_memory_info_summary">在消息中显示推荐/不推荐使用的应用内存使用量</string>
+    <string name="quickspace_accent_tint_title">使用系统强调色着色元素</string>
+    <string name="quickspace_accent_tint_summary">对所有“资讯一览”元素应用系统强调色</string>
 
     <string-array name="quickspace_psa_morning">
         <item>早上好！</item>
@@ -282,6 +285,7 @@
         <item>明天见！</item>
         <item>做个好梦！</item>
         <item>别熬夜太久哦</item>
+        <item>看看日落吧...</item>
         <item>祝你睡个好觉</item>
         <item>该休息啦</item>
         <item>放松时间到</item>
@@ -289,6 +293,8 @@
         <item>该充电啦！</item>
         <item>明天会是美好的一天</item>
         <item>为明天养精蓄锐吧</item>
+        <item>有点困了吗？</item>
+        <item>今天很漫长吧？</item>
     </string-array>
     <string-array name="quickspace_psa_midnight">
         <item>呃...晚安？</item>
