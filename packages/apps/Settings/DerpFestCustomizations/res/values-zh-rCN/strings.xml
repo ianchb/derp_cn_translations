@@ -21,34 +21,10 @@
     <string name="buttons_summary">设置按键的默认行为和操作</string>
     <string name="lockscreen_title">锁屏</string>
     <string name="lockscreen_summary">配置锁屏和息屏显示的选项</string>
+    <string name="spoofing_title">伪装</string>
+    <string name="spoofing_summary">通过伪装欺骗绕过应用程序限制</string>
     <string name="misc_title">杂项</string>
     <string name="misc_summary">其他未分类的设置选项</string>
-
-    <!-- Keybox -->
-    <string name="keybox_title">Keybox</string>
-    <string name="keybox_summary">管理设备的 Keybox 数据</string>
-    <string name="keybox_data_title">加载 Keybox 数据</string>
-    <string name="keybox_data_summary">选择要加载的 Keybox XML 文件</string>
-    <string name="keybox_data_summary_loaded">已加载 %1$s keybox，包含 %2$d 个证书 (%3$s)</string>
-    <string name="keybox_data_delete_title">删除 Keybox 数据</string>
-    <string name="keybox_data_delete_summary">移除当前加载的 Keybox 数据</string>
-    <string name="keybox_data_loaded">Keybox 数据加载成功</string>
-    <string name="keybox_data_cleared">Keybox 数据已清除</string>
-    <string name="keybox_data_error">Keybox 数据加载失败</string>
-    <string name="keybox_data_invalid">无效的 Keybox XML 文件</string>
-
-    <!-- PIF -->
-    <string name="pif_title">Play Integrity</string>
-    <string name="pif_summary">管理设备用于 Google Play 服务的 Play Integrity 数据</string>
-    <string name="pif_data_title">加载 PIF 数据</string>
-    <string name="pif_data_summary">选择要加载的 PIF JSON 文件</string>
-    <string name="pif_data_delete_title">删除 PIF 数据</string>
-    <string name="pif_data_delete_summary">移除当前加载的 PIF 数据</string>
-    <string name="pif_data_loaded">PIF 数据加载成功</string>
-    <string name="pif_data_cleared">PIF 数据已清除</string>
-    <string name="pif_data_error">PIF 数据加载失败</string>
-    <string name="pif_data_invalid">无效的 PIF JSON 文件</string>
-    <string name="pif_data_summary_loaded">已加载PIF 数据：%1$d props (%2$s)</string>
 
     <string name="dark_mode_summary_default">启用系统深色主题</string>
     <string name="dark_mode_summary_powersave">已启用省电模式</string>
@@ -56,6 +32,12 @@
     <!-- Categories -->
     <string name="general_category_title">通用</string>
     <string name="general_category_summary">通用的全局系统设置</string>
+    <string name="security_category_title">安全</string>
+    <string name="security_category_summary">与安全和隐私相关的设置</string>
+    <string name="dashboard_category_title">主界面</string>
+    <string name="dashboard_category_summary">“设置”主界面外观设置</string>
+    <string name="effects_category_title">动效</string>
+    <string name="effects_category_summary">视觉效果与动画设置</string>
 
     <!-- Ignore window secure -->
     <string name="ignore_window_secure_title">忽略窗口安全标志</string>
@@ -95,6 +77,35 @@
     <string name="monet_engine_wallpaper_color_summary">壁纸颜色选择器</string>
     <string name="monet_engine_wallpaper_color_not_available">不可用</string>
 
+    <!-- Keybox Data -->
+    <string name="keybox_data_title">Keybox 认证覆写</string>
+    <string name="keybox_data_summary">加载自定义 Keybox XML 以覆写设备密钥认证</string>
+    <string name="keybox_data_loaded_summary">已加载 %1$s keybox，包含 %2$d 个证书 (%3$s)</string>
+    <string name="keybox_delete_content_description">删除 Keybox 数据</string>
+    <string name="keybox_toast_invalid_file_selected">这不是 XML 文件。请选择有效的 Keybox XML 文件。</string>
+    <string name="keybox_toast_missing_data">无效的 Keybox XML 文件：必需字段缺失</string>
+    <string name="keybox_toast_file_loaded">Keybox 已加载</string>
+    <string name="keybox_toast_file_cleared">Keybox 已清除</string>
+
+    <!-- Pif Data -->
+    <string name="pif_data_title">选择用于伪装的 PIF JSON</string>
+    <string name="pif_data_summary">选择用于对 Google 移动服务和 Play 商店进行设备属性认证欺骗的 PIF JSON。点击删除按钮将清除 PIF 数据属性，并改用默认的动态 PIF 属性。</string>
+    <string name="pif_data_loaded_summary">已加载 %1$d props (%2$s)</string>
+    <string name="pif_delete_content_description">删除 PIF 数据</string>
+    <string name="pif_toast_invalid_file_selected">这不是 JSON 文件。请选择有效的 PIF JSON 文件。</string>
+    <string name="pif_toast_file_loaded">PIF JSON 已加载</string>
+    <string name="pif_toast_file_cleared">PIF JSON 已清除</string>
+
+    <!-- Spoofing Categories -->
+    <string name="spoofing_attestation_category_title">密钥认证</string>
+    <string name="spoofing_attestation_category_summary">伪装设备认证信息</string>
+    <string name="spoofing_apps_category_title">对应用伪装</string>
+    <string name="spoofing_apps_category_summary">对特定应用伪装设备属性</string>
+
+    <!-- Google Photos Spoof -->
+    <string name="gphotos_spoof_title">无限相册储存空间</string>
+    <string name="gphotos_spoof_summary">将设备伪装为 Pixel XL（仅对 Google 相册生效）以获得无限的备份储存空间</string>
+
     <!-- Ambient edge lighting -->
     <string name="ambient_edge_light_action_title">息屏边缘光效</string>
     <string name="ambient_edge_light_title">边缘光效</string>
@@ -114,17 +125,13 @@
     <string name="ambient_edge_light_face_down_title">翻转以启用</string>
     <string name="ambient_edge_light_face_down_summary">仅在手机面朝下时显示边缘光效</string>
 
-    <!-- Privacy Settings -->
-    <string name="privacy_indicators_title">隐私指示器</string>
-    <string name="privacy_indicators_summary">当应用使用摄像头、麦克风或位置信息时显示指示器</string>
-    <string name="mic_camera_privacy_indicators_title">摄像头与麦克风</string>
-    <string name="mic_camera_privacy_indicators_summary">当应用使用摄像头或麦克风时显示指示器</string>
-    <string name="location_privacy_indicator_title">位置信息</string>
-    <string name="location_privacy_indicator_summary">当应用使用位置信息时显示指示器</string>
-
     <!-- Fingerprint Ripple Effect -->
     <string name="enable_fingerprint_ripple_effect_title">解锁动画</string>
     <string name="enable_fingerprint_ripple_effect_summary">使用指纹解锁时显示涟漪效果</string>
+
+    <!-- Ambient AOD -->
+    <string name="ambient_aod_title">全天候息屏</string>
+    <string name="ambient_aod_summary">启用息屏壁纸与息屏显示增强功能</string>
 
     <!-- Ongoing action chip -->
     <string name="ongoing_chip_category_title">动态提示</string>
@@ -171,6 +178,14 @@
         受 iOS 中的灵动岛启发，灵动岛式通知功能可将 Android 的通知转化为更紧凑、更便捷的通知形式。\n\n灵动岛快捷控制具备以下功能：\n1. 轻点灵动岛通知，快速接听来电。\n2. 长按灵动岛通知，直接拒接来电。\n3. 长按灵动岛通知，展开完整预览。
     </string>
 
+    <!-- Settings dashboard icon style -->
+    <string name="theming_settings_dashboard_icons_title">设置主界面图标</string>
+    <string name="theming_settings_dashboard_icons_default">AOSP 默认（自然主题）</string>
+    <string name="theming_settings_dashboard_icons_white">系统背景 / 白色前景</string>
+    <string name="theming_settings_dashboard_icons_accent">强调色背景 / 透明前景</string>
+    <string name="theming_settings_dashboard_icons_plain">透明背景 / 纯色前景</string>
+    <string name="theming_settings_dashboard_icons_plain_accent">透明背景 / 强调色前景</string>
+
     <!-- QS Header -->
     <string name="qs_header_image_title">快速设置顶部图片</string>
     <string name="qs_header_image_summary">选择快速设置面板顶部背景图片</string>
@@ -204,7 +219,7 @@
     <string name="pulse_ambient_edge_light_category_title">息屏边缘光效</string>
     <string name="pulse_visualizer_category_title">律动脉冲</string>
     <string name="pulse_settings">律动脉冲</string>
-    <string name="pulse_settings_summary">在导航栏、锁屏和息屏显示音频可视化效果</string>
+    <string name="pulse_settings_summary">在锁屏和息屏显示音频可视化效果</string>
     <string name="show_navbar_pulse_title">导航栏律动</string>
     <string name="show_navbar_pulse_summary">在导航栏显示音频可视化效果</string>
     <string name="show_lockscreen_pulse_title">锁屏律动</string>
@@ -257,6 +272,10 @@
     <string name="small_landscape_notification_title">小型横屏通知</string>
     <string name="small_landscape_notification_summary">按 AOSP 设计，在横屏模式下的通知面板中显示更窄的通知</string>
 
+    <!-- Blur intensity -->
+    <string name="blur_intensity_title">模糊强度</string>
+    <string name="blur_intensity_summary" formatted="false">调整系统模糊效果的强度。\n0% = 无模糊，100% = 系统默认，200% = 双倍强度。</string>
+
     <!-- QS Panel -->
     <string name="brightness_category_title">亮度滑块</string>
     <string name="qs_show_brightness_title">显示位置</string>
@@ -267,6 +286,13 @@
     <string name="qs_brightness_position_position_summary">在快速设置面板底栏显示亮度滑块</string>
     <string name="qs_show_auto_brightness_title">显示自动亮度图标</string>
     <string name="qs_show_auto_brightness_summary">在亮度调节滑块旁显示自动亮度开关图标</string>
+    <string name="qs_brightness_match_tile_shape_title">使亮度滑块与磁贴形状匹配</string>
+    <string name="qs_brightness_match_tile_shape_summary">使亮度滑块跟随已设置的磁贴形状样式</string>
+    <string name="qs_brightness_slider_shape_title">亮度滑块形状</string>
+    <string name="qs_brightness_slider_shape_summary">选择亮度滑块形状（仅在未启用“匹配磁贴形状”时有效）</string>
+    <string name="qs_brightness_slider_shape_default">默认</string>
+    <string name="qs_brightness_slider_shape_circle">圆角</string>
+    <string name="qs_brightness_slider_shape_rounded_square">圆角矩形</string>
     <string name="qs_show_settings_icon_title">显示设置图标</string>
     <string name="qs_show_settings_icon_summary">在快速设置底栏显示设置图标</string>
     <string name="qs_show_power_menu_icon_title">显示电源菜单图标</string>
@@ -297,6 +323,8 @@
 
     <!-- QS Layout Settings -->
     <string name="qs_layout_settings_title">快速设置布局</string>
+    <!-- QS Notifications category -->
+    <string name="qs_notifications_category_title">通知</string>
     <string name="qs_layout_category_title">快速设置布局</string>
     <string name="qs_layout_category_summary">配置快速设置面板的布局</string>
     <string name="qs_layout_columns_title">列数</string>
@@ -316,4 +344,70 @@
     <string name="qs_media_respect_halving_title">媒体播放器半宽显示</string>
     <string name="qs_media_respect_halving_summary">启用后，行内的媒体播放器将使快速设置面板的列数减半</string>
     <string name="qs_layout_default">默认（系统）</string>
+
+    <!-- Heads up -->
+    <string name="heads_up_notifications_title">悬浮通知</string>
+    <string name="heads_up_notifications_summary">自定义悬浮通知设置</string>
+    <string name="heads_up_notifications_enable">启用悬浮通知</string>
+    <string name="heads_up_stoplist_title">免打扰应用列表</string>
+    <string name="heads_up_stoplist_summary">禁止在特定应用运行时弹出悬浮通知</string>
+    <string name="heads_up_blacklist_title">黑名单应用列表</string>
+    <string name="heads_up_blacklist_summary">禁止来自特定应用的所有悬浮通知</string>
+
+    <!-- Heads up timeout -->
+    <string name="heads_up_time_out_title">超时</string>
+    <string name="heads_up_time_out_summary">悬浮通知将会显示 <xliff:g id="number">%d</xliff:g> 秒</string>
+    <string name="heads_up_time_out_2sec">2 秒</string>
+    <string name="heads_up_time_out_4sec">4 秒</string>
+    <string name="heads_up_time_out_5sec">5 秒</string>
+    <string name="heads_up_time_out_6sec">6 秒</string>
+    <string name="heads_up_time_out_8sec">8 秒</string>
+    <string name="heads_up_time_out_10sec">10 秒</string>
+
+    <!-- Heads up snooze -->
+    <string name="heads_up_snooze_title">临时屏蔽计时</string>
+    <string name="heads_up_snooze_summary_one_minute">上滑悬浮通知后，来自该应用的悬浮通知将被临时屏蔽 1 分钟</string>
+    <string name="heads_up_snooze_summary">上滑悬浮通知后，来自该应用的悬浮通知将被临时屏蔽 <xliff:g id="number">%d</xliff:g> 分钟</string>
+    <string name="heads_up_snooze_disabled_summary">临时屏蔽计时已禁用</string>
+    <string name="heads_up_snooze_1min">1 分钟</string>
+    <string name="heads_up_snooze_5min">5 分钟</string>
+    <string name="heads_up_snooze_10min">10 分钟</string>
+    <string name="heads_up_snooze_15min">15 分钟</string>
+    <string name="heads_up_snooze_20min">20 分钟</string>
+
+    <!-- Less boring heads up -->
+    <string name="less_boring_heads_up_title">减少悬浮通知的干扰</string>
+    <string name="less_boring_heads_up_summary">仅当拨号或短信应用不在前台时，才显示其悬浮通知</string>
+
+    <!-- Lock screen media art -->
+    <string name="ls_media_art_title">媒体封面</string>
+    <string name="ls_media_art_summary">显示媒体封面（如有）</string>
+
+    <!-- Lock screen album art filter -->
+    <string name="ls_media_art_filter_title">媒体封面滤镜</string>
+    <string name="ls_media_art_filter_none">无</string>
+    <string name="ls_media_art_filter_blur">模糊</string>
+    <string name="ls_media_art_filter_grayscale">灰度</string>
+    <string name="ls_media_art_filter_sepia">怀旧色调</string>
+    <string name="ls_media_art_filter_tint">强调色着色</string>
+    <string name="ls_media_art_filter_invert">反色</string>
+    <string name="ls_media_art_filter_grayblur">灰度与模糊</string>
+
+    <!-- Lock screen media art fade level -->
+    <string name="ls_media_art_fade_level_title">媒体封面淡化程度</string>
+    <string name="ls_media_art_fade_level_summary">设置媒体封面的淡化程度</string>
+
+    <!-- Lock screen media art blur level -->
+    <string name="ls_media_art_blur_level_title">媒体封面模糊强度</string>
+    <string name="ls_media_art_blur_level_summary">应用模糊滤镜时的模糊强度</string>
+
+    <!-- Notification Row -->
+    <string name="notification_row_transparency_level_title">透明度</string>
+    <string name="notification_row_transparency_level_summary" formatted="false">调整通知行透明度 (0–100%)。 0% = AOSP 默认（完全不透明）。</string>
+    <string name="notification_row_transparency_context_title">场景感知透明度</string>
+    <string name="notification_row_transparency_context_summary">仅在通知面板中应用透明度。禁用后将在所有场景应用（包括悬浮通知和锁屏界面）。</string>
+
+    <!-- GMS cert chain -->
+    <string name="gms_cert_chain_title">禁用强制 Strong 完整性</string>
+    <string name="gms_cert_chain_summary">强制 Strong 完整性将使一些应用无法正常工作，如 Google Pay。启用此选项可修复这些应用。</string>
 </resources>
