@@ -21,6 +21,8 @@
     <!-- Game options -->
     <string name="auto_brightness_disabled_title">禁用自动亮度</string>
     <string name="auto_brightness_disabled_summary">在游戏中保持亮度不变</string>
+    <string name="heads_up_disabled_title">禁用悬浮通知</string>
+    <string name="heads_up_disabled_summary">在游戏中禁用悬浮通知</string>
     <string name="in_game_preferences_title">游戏内选项</string>
     <string name="three_screenshot_disabled_summary">在游戏中临时禁用三指截屏手势</string>
     <string name="three_screenshot_disabled_title">禁用三指截屏</string>
@@ -38,6 +40,7 @@
         <item>性能</item>
         <item>省电</item>
     </string-array>
+    <string name="heads_up_title">悬浮通知</string>
     <string name="fps_Info_title">帧率信息</string>
     <string name="notifications_title">通知显示方式</string>
     <string name="notifications_hide">隐藏通知</string>

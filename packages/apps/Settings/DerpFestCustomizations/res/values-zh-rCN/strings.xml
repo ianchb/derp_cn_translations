@@ -410,4 +410,39 @@
     <!-- GMS cert chain -->
     <string name="gms_cert_chain_title">禁用强制 Strong 完整性</string>
     <string name="gms_cert_chain_summary">强制 Strong 完整性将使一些应用无法正常工作，如 Google Pay。启用此选项可修复这些应用。</string>
+
+    <!-- About -->
+    <string name="about_title">关于</string>
+    <string name="about_summary">关于 DerpFest 与一些有用的链接</string>
+    <string name="no_browser">请选择默认浏览器</string>
+    <string name="about_team_category">我们的团队</string>
+    <string name="about_external_category">外部链接</string>
+    <string name="about_dev_title">首席开发者</string>
+    <string name="about_dev_name">Alexander Brunswig</string>
+    <string name="about_qa_title">QA 主管</string>
+    <string name="about_qa_name">David Setiawan</string>
+    <string name="about_site_title">网站</string>
+    <string name="about_site_summary">访问 DerpFest.org</string>
+    <string name="about_tg_title">Telegram 群组</string>
+    <string name="about_tg_summary">面向全球的官方 Telegram 群组</string>
+    <string name="about_wall_title">壁纸</string>
+    <string name="about_wall_summary">由社区制作的壁纸 Telegram 频道</string>
+    <string name="about_git_title">ROM 源代码</string>
+    <string name="about_git_summary">在 GitHub 查看我们的源代码</string>
+    <string name="about_devices_git_title">设备相关源代码</string>
+    <string name="about_devices_git_summary">在 GitHub 查看我们的设备相关源代码</string>
+    <string name="about_phone_title">关于手机</string>
+    <string name="about_phone_summary">打开系统的关于页面</string>
+
+    <!-- About - Device specific links -->
+    <string name="about_device_category">当前设备的特定链接</string>
+    <string name="about_device_fw">所需固件</string>
+    <string name="about_device_recovery">推荐的 Recovery</string>
+
+    <!-- About - Easter Egg -->
+    <plurals name="show_derped_countdown">
+        <item quantity="one">现在只需再执行 <xliff:g id="derp_count">%1$d</xliff:g> 步操作，即可被「Derp 化」。</item>
+        <item quantity="other">现在只需再执行 <xliff:g id="derp_count">%1$d</xliff:g> 步操作，即可被「Derp 化」。</item>
+    </plurals>
+    <string name="derpd_done">你已成为被 Derp 化的一员！</string>
 </resources>

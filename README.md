@@ -1,6 +1,6 @@
 # Simplified Chinese translations for DerpFest
 
-These translations will be tested on **renoir**. Status: [<img src="https://badges.ws/badge/Build-Success-green" />](https://sourceforge.net/projects/self-build-mi-11-lite-rom/)  
+These translations will be tested on **renoir**. Status: [<img src="https://badges.ws/badge/Build-Pending-orange" />](https://sourceforge.net/projects/self-build-mi-11-lite-rom/)  
 
 --------
 
@@ -23,8 +23,8 @@ Note: It may take some time for the flashable ZIP to be available for download a
 --------
 
 # Date of ...
-- ...synchronizing code: **2025/10/09**
-- ...updating translations: **2025/10/09**
+- ...synchronizing code: **2025/10/17**
+- ...updating translations: **2025/10/17**
 
 --------
 
