@@ -23,8 +23,8 @@ Note: It may take some time for the flashable ZIP to be available for download a
 --------
 
 # Date of ...
-- ...synchronizing code: **2025/10/17**
-- ...updating translations: **2025/10/17**
+- ...synchronizing code: **2025/11/01**
+- ...updating translations: **2025/11/01**
 
 --------
 

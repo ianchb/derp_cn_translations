@@ -115,15 +115,27 @@
     <string name="ambient_edge_light_color_mode_auto">自动</string>
     <string name="ambient_edge_light_color_mode_app">应用颜色</string>
     <string name="ambient_edge_light_color_mode_manual">手动</string>
+    <string name="ambient_edge_light_color_mode_rainbow">彩虹</string>
     <string name="ambient_edge_light_color_mode_auto_summary">将边缘光效颜色设置为系统颜色</string>
     <string name="ambient_edge_light_color_mode_app_summary">将边缘光效颜色设置为应用颜色</string>
     <string name="ambient_edge_light_color_mode_manual_summary">手动选择颜色</string>
+    <string name="ambient_edge_light_color_mode_rainbow_summary">使用彩虹渐变色</string>
     <string name="ambient_edge_light_advanced_category_title">高级</string>
     <string name="ambient_edge_light_duration_title">光效持续时间</string>
     <string name="ambient_edge_light_repeat_count_title">重复次数</string>
     <string name="ambient_edge_light_width_title">光效宽度</string>
     <string name="ambient_edge_light_face_down_title">翻转以启用</string>
     <string name="ambient_edge_light_face_down_summary">仅在手机面朝下时显示边缘光效</string>
+    <string name="edge_light_style_title">显示样式</string>
+    <string name="edge_light_style_default">默认样式（左右两侧）</string>
+    <string name="edge_light_style_frame">环绕样式（四边发光）</string>
+    <string name="edge_light_animation_effect_title">动画效果</string>
+    <string name="edge_light_animation_effect_none">标准模式</string>
+    <string name="edge_light_animation_effect_breathing">呼吸律动</string>
+    <string name="edge_light_animation_effect_wave">光波流转</string>
+    <string name="edge_light_animation_effect_sparkle">星光闪烁</string>
+    <string name="edge_light_animation_effect_chase">流光追逐</string>
+    <string name="edge_light_animation_effect_comet">彗星轨迹</string>
 
     <!-- Fingerprint Ripple Effect -->
     <string name="enable_fingerprint_ripple_effect_title">解锁动画</string>

@@ -147,4 +147,7 @@
     <string name="flashlight_strength_title">手电筒亮度</string>
     <string name="flashlight_strength_turn_off">关闭</string>
     <string name="flashlight_strength_turn_on">开启</string>
+
+    <!-- 4G icon -->
+    <string name="show_fourg_icon_title">4G 图标</string>
 </resources>
