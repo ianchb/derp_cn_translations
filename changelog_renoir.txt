@@ -1,0 +1,9 @@
+DerpFest 16.0 | 2025-11
+UNOFFICIAL build by siergtc
+**********************
+
+- Enable OTA via Updater
+- 启用内置更新器 OTA 功能
+
+- Enable ambient AOD (with wallpaper)
+- 启用全天候息屏（含壁纸）
