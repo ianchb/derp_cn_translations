@@ -1,9 +1,6 @@
-DerpFest 16.0 | 2025-11
+DerpFest 16.0 | 2025-11-28
 UNOFFICIAL build by siergtc
 **********************
 
-- Enable OTA via Updater
-- 启用内置更新器 OTA 功能
-
-- Enable ambient AOD (with wallpaper)
-- 启用全天候息屏（含壁纸）
+- Include CatShare for Mutual Transmission Alliance 
+- 预装 CatShare，尝试兼容互传联盟
