@@ -1,6 +1,6 @@
-DerpFest 16.0 | 2025-11-28
+DerpFest 16.0 | 2025-12-17
 UNOFFICIAL build by siergtc
 **********************
 
-- Include CatShare for Mutual Transmission Alliance 
-- 预装 CatShare，尝试兼容互传联盟
+- Updated the security patch level to December 2025.
+- 更新安全补丁等级到 2025 年 12 月。
