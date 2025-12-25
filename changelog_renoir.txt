@@ -1,6 +1,10 @@
-DerpFest 16.0 | 2025-12-17
+DerpFest 16.0 | 2025-12-25
 UNOFFICIAL build by siergtc
+Merry Christmas and Happy New Year!
 **********************
 
-- Updated the security patch level to December 2025.
-- 更新安全补丁等级到 2025 年 12 月。
+- Included MiuiCamera. (Night mode doesn't work currently)
+- 预装 MIUI 相机。（夜景模式暂不可用）
+
+- Merged latest kernel changes from LineageOS.
+- 合并来自 LineageOS 的最新内核更改。
