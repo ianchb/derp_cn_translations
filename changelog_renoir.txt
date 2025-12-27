@@ -1,10 +1,9 @@
-DerpFest 16.0 | 2025-12-25
+DerpFest 16.0 | 2025-12-26
 UNOFFICIAL build by siergtc
-Merry Christmas and Happy New Year!
 **********************
 
-- Included MiuiCamera. (Night mode doesn't work currently)
-- 预装 MIUI 相机。（夜景模式暂不可用）
+- Fixed Night mode in MiuiCamera.
+- 修复 MIUI 相机夜景模式。
 
-- Merged latest kernel changes from LineageOS.
-- 合并来自 LineageOS 的最新内核更改。
+- Updated firmware to V14.0.16.0.TKICNXM.
+- 更新固件至 V14.0.16.0.TKICNXM 版本。
