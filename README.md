@@ -6,24 +6,24 @@ These translations will be tested on **renoir**. Status: [<img src="https://badg
 
 [![Download Self-build Mi 11 Lite ROM](https://a.fsdn.com/con/app/sf-download-button)](https://sourceforge.net/projects/self-build-mi-11-lite-rom/files/latest/download)  
 Note: It may take some time for the flashable ZIP to be available for download after a successful build.  
-- DerpFest Version: **16**
+- DerpFest Version: **16.2**
 
 --------
 
 # Related repos:  
-- [DerpFest-AOSP/android_frameworks_base](https://github.com/DerpFest-AOSP/android_frameworks_base) | Branch: `16`
-- [DerpFest-AOSP/android_packages_apps_Settings](https://github.com/DerpFest-AOSP/android_packages_apps_Settings) | Branch: `16`
-- [DerpFest-AOSP/android_packages_apps_GameSpace](https://github.com/DerpFest-AOSP/android_packages_apps_GameSpace) | Branch: `16`
-- [DerpFest-AOSP/packages_apps_OmniStyle](https://github.com/DerpFest-AOSP/packages_apps_OmniStyle) | Branch: `15`
-- [DerpFest-AOSP/android_packages_apps_DerpLauncher](https://github.com/DerpFest-AOSP/android_packages_apps_DerpLauncher) | Branch: `16`
-- [DerpFest-AOSP/android_packages_apps_DerpFestCustomizations](https://github.com/DerpFest-AOSP/android_packages_apps_DerpFestCustomizations) | Branch: `16`
-- [DerpFest-AOSP/android_packages_apps_ThemePicker](https://github.com/DerpFest-AOSP/android_packages_apps_ThemePicker) | Branch: `16`
-- [DerpFest-AOSP/android_packages_apps_LineageParts](https://github.com/DerpFest-AOSP/android_packages_apps_LineageParts) | Branch: `16`
+- [DerpFest-AOSP/android_frameworks_base](https://github.com/DerpFest-AOSP/android_frameworks_base) | Branch: `16.2` (Currently unavailable)
+- [DerpFest-AOSP/android_packages_apps_Settings](https://github.com/DerpFest-AOSP/android_packages_apps_Settings) | Branch: `16.2` (Currently unavailable)
+- [DerpFest-AOSP/android_packages_apps_GameSpace](https://github.com/DerpFest-AOSP/android_packages_apps_GameSpace) | Branch: `16.2`
+- [DerpFest-AOSP/android_packages_apps_OmniStyle](https://github.com/DerpFest-AOSP/android_packages_apps_OmniStyle) | Branch: `16.2`
+- [DerpFest-AOSP/android_packages_apps_DerpLauncher](https://github.com/DerpFest-AOSP/android_packages_apps_DerpLauncher) | Branch: `16.2`
+- [DerpFest-AOSP/android_packages_apps_DerpFestCustomizations](https://github.com/DerpFest-AOSP/android_packages_apps_DerpFestCustomizations) | Branch: `16.2`
+- [DerpFest-AOSP/android_packages_apps_ThemePicker](https://github.com/DerpFest-AOSP/android_packages_apps_ThemePicker) | Branch: `16.2`
+- [DerpFest-AOSP/android_packages_apps_DerpFestParts](https://github.com/DerpFest-AOSP/android_packages_apps_DerpFestParts) | Branch: `16.2`
 
 --------
 
 # Date of ...
-- ...synchronizing code: **2025/11/11**
+- ...synchronizing code: **2026/02/02**
 - ...updating translations: **2025/11/11**
 
 --------
