@@ -1,9 +1,9 @@
-DerpFest 16.0 | 2025-12-26
+DerpFest 16.0 | 2025-02-02
 UNOFFICIAL build by siergtc
 **********************
 
-- Fixed Night mode in MiuiCamera.
-- 修复 MIUI 相机夜景模式。
+- Solved an issue causing lags.
+- 修复了一个导致卡顿的问题。
 
-- Updated firmware to V14.0.16.0.TKICNXM.
-- 更新固件至 V14.0.16.0.TKICNXM 版本。
+- This is the last DerpFest 16.0 update, and future updates will be based on DerpFest 16.2.
+- 这是最后一个 DerpFest 16.0 更新，未来的更新将基于 DerpFest 16.2。
