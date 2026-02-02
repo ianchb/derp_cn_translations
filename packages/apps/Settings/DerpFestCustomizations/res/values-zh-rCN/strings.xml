@@ -31,13 +31,9 @@
 
     <!-- Categories -->
     <string name="general_category_title">通用</string>
-    <string name="general_category_summary">通用的全局系统设置</string>
     <string name="security_category_title">安全</string>
-    <string name="security_category_summary">与安全和隐私相关的设置</string>
     <string name="dashboard_category_title">主界面</string>
-    <string name="dashboard_category_summary">“设置”主界面外观设置</string>
     <string name="effects_category_title">动效</string>
-    <string name="effects_category_summary">视觉效果与动画设置</string>
 
     <!-- Ignore window secure -->
     <string name="ignore_window_secure_title">忽略窗口安全标志</string>
@@ -68,6 +64,7 @@
     <string name="monet_engine_style_fruit_salad">水果沙拉</string>
     <string name="monet_engine_style_content">内容强调</string>
     <string name="monet_engine_style_monochromatic">单色</string>
+    <string name="monet_engine_style_fidelity">逼真</string>
     <string name="monet_engine_color_source_title">颜色来源</string>
     <string name="monet_engine_color_source_both">双壁纸（默认）</string>
     <string name="monet_engine_color_source_home">主屏幕壁纸</string>
@@ -98,13 +95,16 @@
 
     <!-- Spoofing Categories -->
     <string name="spoofing_attestation_category_title">密钥认证</string>
-    <string name="spoofing_attestation_category_summary">伪装设备认证信息</string>
     <string name="spoofing_apps_category_title">对应用伪装</string>
-    <string name="spoofing_apps_category_summary">对特定应用伪装设备属性</string>
 
     <!-- Google Photos Spoof -->
     <string name="gphotos_spoof_title">无限相册储存空间</string>
     <string name="gphotos_spoof_summary">将设备伪装为 Pixel XL（仅对 Google 相册生效）以获得无限的备份储存空间</string>
+
+    <!-- Google Play Integrity Spoof -->
+    <string name="spoofing_integrity_category_title">Google Play Integrity</string>
+    <string name="pi_spoof_title">Google Play Integrity 伪装</string>
+    <string name="pi_spoof_summary">将设备伪装成不同型号以通过 Google Play Integrity 验证</string>
 
     <!-- Ambient edge lighting -->
     <string name="ambient_edge_light_action_title">息屏边缘光效</string>
@@ -140,10 +140,6 @@
     <!-- Fingerprint Ripple Effect -->
     <string name="enable_fingerprint_ripple_effect_title">解锁动画</string>
     <string name="enable_fingerprint_ripple_effect_summary">使用指纹解锁时显示涟漪效果</string>
-
-    <!-- Ambient AOD -->
-    <string name="ambient_aod_title">全天候息屏</string>
-    <string name="ambient_aod_summary">启用息屏壁纸与息屏显示增强功能</string>
 
     <!-- Ongoing action chip -->
     <string name="ongoing_chip_category_title">动态提示</string>
@@ -241,17 +237,21 @@
     <string name="pulse_render_mode_title">渲染模式</string>
     <string name="pulse_render_mode_fading_bars">渐隐方块式</string>
     <string name="pulse_render_mode_solid_lines">线条式</string>
-    <string name="pulse_legacy_mode_advanced_category">渐隐方块式</string>
+    <string name="pulse_render_mode_neon">霓虹灯式</string>
+    <string name="pulse_render_mode_particle">粒子系统</string>
+    <string name="pulse_render_mode_waveform">波形</string>
+    <string name="pulse_legacy_mode_advanced_category">渐隐方块式 - 设置</string>
     <string name="pulse_custom_fudge_factor">灵敏度</string>
     <string name="pulse_lavalamp_speed_title">熔岩灯速度</string>
     <string name="pulse_solid_units_count">线条数量</string>
     <string name="pulse_solid_units_opacity">线条透明度</string>
-    <string name="pulse_solid_dimen_category">线条式设置</string>
+    <string name="pulse_solid_dimen_category">线条式与霓虹灯式 - 设置</string>
     <string name="pulse_color_mode_title">颜色</string>
     <string name="pulse_color_accent">强调色</string>
     <string name="pulse_color_custom">自定义</string>
     <string name="pulse_color_lava_lamp">熔岩灯</string>
     <string name="pulse_color_auto">专辑封面</string>
+    <string name="pulse_color_gradient">彩虹渐变</string>
     <string name="pulse_color_user_title">选择颜色</string>
     <string name="pulse_smoothing_enabled_title">启用平滑动画</string>
     <string name="pulse_smoothing_enabled_summary">使线条动画更加平滑</string>
@@ -272,9 +272,26 @@
     <string name="pulse_vertical_mirror_title">垂直镜像</string>
     <string name="pulse_vertical_mirror_summary">创建另一个垂直翻转的律动效果</string>
 
+    <!-- Particle system settings -->
+    <string name="pulse_particle_category_title">粒子系统 - 设置</string>
+    <string name="pulse_particle_count_title">粒子数量</string>
+    <string name="pulse_particle_count_summary">可见的粒子数量（50-500）</string>
+    <string name="pulse_particle_size_title">粒子大小</string>
+    <string name="pulse_particle_size_summary">每个粒子的大小（1-10px）</string>
+
+    <!-- Waveform settings -->
+    <string name="pulse_waveform_category_title">波形 - 设置</string>
+    <string name="pulse_waveform_show_fill_title">显示填充区域</string>
+    <string name="pulse_waveform_show_fill_summary">显示波形下的填充区域</string>
+    <string name="pulse_waveform_show_outline_title">显示轮廓</string>
+    <string name="pulse_waveform_show_outline_summary">显示波形轮廓描边</string>
+    <string name="pulse_waveform_stroke_width_title">轮廓宽度</string>
+    <string name="pulse_waveform_stroke_width_summary">波形轮廓的宽度（1-8px）</string>
+
     <!-- Units -->
     <string name="unit_milliseconds">ms</string>
     <string name="unit_pixels">px</string>
+    <string name="unit_particles">个粒子</string>
 
     <!-- Single tap for keyguard affordance -->
     <string name="keyguard_affordance_single_tap_title">锁屏快捷操作单击触发</string>
@@ -290,29 +307,22 @@
 
     <!-- QS Panel -->
     <string name="brightness_category_title">亮度滑块</string>
-    <string name="qs_show_brightness_title">显示位置</string>
-    <string name="qs_show_brightness_hide">隐藏</string>
-    <string name="qs_show_brightness_normal">在快速设置面板显示</string>
-    <string name="qs_show_brightness_both">在快速设置、快速下拉面板中显示</string>
-    <string name="qs_brightness_position_position_title">移到底端</string>
-    <string name="qs_brightness_position_position_summary">在快速设置面板底栏显示亮度滑块</string>
-    <string name="qs_show_auto_brightness_title">显示自动亮度图标</string>
-    <string name="qs_show_auto_brightness_summary">在亮度调节滑块旁显示自动亮度开关图标</string>
-    <string name="qs_brightness_match_tile_shape_title">使亮度滑块与磁贴形状匹配</string>
-    <string name="qs_brightness_match_tile_shape_summary">使亮度滑块跟随已设置的磁贴形状样式</string>
-    <string name="qs_brightness_slider_shape_title">亮度滑块形状</string>
-    <string name="qs_brightness_slider_shape_summary">选择亮度滑块形状（仅在未启用“匹配磁贴形状”时有效）</string>
-    <string name="qs_brightness_slider_shape_default">默认</string>
-    <string name="qs_brightness_slider_shape_circle">圆角</string>
-    <string name="qs_brightness_slider_shape_rounded_square">圆角矩形</string>
+    <string name="qs_show_brightness_slider_title">何时显示</string>
+    <string name="qs_show_brightness_slider_never">从不显示</string>
+    <string name="qs_show_brightness_slider_expanded">在展开时显示</string>
+    <string name="qs_show_brightness_slider_always">总是显示</string>
+    <string name="qs_show_brightness_slider_not_expanded">在未展开时显示</string>
+    <string name="qs_brightness_slider_position_title">位置</string>
+    <string name="qs_brightness_slider_position_top">顶部</string>
+    <string name="qs_brightness_slider_position_bottom">底部</string>
+    <string name="qs_show_auto_brightness_title">自动亮度图标</string>
+    <string name="qs_show_auto_brightness_summary">在亮度调节滑块旁显示自适应亮度开关</string>
     <string name="qs_show_settings_icon_title">显示设置图标</string>
     <string name="qs_show_settings_icon_summary">在快速设置底栏显示设置图标</string>
     <string name="qs_show_power_menu_icon_title">显示电源菜单图标</string>
     <string name="qs_show_power_menu_icon_summary">在快速设置底栏显示电源菜单图标</string>
     <string name="data_usage_category_title">数据使用量</string>
-    <string name="data_usage_category_summary">配置在快速设置底栏显示的数据使用量摘要</string>
     <string name="footer_category_title">底栏</string>
-    <string name="footer_category_summary">自定义快速设置底栏的显示项目</string>
 
     <!-- Data usage info in QS footer -->
     <string name="qs_footer_datausage_title">数据使用量</string>
@@ -327,11 +337,17 @@
     <string name="qs_show_data_usage_cycle_info_summary">显示数据使用量周期信息</string>
     <string name="qs_show_edit_button_title">显示编辑按钮</string>
     <string name="qs_show_edit_button_summary">在快速设置面板中显示编辑按钮</string>
-    <string name="qs_enable_tile_squishing_title">磁贴形状</string>
-    <string name="qs_enable_tile_squishing_summary">选择磁贴在快速设置面板中的显示样式</string>
-    <string name="qs_tile_shape_mode_normal">标准</string>
-    <string name="qs_tile_shape_mode_all_round">全部圆角</string>
-    <string name="qs_tile_shape_mode_all_squared">全部圆角矩形</string>
+
+    <!-- QS Tiles Style -->
+    <string name="qs_tile_shape_title">快速设置磁贴形状</string>
+    <string name="qs_tile_shape_dynamic">动态</string>
+    <string name="qs_tile_shape_circle">圆形</string>
+    <string name="qs_tile_shape_rounded_square_smooth">圆角矩形（平滑）</string>
+    <string name="qs_tile_shape_rounded_square">圆角矩形</string>
+
+    <!-- Brightness Slider Style -->
+    <string name="qs_brightness_slider_shape_title">亮度滑块形状</string>
+    <string name="default_value">默认</string>
 
     <!-- QS Layout Settings -->
     <string name="qs_layout_settings_title">快速设置布局</string>
@@ -344,7 +360,6 @@
     <string name="qs_layout_rows_title">行数</string>
     <string name="qs_layout_rows_summary">行数</string>
     <string name="qqs_layout_category_title">常用快速设置布局</string>
-    <string name="qqs_layout_category_summary">配置常用快速设置面板的布局（列数与快速设置面板相同）</string>
     <string name="qqs_layout_rows_title">行数</string>
     <string name="qqs_layout_rows_summary">行数</string>
     <string name="qs_layout_columns_landscape_title">列数（横屏）</string>
@@ -353,8 +368,8 @@
     <string name="qs_layout_rows_landscape_summary">横屏模式下的行数</string>
     <string name="qqs_layout_rows_landscape_title">行数（横屏）</string>
     <string name="qqs_layout_rows_landscape_summary">横屏模式下的行数</string>
-    <string name="qs_media_respect_halving_title">媒体播放器半宽显示</string>
-    <string name="qs_media_respect_halving_summary">启用后，行内的媒体播放器将使快速设置面板的列数减半</string>
+    <string name="qs_media_respect_halving_title">行内显示媒体控件时半宽显示</string>
+    <string name="qs_media_respect_halving_summary">启用时，若媒体控件与磁贴在同一行显示，则快速设置列数将减半</string>
     <string name="qs_layout_default">默认（系统）</string>
 
     <!-- Heads up -->
@@ -414,14 +429,25 @@
     <string name="ls_media_art_blur_level_summary">应用模糊滤镜时的模糊强度</string>
 
     <!-- Notification Row -->
-    <string name="notification_row_transparency_level_title">透明度</string>
-    <string name="notification_row_transparency_level_summary" formatted="false">调整通知行透明度 (0–100%)。 0% = AOSP 默认（完全不透明）。</string>
-    <string name="notification_row_transparency_context_title">场景感知透明度</string>
-    <string name="notification_row_transparency_context_summary">仅在通知面板中应用透明度。禁用后将在所有场景应用（包括悬浮通知和锁屏界面）。</string>
+    <string name="notification_row_transparency_title">通知透明化</string>
+    <string name="notification_row_transparency_summary">为快速设置面板中的通知设置透明背景</string>
+    <string name="notification_row_transparency_lockscreen_title">锁屏通知透明化</string>
+    <string name="notification_row_transparency_lockscreen_summary">为锁屏上的通知设置透明背景</string>
 
-    <!-- GMS cert chain -->
-    <string name="gms_cert_chain_title">禁用强制 Strong 完整性</string>
-    <string name="gms_cert_chain_summary">强制 Strong 完整性将使一些应用无法正常工作，如 Google Pay。启用此选项可修复这些应用。</string>
+    <!-- Spoofing -->
+    <string name="pixel_spoofing_apps_title">对应用伪装为 Pixel</string>
+    <string name="pixel_spoofing_apps_summary">选择要对其伪装为 Pixel 10 Pro XL 的应用</string>
+
+    <!-- Status Bar Ticker -->
+    <string name="ticker_screen_title">滚动通知</string>
+    <string name="ticker_screen_summary">在状态栏以滚动样式显示通知</string>
+    <string name="ticker_screen_footer">仅当未显示悬浮通知时，滚动通知才可见。</string>
+    <string name="ticker_title">状态栏滚动通知</string>
+    <string name="ticker_summary">启用状态栏滚动通知</string>
+    <string name="ticker_animation_mode_title">滚动通知动画样式</string>
+    <string name="ticker_animation_mode_alpha_fade">淡入淡出</string>
+    <string name="ticker_animation_mode_scroll">滚动</string>
+    <string name="ticker_tick_duration_title">滚动通知显示时长</string>
 
     <!-- About -->
     <string name="about_title">关于</string>

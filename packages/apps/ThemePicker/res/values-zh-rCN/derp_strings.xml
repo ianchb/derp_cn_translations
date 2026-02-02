@@ -9,11 +9,8 @@
     <string name="preset_color_tab_3">DerpFest 颜色</string>
 
     <string name="udfps_animation_title">指纹动画</string>
+    <string name="udfps_animation_description">自定义指纹解锁动画</string>
+    <string name="udfps_icon_title">指纹图标</string>
+    <string name="udfps_icon_description">自定义锁屏时的指纹图标</string>
     <string name="new_title">新建</string>
-
-    <!-- Title of a page that shows the user the preview of a clock font selection [CHAR_LIMIT=20] -->
-    <string name="preview_name_lockfont">时钟字体</string>
-
-    <!-- Summary text shown when lock font customization is disabled due to custom clock selection -->
-    <string name="lockfont_disabled_summary">使用个性化时钟样式时不可用</string>
 </resources>

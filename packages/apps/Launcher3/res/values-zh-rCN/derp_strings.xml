@@ -43,7 +43,6 @@
 
     <!-- Settings title to show Google Now at -1 screen on launcher. [CHAR LIMIT=50] -->
     <string name="title_show_google_app">滑动以访问 Google 应用程序</string>
-    <string name="pref_show_google_now_summary" translatable="false">@string/msg_minus_one_on_left</string>
     <!-- Settings message explaining when the -1 screen is available on an LTR device. [CHAR LIMIT=100] -->
     <string name="msg_minus_one_on_left">当您从主屏幕右滑时</string>
     <!-- Settings message explaining when the -1 screen is available on an RTL device. [CHAR LIMIT=100] -->
@@ -52,6 +51,11 @@
     <!-- All apps themed icons -->
     <string name="pref_themed_icons_title">主题图标</string>
     <string name="pref_themed_icons_summary">跟随主屏幕上使用的主题图标</string>
+    <string name="themed_icons_disabled_summary">主题图标已在“壁纸与风格”中禁用</string>
+
+    <!-- Open keyboard -->
+    <string name="drawer_open_keyboard_title">滑动即搜</string>
+    <string name="drawer_open_keyboard_summary">当应用抽屉可见时自动打开键盘</string>
 
     <!-- Trust apps -->
     <string name="trust_apps_manager_name">隐藏的与受保护的应用</string>
@@ -66,19 +70,6 @@
     <!-- Suggestions -->
     <string name="suggestion_pref_screen_title">建议</string>
     <string name="suggestion_pref_screen_desc">在“所有应用”列表中和主屏幕上显示建议</string>
-
-    <!-- Restart launcher -->
-    <string name="pref_restart_title">重启</string>
-    <string name="pref_restart_summary">手动重启启动器以应用待处理的设置</string>
-    <string name="restarting_launcher">正在重启启动器...</string>
-    <string name="restarting_launcher_changes">正在重启启动器以应用更改...</string>
-    <string name="updating_launcher_components">正在重启启动器以更新组件...</string>
-
-    <!-- Proper seekbar -->
-    <string name="proper_seekbar_value">值： <xliff:g id="v">%s</xliff:g></string>
-    <string name="proper_seekbar_default_value">默认</string>
-    <string name="proper_seekbar_default_value_to_set">默认值： <xliff:g id="v">%s</xliff:g>\n长按以设置</string>
-    <string name="proper_seekbar_default_value_is_set">已设置为默认值</string>
 
     <!-- Icon size -->
     <string name="icon_size_title">图标大小</string>
@@ -102,6 +93,9 @@
     <!-- Kill App recents action shortcut -->
     <string name="recent_task_option_kill_app">强行停止</string>
     <string name="recents_app_killed" formatted="false">已关闭 %s</string>
+
+    <!-- LMOFreeform floating window -->
+    <string name="floating_window">自由窗口</string>
 
     <!-- Hotseat Background -->
     <string name="hotseat_bg_title">应用坞背景</string>
@@ -159,6 +153,9 @@
     <string name="recents_meminfo_title">内存信息</string>
     <string name="recents_meminfo_summary">在底部显示内存用量</string>
 
+    <!-- Background opacity -->
+    <string name="background_opacity_title">背景不透明度</string>
+
     <!-- App drawer searchbar -->
     <string name="drawer_search_title">应用搜索栏</string>
     <string name="drawer_search_summary">应用抽屉顶部的搜索栏</string>
@@ -190,28 +187,9 @@
     <string name="pref_scroll_vibration_title">滚动时振动</string>
     <string name="pref_scroll_vibration_summary">如果支持，在最近任务页面滚动时提供振动反馈</string>
 
-    <!-- LMOFreeform -->
-    <string name="floating_window">自由窗口</string>
-
-    <!-- Lock -->
-    <string name="action_lock">锁定/解锁应用</string>
-    <string name="unlock_app">已在最近任务中解锁应用</string>
-    <string name="lock_app">已在最近任务中锁定应用</string>
-
-    <!-- Auto keyboard -->
-    <string name="pref_auto_keyboard_title">自动打开键盘</string>
-    <string name="pref_auto_keyboard_summary">抽屉展开时即刻开始搜索</string>
-
-    <!-- All Apps Blur -->
-    <string name="blur_category_title">模糊效果</string>
-    <string name="allapps_blur_title">“所有应用”模糊</string>
-    <string name="allapps_blur_summary">模糊处理“所有应用”面板后的内容</string>
-    <string name="allapps_blur_radius_title">模糊半径</string>
-    <string name="allapps_blur_radius_summary">调整模糊效果的强度</string>
-
-    <!-- Force All Apps on Bottom Sheet -->
-    <string name="force_all_apps_on_bottom_sheet_title">强制在底部动作栏显示“所有应用”</string>
-    <string name="force_all_apps_on_bottom_sheet_summary">强制以底部动作栏的形式展示“所有应用”，而非全屏显示</string>
+    <!-- Task lock -->
+    <string name="task_menu_item_unlock">解锁</string>
+    <string name="task_menu_item_lock">锁定</string>
 
     <!-- A widget category label for grouping widgets related to battery. [CHAR_LIMIT=30] -->
     <string name="widget_category_battery">电池</string>
@@ -225,9 +203,6 @@
     <!-- A widget category label for grouping widgets related to weather. [CHAR_LIMIT=30] -->
     <string name="widget_category_weather">天气</string>
 
-    <!-- App label -->
-    <string name="icon_two_lines_title">应用标签使用两行显示</string>
-
     <!-- Icon pack -->
     <string name="icon_pack_title">图标包</string>
     <string name="icon_pack_default_label">默认</string>
@@ -237,6 +212,10 @@
     <!-- QuickSpace -->
     <string name="show_quickspace_title">资讯一览</string>
     <string name="show_quickspace_summary">在主屏幕顶端显示</string>
+
+    <!-- Background blur -->
+    <string name="background_blur_title">背景模糊深度</string>
+    <string name="background_blur_summary">设置最近任务与应用抽屉的背景模糊深度</string>
 
     <!-- QuickSpace: QuickEvent: Device Intro Event -->
     <string name="quick_event_rom_intro_welcome">欢迎使用 DerpFest！</string>
@@ -255,14 +234,6 @@
     <!-- Quickspace PSA - Custom messages for the glance -->
     <string name="quickspace_psa_title">显示随机消息</string>
     <string name="quickspace_psa_summary">偶尔在资讯一览显示趣味消息</string>
-
-    <!-- Quickspace Memory Info -->
-    <string name="quickspace_memory_info_title">显示内存信息</string>
-    <string name="quickspace_memory_info_summary">在消息中显示“资讯一览”内存使用量</string>
-    <string name="quickspace_app_memory_info_title">显示应用内存信息</string>
-    <string name="quickspace_app_memory_info_summary">在消息中显示推荐/不推荐使用的应用内存使用量</string>
-    <string name="quickspace_accent_tint_title">使用系统强调色着色元素</string>
-    <string name="quickspace_accent_tint_summary">对所有“资讯一览”元素应用系统强调色</string>
 
     <string-array name="quickspace_psa_morning">
         <item>早上好！</item>
@@ -306,7 +277,7 @@
         <item>It do be like that sometimes</item>
         <item>Is it time to flash another ROM already?</item>
         <item>Enjoying Android 16?</item>
-        <item>Hyped about Android 16 QPR1?</item>
+        <item>Hyped about Android 16 QPR3?</item>
         <item>Oh hey, what\'s up?</item>
         <item>Time to brag my #setup</item>
         <item>Focus on your tasks</item>
@@ -396,6 +367,38 @@
         <item>pinterest</item>
     -->
     </string-array>
+
+    <!-- Quickspace Memory Info -->
+    <string name="quickspace_memory_info_title">显示内存信息</string>
+    <string name="quickspace_memory_info_summary">在消息中显示“资讯一览”内存使用量</string>
+    <string name="quickspace_app_memory_info_title">显示应用内存信息</string>
+    <string name="quickspace_app_memory_info_summary">在消息中显示推荐/不推荐使用的应用内存使用量</string>
+    <string name="quickspace_accent_tint_title">使用系统强调色着色元素</string>
+    <string name="quickspace_accent_tint_summary">对所有“资讯一览”元素应用系统强调色</string>
+
+    <!-- App drawer categories -->
+    <string name="others_category_label">其他</string>
+    <string name="system_apps_category_label">系统应用</string>
+    <string name="google_apps_category_label">Google 应用</string>
+    <string name="productivity_category_label">生产力</string>
+    <string name="news_category_label">新闻</string>
+    <string name="social_category_label">社交</string>
+    <string name="audio_category_label">音乐</string>
+    <string name="video_category_label">视频</string>
+    <string name="image_category_label">图像</string>
+
+    <!-- Drawer list preference -->
+    <string name="drawer_list_title">布局</string>
+    <string name="drawer_list_summary">选择默认列表视图或分类文件夹（分类匣）</string>
+    <string name="feed_default">默认</string>
+    <string name="caddy_beta">分类匣 (Beta)</string>
+
+    <!-- Auto-hide page indicator dots -->
+    <string name="auto_hide_dots">自动隐藏页面指示点</string>
+    <string name="auto_hide_dots_summary">自动隐藏页面底部的指示点</string>
+
+    <!-- Restart launcher -->
+    <string name="restarting_launcher_changes">正在重启启动器以应用更改...</string>
 
     <!-- Gestures -->
     <string name="gestures_category_title">手势</string>

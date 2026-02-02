@@ -1,6 +1,6 @@
 # Simplified Chinese translations for DerpFest
 
-These translations will be tested on **renoir**. Status: [<img src="https://badges.ws/badge/Build-Success-green" />](https://sourceforge.net/projects/self-build-mi-11-lite-rom/)  
+These translations will be tested on **renoir**. Status: [<img src="https://badges.ws/badge/Build-16.2 Not Available-blue" />](https://sourceforge.net/projects/self-build-mi-11-lite-rom/)  
 
 --------
 
@@ -24,7 +24,7 @@ Note: It may take some time for the flashable ZIP to be available for download a
 
 # Date of ...
 - ...synchronizing code: **2026/02/02**
-- ...updating translations: **2025/11/11**
+- ...updating translations: **2026/02/02**
 
 --------
 
@@ -32,6 +32,10 @@ Note: It may take some time for the flashable ZIP to be available for download a
 
 This project is only intended to provide translations of DerpFest's custom content, however, some translations in it come directly from projects such as LineageOS and will not be changed.  
 Besides, some hard-coded texts, such as `Sidebar Customization`, will not be translated for now.
+
+Some translations come directly from earlier versions of DerpFest.  
+
+Due to my limited skills, if you find any missing or inaccurate translations, please feel free to open an issue or a pull request.
 
 --------
 
