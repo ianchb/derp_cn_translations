@@ -22,7 +22,4 @@
     <string name="top_level_personalize">个性化</string>
     <string name="top_level_system">系统</string>
     <string name="top_level_info">信息</string>
-
-    <string name="wellbeing_title">数字健康与家长控制</string>
-    <string name="wellbeing_summary">屏幕使用时间、应用使用定时器、就寝时间安排</string>
 </resources>

@@ -12,11 +12,15 @@
     <string name="reboot_suggestion_description">您的设备已连续运行超过一周。建议重新启动。</string>
     <string name="reboot_suggestion_now">重启</string>
 
-    <!-- Name of the nfc status bar icon. -->
-    <string name="status_bar_nfc">NFC</string>
-
     <!-- Label for current user in power menu options dialog -->
     <string name="global_action_restart_systemui">系统界面</string>
+
+    <!-- Face unlock -->
+    <string name="face_unlock_recognizing">正在识别人脸...</string>
+
+    <!-- Internet -->
+    <string name="status_bar_settings_network_speed">网速显示</string>
+    <string name="status_bar_network_speed">network_speed</string>
 
     <!-- QuickSettings: InternetDialog: Summary for how many devices are connected to the hotspot [CHAR LIMIT=NONE] -->
     <plurals name="quick_settings_internet_hotspot_summary_num_devices">
@@ -24,8 +28,19 @@
         <item quantity="other">%d 部设备已连接</item>
     </plurals>
 
-    <!-- Face unlock -->
-    <string name="face_unlock_recognizing">正在识别人脸...</string>
+    <!-- Name of the nfc status bar icon. -->
+    <string name="status_bar_nfc">NFC</string>
+
+    <!-- Smartspace -->
+    <string name="accessibility_next_alarm">闹钟将在 %s 响铃</string>
+    <string name="accessibility_smartspace_page">第 %1$d 页，共 %2$d 页</string>
+    <string name="active_mode_content_description">%1$s 已启用</string>
+    <string name="generic_smartspace_concatenated_desc">%1$s, %2$s</string>
+    <string name="music_controls_no_title">无标题</string>
+    <string name="smartspace_content_desc">资讯一览</string>
+    <string name="smartspace_flight_qr_code">二维码</string>
+    <string name="smartspace_icu_date_pattern">EEEMMMd</string>
+    <string name="smartspace_role_desc">查看</string>
 
     <!-- Name of the roaming status bar icon. -->
     <string name="status_bar_roaming">漫游状态</string>
@@ -38,10 +53,6 @@
 
     <!-- WiFi standard numbering on statusbar -->
     <string name="status_bar_wifi_standard">Wi-Fi 协议版本</string>
-
-    <!-- Heads up snooze toast -->
-    <string name="heads_up_snooze_message_one_minute"><xliff:g id="string">%s</xliff:g> - 悬浮通知已被临时屏蔽 1 分钟。</string>
-    <string name="heads_up_snooze_message"><xliff:g id="string">%1$s</xliff:g> - 悬浮通知已被临时屏蔽 <xliff:g id="number">%2$d</xliff:g> 分钟。</string>
 
     <!-- CPUInfo tile -->
     <string name="quick_settings_cpuinfo_label">CPU 信息</string>
@@ -85,6 +96,8 @@
 
     <!-- Preferred network tile -->
     <string name="quick_settings_preferred_network_label">首选的网络</string>
+    <string name="quick_settings_preferred_network_lte">4G / LTE</string>
+    <string name="quick_settings_preferred_network_nr">5G / NR</string>
     <string name="quick_settings_preferred_network_unsupported">不支持</string>
 
     <!-- Music tile -->
@@ -107,10 +120,6 @@
     <!-- DerpFest Tile -->
     <string name="quick_derpfest_label">DerpFest 自定义设置</string>
     <string name="quick_derpfest_toast">哈哈，你真的以为长按就能带你去什么地方！！！</string>
-
-    <!-- Refresh rate QS tile -->
-    <string name="refresh_rate_tile_label">刷新率</string>
-    <string name="refresh_rate_unknown">未知</string>
 
     <!-- Name of the bluetooth battery level status bar setting. -->
     <string name="status_bar_bluetooth_battery_level">蓝牙设备电量</string>
@@ -139,15 +148,35 @@
     <!-- A toast message shown after successfully deleting a screen recording [CHAR LIMIT=NONE] -->
     <string name="screenrecord_delete_description">已删除屏幕录制</string>
 
-
     <!-- Screen record dialog -->
     <string name="screenrecord_keep_screen_awake_label">保持屏幕常亮</string>
+
+    <!-- 4G icon -->
+    <string name="show_fourg_icon_title">4G 图标</string>
+
+    <!-- Heads up snooze toast -->
+    <string name="heads_up_snooze_message_one_minute"><xliff:g id="string">%s</xliff:g> - 悬浮通知已被临时屏蔽 1 分钟。</string>
+    <string name="heads_up_snooze_message"><xliff:g id="string">%1$s</xliff:g> - 悬浮通知已被临时屏蔽 <xliff:g id="number">%2$d</xliff:g> 分钟。</string>
+
+    <!-- Notification counter -->
+    <string name="status_bar_combined_notification_count">显示合并的通知数量</string>
+
+    <!-- Refresh rate QS tile -->
+    <string name="refresh_rate_tile_label">刷新率</string>
+    <string name="refresh_rate_unknown">未知</string>
 
     <!-- Flashlight Strength -->
     <string name="flashlight_strength_title">手电筒亮度</string>
     <string name="flashlight_strength_turn_off">关闭</string>
     <string name="flashlight_strength_turn_on">开启</string>
 
-    <!-- 4G icon -->
-    <string name="show_fourg_icon_title">4G 图标</string>
+    <!-- VPN tethering QS tile -->
+    <string name="vpn_tethering_label">VPN 共享</string>
+    <string name="vpn_tethering_changed_off">VPN 共享已关闭。</string>
+    <string name="vpn_tethering_changed_on">VPN 共享已开启。</string>
+
+    <!-- Volume QS Tile -->
+    <string name="quick_settings_volume_label">音量</string>
+    <string name="qs_volume_dialog_title">音量控制</string>
+    <string name="qs_volume_dialog_mute">静音</string>
 </resources>

@@ -13,11 +13,6 @@
     <string name="url_copy_success">已成功复制 URL</string>
     <string name="url_copy_failed">将日志上传到 mkr/bin 时发生错误</string>
 
-    <!-- PowerOffAlarmService -->
-    <string name="notification_channel_poweroff_alarm">关机闹钟</string>
-    <string name="poweroff_alarm_title">已设置关机闹钟</string>
-    <string name="poweroff_alarm_body">检测到已设置闹钟。您现在可以关机，设备将在闹钟前 2 分钟自动开机</string>
-
     <!-- Lock gesture -->
     <string name="gesture_locked_warning">再次轻扫以解锁手势</string>
 

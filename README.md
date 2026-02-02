@@ -1,6 +1,6 @@
 # Simplified Chinese translations for DerpFest
 
-These translations will be tested on **renoir**. Status: [<img src="https://badges.ws/badge/Build-16.2 Not Available-blue" />](https://sourceforge.net/projects/self-build-mi-11-lite-rom/)  
+These translations will be tested on **renoir**. Status: [<img src="https://badges.ws/badge/Build-Pending-orange" />](https://sourceforge.net/projects/self-build-mi-11-lite-rom/)  
 
 --------
 
@@ -11,8 +11,8 @@ Note: It may take some time for the flashable ZIP to be available for download a
 --------
 
 # Related repos:  
-- [DerpFest-AOSP/android_frameworks_base](https://github.com/DerpFest-AOSP/android_frameworks_base) | Branch: `16.2` (Currently unavailable)
-- [DerpFest-AOSP/android_packages_apps_Settings](https://github.com/DerpFest-AOSP/android_packages_apps_Settings) | Branch: `16.2` (Currently unavailable)
+- [DerpFest-AOSP/android_frameworks_base](https://github.com/DerpFest-AOSP/android_frameworks_base) | Branch: `16.2`
+- [DerpFest-AOSP/android_packages_apps_Settings](https://github.com/DerpFest-AOSP/android_packages_apps_Settings) | Branch: `16.2`
 - [DerpFest-AOSP/android_packages_apps_GameSpace](https://github.com/DerpFest-AOSP/android_packages_apps_GameSpace) | Branch: `16.2`
 - [DerpFest-AOSP/android_packages_apps_OmniStyle](https://github.com/DerpFest-AOSP/android_packages_apps_OmniStyle) | Branch: `16.2`
 - [DerpFest-AOSP/android_packages_apps_DerpLauncher](https://github.com/DerpFest-AOSP/android_packages_apps_DerpLauncher) | Branch: `16.2`
