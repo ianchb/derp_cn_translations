@@ -1,13 +1,13 @@
 {
   "response": [
     {
-      "datetime": 1770035841,
-      "filename": "DerpFest-v16.0-20260202-renoir-Community-Stable.zip",
-      "id": "9684ec50f6db784aa4250788379c5d7ed14835aa9002c6b8cce3b13d33aa0f08",
+      "datetime": 1770109755,
+      "filename": "DerpFest-v16.2-20260203-renoir-Community-Beta.zip",
+      "id": "1080fa47ef3a31bae85ce2fad05eec016c3d2404e42785409090a4da2b6cd2e1",
       "romtype": "Community",
-      "size": 2921506789,
-      "url": "https://sourceforge.net/projects/self-build-mi-11-lite-rom/files/DerpFest-v16.0-20260202-renoir-Community-Stable.zip/download",
-      "version": "16.0"
+      "size": 3156905072,
+      "url": "https://sourceforge.net/projects/self-build-mi-11-lite-rom/files/DerpFest-v16.2-20260203-renoir-Community-Beta.zip/download",
+      "version": "16.2"
     }
   ]
 }
