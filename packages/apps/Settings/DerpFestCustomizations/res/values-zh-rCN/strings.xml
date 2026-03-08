@@ -141,6 +141,12 @@
     <string name="enable_fingerprint_ripple_effect_title">解锁动画</string>
     <string name="enable_fingerprint_ripple_effect_summary">使用指纹解锁时显示涟漪效果</string>
 
+    <!-- Fingerprint authentication vibration -->
+    <string name="fp_success_vibrate_title">指纹识别成功时振动</string>
+    <string name="fp_success_vibrate_summary">当指纹识别验证成功时振动</string>
+    <string name="fp_error_vibrate_title">指纹识别失败时振动</string>
+    <string name="fp_error_vibrate_summary">当指纹识别验证失败时振动</string>
+
     <!-- Ongoing action chip -->
     <string name="ongoing_chip_category_title">动态提示</string>
     <string name="ongoing_progress_settings_title">状态栏动态提示</string>
@@ -169,6 +175,8 @@
     </string>
     <string name="compact_progress_mode_title">紧凑型进度显示</string>
     <string name="compact_progress_mode_summary">对正在进行的操作使用紧凑型圆形指示器</string>
+    <string name="progress_bar_opacity_title">动态提示不透明度</string>
+    <string name="progress_bar_opacity_summary">调整动态提示的不透明度</string>
 
     <!-- Heads-up -->
     <string name="compact_heads_up_notifications_enabled_title">紧凑型通知</string>
@@ -356,18 +364,24 @@
     <string name="qs_layout_category_title">快速设置布局</string>
     <string name="qs_layout_category_summary">配置快速设置面板的布局</string>
     <string name="qs_layout_columns_title">列数</string>
+    <string name="qs_layout_columns_units"> 列</string>
     <string name="qs_layout_columns_summary">列数（同时影响快速设置和常用快速设置面板）</string>
     <string name="qs_layout_rows_title">行数</string>
     <string name="qs_layout_rows_summary">行数</string>
+    <string name="qs_layout_rows_units"> 行</string>
     <string name="qqs_layout_category_title">常用快速设置布局</string>
     <string name="qqs_layout_rows_title">行数</string>
     <string name="qqs_layout_rows_summary">行数</string>
+    <string name="qqs_layout_rows_units"> 行</string>
     <string name="qs_layout_columns_landscape_title">列数（横屏）</string>
+    <string name="qs_layout_columns_landscape_units"> 列</string>
     <string name="qs_layout_columns_landscape_summary">横屏模式下的列数（同时影响快速设置和常用快速设置面板）</string>
     <string name="qs_layout_rows_landscape_title">行数（横屏）</string>
     <string name="qs_layout_rows_landscape_summary">横屏模式下的行数</string>
+    <string name="qs_layout_rows_landscape_units"> 行</string>
     <string name="qqs_layout_rows_landscape_title">行数（横屏）</string>
     <string name="qqs_layout_rows_landscape_summary">横屏模式下的行数</string>
+    <string name="qqs_layout_rows_landscape_units"> 行</string>
     <string name="qs_media_respect_halving_title">行内显示媒体控件时半宽显示</string>
     <string name="qs_media_respect_halving_summary">启用时，若媒体控件与磁贴在同一行显示，则快速设置列数将减半</string>
     <string name="qs_layout_default">默认（系统）</string>
@@ -487,4 +501,8 @@
     <!-- chinese lunar calendar -->
     <string name="qs_show_lunar_calendar_title">显示农历</string>
     <string name="qs_show_lunar_calendar_summary">在快速设置面板显示农历</string>
+
+    <!-- Lock screen media art on Ambient Display -->
+    <string name="ambient_media_art_title">息屏显示媒体封面</string>
+    <string name="ambient_media_art_summary">在息屏显示时也显示媒体封面（如有）</string>
 </resources>

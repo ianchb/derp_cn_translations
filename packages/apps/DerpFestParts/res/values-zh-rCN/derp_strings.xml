@@ -61,4 +61,8 @@
 
     <!-- Combined notification count -->
     <string name="status_bar_combined_notification_count">显示合并的通知数量</string>
+
+    <!-- Advanced restart options -->
+    <string name="advanced_reboot_secured_title">锁屏界面</string>
+    <string name="advanced_reboot_secured_summary">在已锁屏状态下显示高级重启选项</string>
 </resources>
