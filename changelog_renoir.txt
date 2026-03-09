@@ -1,12 +1,28 @@
-DerpFest 16.2 | 2025-02-03
+DerpFest 16.2 | 2025-03-09
 UNOFFICIAL build by siergtc
 **********************
 
-- Initial release of DerpFest 16.2.
-- DerpFest 16.2 的初始发布。
+- 2nd release of DerpFest 16.2.
+- DerpFest 16.2 的第二次版本发布。
 
 ⚠ This is still in [BETA] stage and may contain bugs!
 ⚠ 仍处于 [BETA] 阶段，可能存在问题！
 
-- You can dirty flash from 16, but if you encounter any issues, a clean flash is recommended.
-- 你可以从 16 版本保留数据升级，但如果遇到任何问题，建议清除数据后刷机。
+- You can dirty flash this ROM, but if you encounter any issues, a clean flash is recommended.
+- 你可以保留数据升级，但如果遇到任何问题，建议清除数据后刷机。
+
+**********************
+
+Changelogs
+
+- Updated the security patch level to March 2026.
+- 更新安全补丁等级到 2026 年 3 月。
+
+- Added support for obtaining the actual hardware model, no longer unified as the CN variant (M2101K9C).
+- 支持获取实际硬件型号，不再统一为国行版本（M2101K9C）。
+
+- Added regulatory information.
+- 添加了监管信息。
+
+- Fixed poweroff battery charging animation.
+- 修复了关机充电动画。
