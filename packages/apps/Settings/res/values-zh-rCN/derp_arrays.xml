@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2025 DerpFest
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Random summary -->
+    <string-array name="derpfest_summaries">
+        <item>靠开发，不靠乞讨</item>
+        <item>警告：前方高能！</item>
+        <item>一句有趣的口号，Blah blah blah...</item>
+        <item>准备好被带入想象的世界吧</item>
+        <item>DerpNess 即将到来</item>
+        <item>DerpFest 自定义设置，点进来肯定没错</item>
+        <item>The Space of Derped stuff</item>
+        <item>功能好到吮指回味</item>
+        <item>小心！在你后面！</item>
+        <item>凡事都平等，那你输定了。</item>
+        <item>我需要的是一段与软盘的成熟感情关系</item>
+        <item>别让学校教育妨碍你真正的学习</item>
+        <item>如果没什么可后悔的，你的人生该多空虚</item>
+        <item>名声转瞬即逝，无名才是永恒</item>
+        <item>本条目将在五分钟后自毁</item>
+        <item>事情往往不像表面看起来那样</item>
+        <item>需要自行拼装</item>
+        <item>最后笑的人其实是没听懂笑话</item>
+        <item>如果你觉得全世界都在冲你来——兄弟，你逆行了。</item>
+        <item>有志者事竟成——有遗嘱税必征。（译注：原文 will n.意志；遗嘱）</item>
+        <item>这是一条未经授权的控制论公告</item>
+        <item>禁止停车或逗留</item>
+        <item>如果我当选，我将在滕珀尔霍夫机场免费发华夫饼！</item>
+        <item>当所有沟通方式都失灵时，试试言语表达</item>
+        <item>别吃比你自己脑袋还大的东西</item>
+        <item>一天到晚“上线了”“下线了”——八成是老糊涂了</item>
+        <item>愿 Fest 与你同在</item>
+        <item>黑子总会黑</item>
+        <item>一直定制到你满意为止</item>
+        <item>少动脑，多定制</item>
+        <item>FBI：功能基础隔离（Feature Base Isolation）</item>
+        <item>这就是“酷”本来的样子</item>
+        <item>功能越多，责任越大</item>
+        <item>你友好的邻居 Derped Owl</item>
+        <item>别光想，去做</item>
+        <item>自豪地为你呈现，无需捐款</item>
+        <item>未找到退化（Devolution）</item>
+        <item>Derps 总会发生，有时就在你身上</item>
+        <item>雨中摇摆...</item>
+        <item>#YoureDerpedNow!</item>
+        <item>选项超多！</item>
+        <item>酷小孩的聚集地...</item>
+        <item>（把手机扔向 David）</item>
+        <item>就是字面意思...</item>
+        <item>里面有好东西</item>
+        <item>免费糖果！！</item>
+        <item>&#8593; &#8593; &#8595; &#8595; &#8592; &#8594; &#8592; &#8594; B A</item>
+    </string-array>
+</resources>

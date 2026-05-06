@@ -1,6 +1,6 @@
 # Simplified Chinese translations for DerpFest
 
-These translations will be tested on **renoir**. Status: [<img src="https://badges.ws/badge/Build-Success-green" />](https://sourceforge.net/projects/self-build-mi-11-lite-rom/)  
+These translations will be tested on **renoir**. Status: [<img src="https://badges.ws/badge/Build-Pending-orange" />](https://sourceforge.net/projects/self-build-mi-11-lite-rom/)  
 
 --------
 
@@ -19,18 +19,19 @@ Note: It may take some time for the flashable ZIP to be available for download a
 - [DerpFest-AOSP/android_packages_apps_DerpFestCustomizations](https://github.com/DerpFest-AOSP/android_packages_apps_DerpFestCustomizations) | Branch: `16.2`
 - [DerpFest-AOSP/android_packages_apps_ThemePicker](https://github.com/DerpFest-AOSP/android_packages_apps_ThemePicker) | Branch: `16.2`
 - [DerpFest-AOSP/android_packages_apps_DerpFestParts](https://github.com/DerpFest-AOSP/android_packages_apps_DerpFestParts) | Branch: `16.2`
+- - [DerpFest-AOSP/android_packages_apps_LMOFreeform](https://github.com/DerpFest-AOSP/android_packages_apps_LMOFreeform) | Branch: `16.2`
 
 --------
 
 # Date of ...
-- ...synchronizing code: **2026/03/08**
-- ...updating translations: **2026/03/08**
+- ...synchronizing code: **2026/05/06**
+- ...updating translations: **2026/05/06**
 
 --------
 
 # Translation missing/inaccurate?
 
-This project is only intended to provide translations of DerpFest's custom content, however, some translations in it come directly from projects such as LineageOS and will not be changed.  
+This project is only intended to provide translations of DerpFest's custom content, however, some translations in it come directly from projects such as LineageOS will not be changed.  
 Besides, some hard-coded texts, such as `Sidebar Customization`, will not be translated for now.
 
 Some translations come directly from earlier versions of DerpFest.  
