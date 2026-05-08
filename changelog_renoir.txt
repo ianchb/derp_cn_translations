@@ -1,8 +1,8 @@
-DerpFest 16.2 | 2025-03-12
+DerpFest 16.2 | 2025-05-08
 UNOFFICIAL build by siergtc
 **********************
 
-- 3rd release of DerpFest 16.2.
+- 4th release of DerpFest 16.2.
 - DerpFest 16.2 的第三次版本发布。
 
 ⚠ This is still in [BETA] stage and may contain bugs!
@@ -15,17 +15,23 @@ UNOFFICIAL build by siergtc
 
 Changelogs
 
-- Added support for Dolby Atmos.
-- 添加了对 Dolby Atmos 的支持。
+- Updated the security patch level to April 2026.
+- 更新安全补丁等级到 2026 年 4 月。
 
-- Increased volume level steps to 30.
-- 增加音量调节阶数至 30。
+- Switched to Lunaris Dolby UI (OSS).
+- 切换到开源 Lunaris Dolby UI。
 
-- Updated LHDC blobs, fixing issues such as LHDC V5 ABR.
-- 更新 LHDC blobs，修复了 LHDC V5 ABR 等问题。
+- Added support for using the device as USB webcam.
+- 添加了将设备用作 USB 摄像头的支持。
 
-- Added flashlight brightness control.
-- 添加了手电筒亮度控制功能。
+- Merged device tree changes from LineageOS upstream.
+- 合并了 LineageOS 上游的设备树更改。
 
-- Addressed more sepolicy denials.
-- 完善 SePolicy，修复了一些权限拒绝问题。
+- Added support for Droidspaces (Experimental).
+- 添加了对 Droidspaces 的支持（实验性）。
+
+* Droidspaces is a lightweight, LXC-inspired container runtime for Android and Linux.
+  You can run full Linux distributions natively with zero performance penalty.
+  Droidspaces 是一个轻量级、受 LXC 启发的 Android 和 Linux 容器运行时。
+  你可以原生运行完整的 Linux 发行版，无需担心性能损失。
+  Learn more: / 了解更多：https://github.com/ravindu644/Droidspaces-OSS

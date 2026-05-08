@@ -1,6 +1,6 @@
 # Simplified Chinese translations for DerpFest
 
-These translations will be tested on **renoir**. Status: [<img src="https://badges.ws/badge/Build-Pending-orange" />](https://sourceforge.net/projects/self-build-mi-11-lite-rom/)  
+These translations will be tested on **renoir**. Status: [<img src="https://badges.ws/badge/Build-Success-green" />](https://sourceforge.net/projects/self-build-mi-11-lite-rom/)  
 
 --------
 
@@ -19,7 +19,7 @@ Note: It may take some time for the flashable ZIP to be available for download a
 - [DerpFest-AOSP/android_packages_apps_DerpFestCustomizations](https://github.com/DerpFest-AOSP/android_packages_apps_DerpFestCustomizations) | Branch: `16.2`
 - [DerpFest-AOSP/android_packages_apps_ThemePicker](https://github.com/DerpFest-AOSP/android_packages_apps_ThemePicker) | Branch: `16.2`
 - [DerpFest-AOSP/android_packages_apps_DerpFestParts](https://github.com/DerpFest-AOSP/android_packages_apps_DerpFestParts) | Branch: `16.2`
-- - [DerpFest-AOSP/android_packages_apps_LMOFreeform](https://github.com/DerpFest-AOSP/android_packages_apps_LMOFreeform) | Branch: `16.2`
+- [DerpFest-AOSP/android_packages_apps_LMOFreeform](https://github.com/DerpFest-AOSP/android_packages_apps_LMOFreeform) | Branch: `16.2`
 
 --------
 
