@@ -1,12 +1,9 @@
-DerpFest 16.2 | 2025-05-08
+DerpFest 16.2 | 2025-06-12
 UNOFFICIAL build by siergtc
 **********************
 
-- 4th release of DerpFest 16.2.
-- DerpFest 16.2 的第三次版本发布。
-
-⚠ This is still in [BETA] stage and may contain bugs!
-⚠ 仍处于 [BETA] 阶段，可能存在问题！
+- 5th release of DerpFest 16.2.
+- DerpFest 16.2 的第五次版本发布。
 
 - You can dirty flash this ROM, but if you encounter any issues, a clean flash is recommended.
 - 你可以保留数据升级，但如果遇到任何问题，建议清除数据后刷机。
@@ -15,23 +12,13 @@ UNOFFICIAL build by siergtc
 
 Changelogs
 
-- Updated the security patch level to April 2026.
-- 更新安全补丁等级到 2026 年 4 月。
+- Updated the security patch level to June 2026.
+- 更新安全补丁等级到 2026 年 6 月。
 
-- Switched to Lunaris Dolby UI (OSS).
-- 切换到开源 Lunaris Dolby UI。
+- Merged upstream update of DerpFest.
+  This is a major update that fixes many issues.
+- 合并 DerpFest 上游更新。这是一次大更新，修复了许多问题。
 
-- Added support for using the device as USB webcam.
-- 添加了将设备用作 USB 摄像头的支持。
-
-- Merged device tree changes from LineageOS upstream.
-- 合并了 LineageOS 上游的设备树更改。
-
-- Added support for Droidspaces (Experimental).
-- 添加了对 Droidspaces 的支持（实验性）。
-
-* Droidspaces is a lightweight, LXC-inspired container runtime for Android and Linux.
-  You can run full Linux distributions natively with zero performance penalty.
-  Droidspaces 是一个轻量级、受 LXC 启发的 Android 和 Linux 容器运行时。
-  你可以原生运行完整的 Linux 发行版，无需担心性能损失。
-  Learn more: / 了解更多：https://github.com/ravindu644/Droidspaces-OSS
+* The recommended OrangeFox has been updated to R12.0. You can download it from:
+* 同时更新了推荐使用的 OrangeFox 到 R12.0。可前往下方地址获取：
+  https://sourceforge.net/projects/self-build-mi-11-lite-rom/files/Unofficial-OrangeFox/OrangeFox-R12.0-Unofficial-renoir.zip/download
