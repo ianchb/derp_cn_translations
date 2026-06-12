@@ -51,11 +51,30 @@
     <!-- Name of the VoWiFi status bar icon. -->
     <string name="status_bar_vowifi">Wi-Fi 通话（VoWiFi）</string>
 
+    <!-- IMS / voice indicator tuner category -->
+    <string name="status_bar_ims_indicator_category_title">语音网络指示器</string>
+    <string name="status_bar_ims_indicator_style_title">指示器样式</string>
+    <string name="status_bar_ims_style_integrated">集成式（HD 跟随信号，VoWiFi 跟随 Wi‑Fi）</string>
+    <string name="status_bar_ims_style_dedicated">独立图标（VoLTE / VoNR / VoWiFi）</string>
+    <string name="status_bar_volte_icon_title">VoLTE</string>
+    <string name="status_bar_vonr_icon_title">VoNR</string>
+    <string name="status_bar_vowifi_icon_title">VoWiFi</string>
+
+    <!-- Status bar tuner: network icons -->
+    <string name="status_bar_network_icons_category_title">网络图标</string>
+    <string name="custom_system_theme_title">网络图标主题</string>
+    <string name="custom_system_theme_summary">自定义网络图标外观</string>
+
     <!-- WiFi standard numbering on statusbar -->
     <string name="status_bar_wifi_standard">Wi-Fi 协议版本</string>
 
     <!-- CPUInfo tile -->
     <string name="quick_settings_cpuinfo_label">CPU 信息</string>
+
+    <!-- Blur QS tile -->
+    <string name="quick_settings_blur_label">模糊</string>
+    <string name="accessibility_quick_settings_blur_off">模糊已停用。</string>
+    <string name="accessibility_quick_settings_blur_on">模糊已启用。</string>
 
     <!-- Compass QS Tile -->
     <string name="quick_settings_compass_label">指南针</string>
@@ -127,10 +146,6 @@
     <!-- Data disabled icon -->
     <string name="data_disabled_icon_title">“数据已禁用”图标</string>
 
-    <!-- Island notification -->
-    <string name="now_playing_on">正在 %1$s 播放</string>
-    <string name="by_artist">《%1$s》· %2$s</string>
-
     <!-- Label for UI element which allows to use lens on screenshot [CHAR LIMIT=30] -->
     <string name="screenshot_lens_label">智能镜头</string>
 
@@ -179,4 +194,113 @@
     <string name="quick_settings_volume_label">音量</string>
     <string name="qs_volume_dialog_title">音量控制</string>
     <string name="qs_volume_dialog_mute">静音</string>
+
+    <!-- AxDynamicBar strings [CHAR LIMIT=NONE] -->
+    <string name="ax_dynamic_bar_timer">计时器</string>
+    <string name="ax_dynamic_bar_stopwatch">秒表</string>
+    <string name="ax_dynamic_bar_alarm">闹钟</string>
+    <string name="ax_dynamic_bar_flashlight">手电筒</string>
+    <string name="ax_dynamic_bar_hotspot">热点</string>
+    <string name="ax_dynamic_bar_hotspot_active">热点已启用</string>
+    <string name="ax_dynamic_bar_vpn_active">VPN 已连接</string>
+    <string name="ax_dynamic_bar_screen_recording">屏幕录制</string>
+    <string name="ax_dynamic_bar_now_playing">正在播放</string>
+    <string name="ax_dynamic_bar_media_output">媒体输出</string>
+    <string name="ax_dynamic_bar_sound_mode">声音模式</string>
+    <string name="ax_dynamic_bar_silent">静音</string>
+    <string name="ax_dynamic_bar_vibrate">振动</string>
+    <string name="ax_dynamic_bar_ring">响铃</string>
+    <string name="ax_dynamic_bar_charging">正在充电</string>
+    <string name="ax_dynamic_bar_wireless">无线</string>
+    <string name="ax_dynamic_bar_saver">省电</string>
+    <string name="ax_dynamic_bar_music">音乐</string>
+    <string name="ax_dynamic_bar_copied">已复制</string>
+    <string name="ax_dynamic_bar_copied_feedback">已复制！</string>
+    <string name="ax_dynamic_bar_image_copied">图片已复制</string>
+    <string name="ax_dynamic_bar_copy_image">复制图片</string>
+    <string name="ax_dynamic_bar_clipboard_image_desc">剪贴板图片</string>
+    <string name="ax_dynamic_bar_image">图片</string>
+    <string name="ax_dynamic_bar_url">URL</string>
+    <string name="ax_dynamic_bar_dismiss">关闭</string>
+    <string name="ax_dynamic_bar_open">打开</string>
+    <string name="ax_dynamic_bar_stop">停止</string>
+    <string name="ax_dynamic_bar_stop_recording">停止录制</string>
+    <string name="ax_dynamic_bar_reset">重置</string>
+    <string name="ax_dynamic_bar_clear_all">全部清除</string>
+    <string name="ax_dynamic_bar_show_more">展开</string>
+    <string name="ax_dynamic_bar_show_less">收起</string>
+    <string name="ax_dynamic_bar_play">播放</string>
+    <string name="ax_dynamic_bar_pause">暂停</string>
+    <string name="ax_dynamic_bar_paused">已暂停</string>
+    <string name="ax_dynamic_bar_saved">已保存</string>
+    <string name="ax_dynamic_bar_recording">正在录制</string>
+    <string name="ax_dynamic_bar_done">完成</string>
+    <string name="ax_dynamic_bar_ringing">正在响铃</string>
+    <string name="ax_dynamic_bar_running">运行中</string>
+    <string name="ax_dynamic_bar_on">开</string>
+    <string name="ax_dynamic_bar_recents">最近任务</string>
+    <string name="ax_dynamic_bar_unlocked">已解锁</string>
+    <string name="ax_dynamic_bar_device_unlocked">设备已解锁</string>
+    <string name="ax_dynamic_bar_progress">进度</string>
+    <string name="ax_dynamic_bar_casting_to">正在投屏至</string>
+    <string name="ax_dynamic_bar_camera_mic">相机和麦克风</string>
+    <string name="ax_dynamic_bar_camera">相机</string>
+    <string name="ax_dynamic_bar_microphone">麦克风</string>
+    <string name="ax_dynamic_bar_camera_mic_short">相机和麦克风</string>
+    <string name="ax_dynamic_bar_hotspot_devices"><xliff:g id="count" example="3">%d</xliff:g> 台设备</string>
+    <string name="ax_dynamic_bar_wireless_charging">无线充电</string>
+    <string name="ax_dynamic_bar_until_full">直至充满</string>
+    <string name="ax_dynamic_bar_battery_saver">省电模式</string>
+    <string name="ax_dynamic_bar_call">通话</string>
+    <string name="ax_dynamic_bar_incoming_call">来电</string>
+    <string name="ax_dynamic_bar_connected">已连接</string>
+    <string name="ax_dynamic_bar_disconnect">断开连接</string>
+    <string name="ax_dynamic_bar_no_devices">无设备</string>
+    <string name="ax_dynamic_bar_one_device_connected">已连接 1 台设备</string>
+    <string name="ax_dynamic_bar_devices_connected"><xliff:g id="count" example="3">%d</xliff:g> 台设备已连接</string>
+    <string name="ax_dynamic_bar_vpn_connected">VPN 已连接</string>
+    <string name="ax_dynamic_bar_secured">已加密</string>
+    <string name="ax_dynamic_bar_connecting">正在连接\u2026</string>
+    <string name="ax_dynamic_bar_one_device">1 台设备</string>
+    <string name="ax_dynamic_bar_bluetooth_device">蓝牙设备</string>
+    <string name="ax_dynamic_bar_apps_count"><xliff:g id="count" example="2">%d</xliff:g> 个应用</string>
+    <string name="ax_dynamic_bar_just_now">刚刚</string>
+    <string name="ax_dynamic_bar_mins_ago"><xliff:g id="count" example="5">%d</xliff:g> 分钟前</string>
+    <string name="ax_dynamic_bar_hours_ago"><xliff:g id="count" example="2">%d</xliff:g> 小时前</string>
+    <string name="ax_dynamic_bar_days_ago"><xliff:g id="count" example="3">%d</xliff:g> 天前</string>
+    <string name="ax_dynamic_bar_weeks_ago"><xliff:g id="count" example="1">%d</xliff:g> 周前</string>
+    <string name="ax_dynamic_bar_resume">继续</string>
+    <string name="ax_dynamic_bar_clipboard">剪贴板</string>
+    <string name="ax_dynamic_bar_previous">上一首</string>
+    <string name="ax_dynamic_bar_next">下一首</string>
+    <string name="ax_dynamic_bar_shuffle">随机播放</string>
+    <string name="ax_dynamic_bar_output">输出</string>
+    <string name="ax_dynamic_bar_rec_short">录制</string>
+    <string name="ax_dynamic_bar_cast_short">投屏</string>
+    <string name="ax_dynamic_bar_active">活动中</string>
+    <string name="ax_dynamic_bar_biometric">生物识别</string>
+    <string name="ax_dynamic_bar_trust">信任</string>
+    <string name="ax_dynamic_bar_alignment">对齐</string>
+    <string name="ax_dynamic_bar_cam_short">相机</string>
+    <string name="ax_dynamic_bar_mic_short">麦克风</string>
+    <string name="ax_dynamic_bar_recent_apps">最近应用</string>
+    <string name="ax_dynamic_bar_count_running"><xliff:g id="count" example="3">%d</xliff:g> 个运行中</string>
+    <string name="ax_dynamic_bar_sports_vs">vs</string>
+    <string name="ax_dynamic_bar_sports_live">直播</string>
+    <string name="ax_dynamic_bar_sports_final">终场</string>
+    <string name="ax_dynamic_bar_sports_halftime">中场</string>
+    <string name="ax_dynamic_bar_sports_upcoming">即将开始</string>
+
+    <!-- OnePlus-style volume panel -->
+    <string name="volume_panel_system_volume">系统音量</string>
+    <string name="volume_panel_settings">设置</string>
+
+    <!-- Samsung-style volume panel: active stream label in header -->
+    <string name="volume_panel_stream_media">媒体</string>
+    <string name="volume_panel_stream_ringtone">铃声</string>
+    <string name="volume_panel_stream_notification">通知</string>
+    <string name="volume_panel_stream_alarm">闹钟</string>
+    <string name="volume_panel_stream_call">通话</string>
+    <string name="volume_panel_stream_system">系统</string>
+    <string name="volume_panel_stream_volume">音量</string>
 </resources>

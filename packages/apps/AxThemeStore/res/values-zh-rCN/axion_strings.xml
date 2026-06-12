@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">网络图标</string>
+
+    <string name="system_themes_title">系统主题</string>
+    <string name="system_icons_title">系统图标</string>
+    <string name="no_theme_packages">未安装主题包</string>
+    <string name="no_theme_packages_desc">安装主题包以自定义系统图标和界面</string>
+    <string name="theme_applied">已应用</string>
+    <string name="theme_not_applied">未应用</string>
+    <string name="create_theme">创建主题</string>
+    <string name="theme_creator_title">主题创建器</string>
+    <string name="theme_name">主题名称</string>
+    <string name="theme_name_hint">为主题命名以便稍后识别</string>
+    <string name="section_wifi_icons">Wi-Fi 图标</string>
+    <string name="section_signal_icons">蜂窝信号图标</string>
+    <string name="section_data_icons">移动数据图标</string>
+    <string name="wifi_icons_desc">替换状态栏中显示的 5 个 Wi-Fi 信号强度指示器</string>
+    <string name="signal_icons_desc">替换状态栏中显示的 5 个蜂窝信号强度指示器</string>
+    <string name="data_icons_desc">替换状态栏中显示的移动数据类型指示器（LTE、5G 等）</string>
+    <string name="section_battery_styles">电池样式</string>
+    <string name="battery_styles_desc">替换状态栏中显示的电池图标形状</string>
+    <string name="store_title_all">主题商店</string>
+    <string name="store_section_network_icons">网络图标</string>
+    <string name="store_section_battery_styles">电池样式</string>
+    <string name="store_section_back_gesture">返回手势</string>
+    <string name="store_section_status_bar_customization">状态栏自定义</string>
+    <string name="no_components_in_section">此部分没有活动组件。</string>
+    <string name="bundled_overlay_author">系统</string>
+    <string name="local_rro_theme_description">本地安装的自定义 Overlay</string>
+    <string name="third_party_author">第三方</string>
+    <string name="current_icons_label">当前</string>
+    <string name="your_icons_label">您的替换</string>
+    <string name="import_drawable">导入</string>
+    <string name="save_and_apply">保存并应用</string>
+    <string name="save_and_apply_count">保存并应用（%d 个图标）</string>
+    <string name="creator_guide_title">如何创建系统图标主题</string>
+    <string name="creator_guide_body">使用您自己的图标替换系统状态栏图标。导入 PNG 或矢量图像（建议 24×24dp、透明背景、白色前景）。系统将对其进行着色以匹配您的主题。您无需替换所有图标——仅导入的图标会被覆盖。</string>
+    <string name="advanced_overrides">高级：覆盖任意图形资源</string>
+    <string name="advanced_overrides_desc">按名称搜索并替换任意系统图形资源</string>
+    <string name="search_resource_name">资源名称</string>
+    <string name="search_resource_hint">例如：ic_bluetooth、stat_sys_data、ic_qs_</string>
+    <string name="search_results_count">找到 %d 个资源</string>
+
+    <string name="installed">已安装</string>
+    <string name="section_currently_applied">当前已应用</string>
+    <string name="themes">网络图标</string>
+    <string name="search_themes">搜索主题</string>
+    <string name="recent_searches">最近搜索</string>
+    <string name="no_recent_searches">无最近搜索</string>
+    <string name="clear_all">全部清除</string>
+    <string name="no_results_found">未找到结果</string>
+
+    <string name="loading_themes">正在加载主题\u2026</string>
+    <string name="failed_to_load_themes">加载主题失败</string>
+    <string name="no_themes_found">未找到主题</string>
+    <string name="no_themes_available">没有可用的主题</string>
+    <string name="try_different_search">请尝试其他搜索词</string>
+    <string name="check_back_later">请稍后再来查看新主题</string>
+    <string name="retry">重试</string>
+
+    <string name="installed_components">活动叠加层</string>
+    <string name="active_theme_components">活动主题组件</string>
+    <string name="active_theme_components_desc">查看当前已应用于系统的所有组件</string>
+    <string name="ui_style">界面风格</string>
+    <string name="icon_theme_components">图标主题组件</string>
+    <string name="no_icon_themes_installed">尚未应用任何内容</string>
+    <string name="browse_for_icon_themes">从主列表应用 Wi‑Fi 或信号图标包</string>
+    <string name="active">活动中</string>
+
+    <string name="apply">应用</string>
+    <string name="apply_changes">应用更改</string>
+    <string name="disable">禁用</string>
+    <string name="overlay_package_missing">此 Overlay 不在当前构建中</string>
+    <string name="pending_changes">待处理的更改</string>
+    <string name="components">组件</string>
+    <string name="tags">标签</string>
+    <string name="error_prefix">错误：%s</string>
+
+    <string name="back">返回</string>
+    <string name="search">搜索</string>
+    <string name="refresh">刷新</string>
+    <string name="remove">移除</string>
+    <string name="clear">清除</string>
+
+    <string name="default_ui_style">默认（Axion）</string>
+</resources>

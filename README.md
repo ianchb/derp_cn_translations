@@ -1,6 +1,6 @@
 # Simplified Chinese translations for DerpFest
 
-These translations will be tested on **renoir**. Status: [<img src="https://badges.ws/badge/Build-Success-green" />](https://sourceforge.net/projects/self-build-mi-11-lite-rom/)  
+These translations will be tested on **renoir**. Status: [<img src="https://badges.ws/badge/Build-Pending-orange" />](https://sourceforge.net/projects/self-build-mi-11-lite-rom/)  
 
 --------
 
@@ -10,7 +10,7 @@ Note: It may take some time for the flashable ZIP to be available for download a
 
 --------
 
-# Related repos:  
+# Related repos:  (Outdated, for reference only)
 - [DerpFest-AOSP/android_frameworks_base](https://github.com/DerpFest-AOSP/android_frameworks_base) | Branch: `16.2`
 - [DerpFest-AOSP/android_packages_apps_Settings](https://github.com/DerpFest-AOSP/android_packages_apps_Settings) | Branch: `16.2`
 - [DerpFest-AOSP/android_packages_apps_GameSpace](https://github.com/DerpFest-AOSP/android_packages_apps_GameSpace) | Branch: `16.2`
@@ -24,8 +24,12 @@ Note: It may take some time for the flashable ZIP to be available for download a
 --------
 
 # Date of ...
-- ...synchronizing code: **2026/05/06**
-- ...updating translations: **2026/05/06**
+- ...synchronizing code: **2026/06/12**
+- ...updating translations: **2026/06/12**
+
+> Please note that since June 2026, some repositories of DerpFest are currently not open for development.
+> Instead, development is first completed on the private branch and then pushed to a new repository.
+> Therefore, some translation updates may not be timely. If you find any, please feel free to open an Issue.
 
 --------
 

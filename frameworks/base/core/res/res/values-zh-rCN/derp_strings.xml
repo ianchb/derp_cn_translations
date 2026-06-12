@@ -20,4 +20,7 @@
     <string name="pocket_lock_message_long_press">长按电源键解锁</string>
     <string name="pocket_view_title">口袋模式已开启</string>
     <string name="pocket_view_title_cancel">请清除设备顶部遮挡物，或长按电源键强制退出口袋模式</string>
+
+    <!-- App lock -->
+    <string name="unlock_application">解锁 <xliff:g id="label" example="Telegram">%1$s</xliff:g></string>
 </resources>

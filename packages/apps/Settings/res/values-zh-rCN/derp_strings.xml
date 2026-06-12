@@ -70,13 +70,13 @@
     <string name="game_space_title">游戏空间</string>
     <string name="game_space_summary">增强您的游戏体验</string>
 
-    <!-- Heads up notifications -->
-    <string name="heads_up_notifications_title">悬浮通知</string>
-    <string name="heads_up_blacklist_title">悬浮通知黑名单</string>
-
     <!-- Annoying Notifications -->
     <string name="notification_sound_vib_screen_on_title">亮屏通知提醒</string>
     <string name="notification_sound_vib_screen_on_summary">在屏幕打开时播放通知音效并振动</string>
+
+    <!-- Heads up notifications -->
+    <string name="heads_up_notifications_title">悬浮通知</string>
+    <string name="heads_up_blacklist_title">悬浮通知黑名单</string>
 
     <!-- Label for a numbered SIM card.  [CHAR LIMIT=40] -->
     <string name="sim_card_number_title" translatable="false">SIM <xliff:g id="card_number">%1$d</xliff:g></string>
@@ -95,13 +95,13 @@
     <string name="adaptive_playback_timeout_none_summary">始终启用</string>
     <string name="adaptive_playback_timeout_30_secs">30 秒</string>
     <string name="adaptive_playback_timeout_30_secs_summary">启用（30 秒）</string>
-    <string name="adaptive_playback_timeout_1_min">1 minute</string>
+    <string name="adaptive_playback_timeout_1_min">1 分钟</string>
     <string name="adaptive_playback_timeout_1_min_summary">启用（1 分钟）</string>
-    <string name="adaptive_playback_timeout_2_min">2 minutes</string>
+    <string name="adaptive_playback_timeout_2_min">2 分钟</string>
     <string name="adaptive_playback_timeout_2_min_summary">启用（2 分钟）</string>
-    <string name="adaptive_playback_timeout_5_min">5 minutes</string>
+    <string name="adaptive_playback_timeout_5_min">5 分钟</string>
     <string name="adaptive_playback_timeout_5_min_summary">启用（5 分钟）</string>
-    <string name="adaptive_playback_timeout_10_min">10 minutes</string>
+    <string name="adaptive_playback_timeout_10_min">10 分钟</string>
     <string name="adaptive_playback_timeout_10_min_summary">启用（10 分钟）</string>
 
     <!-- Incall vibrate options -->
@@ -121,6 +121,11 @@
     <!-- Notch: Full screen apps -->
     <string name="display_cutout_force_fullscreen_title">全面屏应用</string>
     <string name="display_cutout_force_fullscreen_summary">强制应用程序忽略挖孔空间</string>
+
+    <!-- Per-app extended dark theme -->
+    <string name="extended_dark_theme_per_app_title">使用标准深色主题的应用</string>
+    <string name="extended_dark_theme_per_app_summary">选择使用标准深色主题（而非扩展深色主题）的应用</string>
+
     <string name="app_list_search">搜索</string>
     <string name="app_list_search_apps">搜索应用</string>
     <string name="app_list_loading">正在加载应用\u2026</string>
@@ -258,6 +263,8 @@
     <!-- Haptic feedback -->
     <string name="back_gesture_haptic_title">振动反馈</string>
     <string name="back_gesture_haptic_summary">执行返回手势时振动</string>
+    <string name="scroll_fling_haptic_feedback_title">滚动到边缘时振动</string>
+    <string name="scroll_fling_haptic_feedback_summary">在快速滚动到边缘时振动</string>
 
     <!-- DerpFest Customizations on homepage -->
     <string name="derpfest_customizations_title">DerpFest 自定义设置</string>
@@ -387,4 +394,80 @@
 
     <!-- Confirm dialog -->
     <string name="confirm_before_enable_title">继续启用？</string>
+
+    <!-- Clear calling -->
+    <string name="clear_calling_footer">为保护您的隐私，清晰通话绝不会将音频或对话发送给 Google。清晰通话的可用性取决于您的 Wi‑Fi 和移动网络。</string>
+    <string name="clear_calling_footer_learn_more_link">https://support.google.com/pixelphone?p=clear_calling</string>
+    <string name="clear_calling_title">清晰通话</string>
+    <string name="clear_calling_toggle">使用清晰通话</string>
+    <string name="clear_calling_topintro">减少通话期间的背景噪音</string>
+
+    <!-- Battery Saver -->
+    <string name="adaptive_battery_switch_title">使用自适应电池</string>
+    <string name="basic_battery_saver_title">标准省电模式</string>
+    <string name="basic_battery_saver_summary">限制视觉效果和后台活动。若未开启深色主题则自动开启。</string>
+    <string name="battery_saver_reminder_category">提醒</string>
+    <string name="battery_saver_reminder_switch_title">省电模式提醒</string>
+    <string name="battery_saver_reminder_switch_summary">接收低电量提醒</string>
+    <string name="battery_saver_schedule_category">定时计划</string>
+    <string name="battery_saver_schedule_switch_title">根据电量自动开启</string>
+    <string name="battery_saver_schedule_switch_summary">电量降至设定值时自动开启省电模式</string>
+    <string name="battery_schedule_title">定时计划与提醒</string>
+    <string name="battery_schedule_summary">管理省电模式的开启时机</string>
+    <string name="extreme_battery_saver_title">超级省电模式</string>
+    <string name="extreme_battery_saver_summary">包含上述所有更改。同时暂停非必要应用及其通知。</string>
+    <string name="smart_battery_a11y_expand_label">展开，自适应电池</string>
+    <string name="smart_battery_a11y_collapse_label">折叠，自适应电池</string>
+    <string name="smart_battery_title">自适应电池</string>
+    <string name="unified_battery_saver_page_intro">节省电量，提升电池续航</string>
+    
+    <!-- App lock -->
+    <string name="app_lock_title">应用锁</string>
+    <plurals name="app_lock_summary">
+        <item quantity="one"><xliff:g example="1" id="Number of applications">%1$d</xliff:g> 个应用受到保护</item>
+        <item quantity="other"><xliff:g example="10" id="Number of applications">%1$d</xliff:g> 个应用受到保护</item>
+    </plurals>
+    <string name="app_lock_authentication_dialog_title">解锁</string>
+    <string name="enable_debugging">启用调试</string>
+    <string name="disable_debugging">禁用调试</string>
+    <string name="app_lock_packages_title">受保护的应用</string>
+    <string name="app_lock_packages_summary">选择要通过生物识别或设备凭据保护的应用</string>
+    <string name="app_lock_timeout_title">自动锁定超时</string>
+    <string name="app_lock_timeout_summary">已解锁应用在后台运行指定时间后自动锁定</string>
+    <string name="app_lock_notifications_title">隐藏通知内容</string>
+    <string name="app_lock_notifications_summary">锁定后，所选应用的通知内容将被隐藏和折叠。悬浮通知将自动禁用。</string>
+    <string name="app_lock_notifications_disabled_summary">请先保护应用</string>
+    <string name="app_lock_biometrics_allowed_title">启用生物识别解锁</string>
+    <string name="app_lock_footer_text">超时后气泡将自动消失</string>
+    <string name="enable_protection">启用保护</string>
+    <string name="hide_from_launcher_title">从启动器隐藏</string>
+    <string name="hide_from_launcher_summary">阻止该应用在任何启动器中显示。需要重启启动器以使更改生效。</string>
+
+    <!-- Reality Display Engine -->
+    <string name="display_engine_category">显示引擎</string>
+    <string name="display_engine_mode_title">Reality 显示引擎</string>
+    <string name="x_reality_engine_mode_title">X-Reality 引擎</string>
+    <string name="vivid_engine_mode_title">生动显示</string>
+    <string name="triluminous_engine_mode_title">特丽魅彩显示</string>
+    <string name="display_engine_default">默认</string>
+    <string name="display_engine_mode_footer_text">受 Sony Bravia/X-Reality 引擎启发，显示引擎提供生动模式（增强亮度和色彩饱和度）、X-Reality 模式（提升细节和色彩准确性）以及特丽魅彩模式（更广的色域范围）。</string>
+
+    <!-- Doze sensor settings -->
+    <string name="doze_additional_settings_title">更多设置</string>
+    <string name="doze_additional_settings_summary">自定义设备的息屏显示设置</string>
+    <string name="doze_sensor_title">基于传感器</string>
+    <string name="tilt_title">倾斜</string>
+    <string name="tilt_summary">倾斜时显示通知</string>
+    <string name="pickup_title">拿起</string>
+    <string name="pickup_summary">拿起时显示通知</string>
+    <string name="handwave_title">挥动</string>
+    <string name="handwave_summary">挥动时显示通知</string>
+    <string name="pocket_title">口袋</string>
+    <string name="pocket_summary">从口袋取出时显示通知</string>
+    <string name="raise_to_wake_title">唤醒</string>
+    <string name="raise_to_wake_summary">唤醒设备而非仅显示通知</string>
+    <string name="doze_vibrate">振动</string>
+    <string name="doze_vibrate_summary">显示通知时的振动时长</string>
+    <string name="caution">注意</string>
+    <string name="sensor_warning_message">基于传感器的设置受硬件兼容性影响。为息屏显示启用传感器可能会增加电量消耗。</string>
 </resources>

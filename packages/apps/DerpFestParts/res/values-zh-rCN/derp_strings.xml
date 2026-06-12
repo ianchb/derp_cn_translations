@@ -51,8 +51,13 @@
     <string name="status_bar_logo_style_mint">Linux Mint</string>
 
     <!-- Status bar - Icon tinting -->
-    <string name="status_bar_tint_icons_title">着色状态栏图标</string>
-    <string name="status_bar_tint_icons_summary">使用系统强调色着色状态栏图标</string>
+    <string name="status_bar_icon_tint_mode_title">状态栏图标颜色</string>
+    <string name="status_bar_icon_tint_mode_summary">使用系统颜色、强调色或自定义颜色着色状态栏图标</string>
+    <string name="status_bar_icon_tint_system">默认（基于壁纸）</string>
+    <string name="status_bar_icon_tint_accent">强调色（Monet）</string>
+    <string name="status_bar_icon_tint_custom">自定义颜色</string>
+    <string name="status_bar_icon_tint_custom_title">自定义图标颜色</string>
+    <string name="status_bar_icon_tint_custom_summary">选择上方自定义颜色时使用</string>
 
     <!-- Statusbar lyric -->
     <string name="status_bar_lyric_title">状态栏歌词</string>
@@ -62,7 +67,36 @@
     <!-- Combined notification count -->
     <string name="status_bar_combined_notification_count">显示合并的通知数量</string>
 
+    <!-- Status bar colored notification icons -->
+    <string name="status_bar_colored_icons_title">彩色图标</string>
+    <string name="status_bar_colored_icons_summary">在状态栏通知中使用应用原始图标</string>
+
+    <!-- Pink Bean themed notification icons (bundled in SystemUI when available) -->
+    <string name="status_bar_pinkbean_icons_title">Pink Bean 图标</string>
+    <string name="status_bar_pinkbean_icons_summary">对 Pink-Bean 主题包中已覆盖的应用，使用其主题图标；其他应用则保留原图标</string>
+
     <!-- Advanced restart options -->
     <string name="advanced_reboot_secured_title">锁屏界面</string>
     <string name="advanced_reboot_secured_summary">在已锁屏状态下显示高级重启选项</string>
+
+    <!-- Volume panel style -->
+    <string name="volume_panel_style_title">音量面板样式</string>
+    <string name="volume_panel_style_default">默认</string>
+    <string name="volume_panel_style_oneplus">OnePlus</string>
+    <string name="volume_panel_style_samsung">Samsung</string>
+
+    <!-- Status bar carrier category -->
+    <string name="status_bar_carrier_category_title">运营商</string>
+
+    <!-- Carrier text (where to show: never / lockscreen / status bar / both) -->
+    <string name="lockscreen_show_carrier_title">运营商文字</string>
+    <string name="carrier_show_never">从不显示</string>
+    <string name="carrier_show_lockscreen_only">仅在锁屏</string>
+    <string name="carrier_show_statusbar_only">仅在状态栏</string>
+    <string name="carrier_show_both">锁屏和状态栏</string>
+
+    <!-- Custom carrier label -->
+    <string name="custom_carrier_label_title">自定义运营商标签</string>
+    <string name="custom_carrier_label_explain">用自定义文字替换运营商名称</string>
+    <string name="carrier_text_default">#DerpFest</string>
 </resources>

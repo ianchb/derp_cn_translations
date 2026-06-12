@@ -153,12 +153,66 @@
     <string name="recents_meminfo_title">内存信息</string>
     <string name="recents_meminfo_summary">在底部显示内存用量</string>
 
+    <!-- Recents layout style -->
+    <string name="recents_style_title">动画风格</string>
+    <string name="recents_style_default">默认</string>
+    <string name="recents_style_stock">原生（滚动效果）</string>
+    <string name="recents_style_staple">Kami 风格</string>
+    <string name="recents_style_ios">iOS 风格</string>
+    <string name="recents_style_oxygen">OxygenOS 风格</string>
+
     <!-- Background opacity -->
     <string name="background_opacity_title">背景不透明度</string>
 
-    <!-- App drawer searchbar -->
+    <!-- App drawer search bar placement -->
     <string name="drawer_search_title">应用搜索栏</string>
-    <string name="drawer_search_summary">应用抽屉顶部的搜索栏</string>
+    <string name="drawer_search_location_hidden">隐藏</string>
+    <string name="drawer_search_location_top">顶部</string>
+    <string name="drawer_search_location_bottom">底部</string>
+
+    <!-- Dark app drawer text -->
+    <string name="all_apps_dark_text_title">深色应用标签</string>
+    <string name="all_apps_dark_text_summary">在应用抽屉中始终使用深色文字显示应用标签</string>
+
+    <!-- App drawer styles -->
+    <string name="drawer_style_title">应用抽屉样式</string>
+    <string name="drawer_style_normal">普通（底部弹出）</string>
+    <string name="drawer_style_legacy">经典全屏</string>
+    <string name="drawer_style_list">列表样式</string>
+    <string name="drawer_style_oneui">OneUI 风格（分页）</string>
+    <string name="drawer_style_ios">iOS 风格（仅主屏幕）</string>
+    <string name="drawer_style_summary_ios_forced">应用抽屉已禁用，请从主屏幕添加应用</string>
+    <string name="auto_add_shortcuts_forced_ios_summary">iOS 风格启用时自动开启</string>
+    <string name="drawer_style_unavailable_with_caddy">启用分类匣布局时仅支持普通样式。</string>
+    <string name="drawer_list_unavailable_with_special_drawer">分类匣仅在应用抽屉样式为普通时可用。</string>
+
+    <!-- Notification badge counts -->
+    <string name="notification_badge_counts_title">通知数量</string>
+    <string name="notification_badge_counts_summary">在应用图标上显示未读计数而非圆点</string>
+    <string name="notification_badge_counts_disabled_summary">请先启用通知圆点</string>
+
+    <!-- App drawer sorting -->
+    <string name="app_drawer_sort_mode_title">应用抽屉排序</string>
+    <string name="app_drawer_sort_alphabetical">按字母排序</string>
+    <string name="app_drawer_sort_install_date">按安装日期排序</string>
+    <string name="app_drawer_sort_usage">按使用频率排序</string>
+
+    <!-- App drawer color -->
+    <string name="pref_app_drawer_custom_color_title">自定义背景颜色</string>
+    <string name="pref_app_drawer_custom_color_summary">为应用抽屉背景使用自定义颜色</string>
+    <string name="pref_app_drawer_custom_color_light_title">浅色模式颜色</string>
+    <string name="pref_app_drawer_custom_color_dark_title">深色模式颜色</string>
+
+    <!-- Color Picker -->
+    <string name="color_picker_hsb">HSB</string>
+    <string name="color_picker_rgb">RGB</string>
+    <string name="color_picker_hue">色相</string>
+    <string name="color_picker_saturation">饱和度</string>
+    <string name="color_picker_brightness">亮度</string>
+    <string name="color_picker_red">红色</string>
+    <string name="color_picker_green">绿色</string>
+    <string name="color_picker_blue">蓝色</string>
+    <string name="color_picker_hex">HEX</string>
 
     <!-- Parallax -->
     <string name="short_parallax_title">允许短视差滚动效果</string>
