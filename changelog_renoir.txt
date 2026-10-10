@@ -1,9 +1,12 @@
-DerpFest 16.2 | 2025-06-12
+DerpFest 17 | 2026-10-10
 UNOFFICIAL build by siergtc
 **********************
 
-- 5th release of DerpFest 16.2.
-- DerpFest 16.2 的第五次版本发布。
+⚠ THIS RELEASE IS NOT STABLE YET!
+⚠ 此更新不是稳定版本！
+
+- 1st release of DerpFest 17.
+- DerpFest 17 的第一次版本发布。
 
 - You can dirty flash this ROM, but if you encounter any issues, a clean flash is recommended.
 - 你可以保留数据升级，但如果遇到任何问题，建议清除数据后刷机。
@@ -12,13 +15,13 @@ UNOFFICIAL build by siergtc
 
 Changelogs
 
-- Updated the security patch level to June 2026.
-- 更新安全补丁等级到 2026 年 6 月。
+- Updated the security patch level to October 2026.
+- 更新安全补丁等级到 2026 年 10 月。
 
-- Merged upstream update of DerpFest.
-  This is a major update that fixes many issues.
-- 合并 DerpFest 上游更新。这是一次大更新，修复了许多问题。
-
-* The recommended OrangeFox has been updated to R12.0. You can download it from:
-* 同时更新了推荐使用的 OrangeFox 到 R12.0。可前往下方地址获取：
-  https://sourceforge.net/projects/self-build-mi-11-lite-rom/files/Unofficial-OrangeFox/OrangeFox-R12.0-Unofficial-renoir.zip/download
+- Please note that this is the first Android 17 test build; SuSFS has been
+removed and ReSukiSU has been replaced with BakaSU. The LHDC codec is
+unavailable currently, and there may be other stability or performance issues.
+Please proceed with caution!
+- 请注意，这是第一个 Android 17 测试版本，移除了SuSFS，切换到了BakaSu。
+此版本 LHDC 暂不可用；暂未制作和添加中文翻译；
+另外还可能存在其他稳定性与性能问题，请谨慎更新！
