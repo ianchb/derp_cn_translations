@@ -3,7 +3,7 @@
      SPDX-FileCopyrightText: DerpFest AOSP
      SPDX-License-Identifier: Apache-2.0
 -->
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<resources>
 
     <!-- ZenMode -->
     <string name="interruption_level_none_with_warning">完全静音。  这也会使屏幕阅读器静音。</string>

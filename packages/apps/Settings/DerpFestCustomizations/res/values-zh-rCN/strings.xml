@@ -3,77 +3,115 @@
      SPDX-FileCopyrightText: DerpFest AOSP
      SPDX-License-Identifier: Apache-2.0
 -->
-
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-    <!-- App name --> 
+    <!-- App name -->
     <string name="customisation_settings_title">DerpFest 自定义设置</string>
 
     <!-- Home page -->
     <string name="monet_settings">Monet 设置</string>
     <string name="statusbar_title">状态栏</string>
     <string name="statusbar_summary">调整状态栏元素</string>
+    <string name="lyrics_title">歌词</string>
+    <string name="lyrics_summary">翻译、语言和歌词源</string>
     <string name="qs_title">快速设置</string>
     <string name="qs_summary">自定义您的快速设置面板</string>
     <string name="notifications_title">通知</string>
     <string name="notifications_summary">配置通知选项</string>
+
+    <!-- Blink flashlight for incoming calls -->
+    <string name="flashlight_category_title">手电筒</string>
+    <string name="flashlight_on_call_title">来电时闪烁手电筒</string>
+    <string name="flashlight_on_call_disabled">已禁用</string>
+    <string name="flashlight_on_call_ringer">响铃时</string>
+    <string name="flashlight_on_call_no_ringer">铃声静音时</string>
+    <string name="flashlight_on_call_silent">完全静音时（无铃声或振动）</string>
+    <string name="flashlight_on_call_always">始终</string>
+    <string name="flashlight_on_call_ignore_dnd_title">忽略勿扰模式</string>
+    <string name="flashlight_on_call_ignore_dnd_summary">在“完全静音”和“始终”模式下，勿扰模式期间也会闪烁。实际正在响铃的来电则始终会闪烁。</string>
+    <string name="flashlight_on_call_rate_title">闪烁频率</string>
+    <string name="live_status_title">实时状态</string>
+    <string name="live_status_summary">灵动岛与动态栏</string>
+    <string name="live_status_summary_no_cutout">动态栏</string>
     <string name="buttons_title">按键</string>
     <string name="buttons_summary">设置按键的默认行为和操作</string>
     <string name="lockscreen_title">锁屏</string>
     <string name="lockscreen_summary">配置锁屏和息屏显示的选项</string>
-    <string name="lockscreen_custom_clock_style_title">锁屏时钟风格</string>
-    <string name="lockscreen_clock_picker_title">选择锁屏时钟</string>
-    <string name="lockscreen_clock_browse_all">浏览所有时钟</string>
-    <string name="lockscreen_custom_clock_style_highlight_text">左右滑动预览时钟风格，然后点击应用以保存</string>
-    <string name="lockscreen_clock_apply">应用</string>
-    <string name="lockscreen_clock_restart_dialog_title">重启系统界面？</string>
-    <string name="lockscreen_clock_restart_dialog_message">需要重启系统界面才能使锁屏时钟风格生效。状态栏和导航栏将短暂消失。</string>
-    <string name="lockscreen_clock_restart_apply">重启</string>
-    <string name="lockscreen_custom_clock_color_mode_title">自定义时钟颜色模式</string>
-    <string name="lockscreen_clock_color_mode_accent">强调色</string>
-    <string name="lockscreen_clock_color_mode_custom">自定义颜色</string>
-    <string name="lockscreen_clock_custom_color_title">自定义颜色</string>
-    <string name="lockscreen_custom_clock_opacity_title">自定义时钟不透明度</string>
-    <string name="lockscreen_custom_clock_opacity_summary">调整自定义锁屏时钟的透明度</string>
-    <string name="lockscreen_custom_clock_frame_margin_top_title">自定义时钟位置</string>
-    <string name="lockscreen_custom_clock_frame_margin_top_summary">调整自定义时钟的垂直位置</string>
-    <string name="lockscreen_custom_clock_embedded_date_weather_title">在自定义时钟上显示日期和天气</string>
-    <string name="lockscreen_custom_clock_embedded_date_weather_summary">在自定义时钟布局中内嵌显示日期和天气。关闭可将其隐藏（不会在时钟下方添加独立的资讯一览行）。</string>
-    <string name="lockscreen_custom_clock_style_info">自定义时钟将替换默认锁屏时钟风格。使用"在自定义时钟上显示日期和天气"选项可隐藏时钟布局中内嵌的日期和天气。</string>
-    <string name="lockscreen_clock_section_all">全部</string>
-    <string name="lockscreen_clock_section_system">系统</string>
-    <string name="lockscreen_clock_section_stylish">时尚</string>
-    <string name="lockscreen_clock_section_text">文字与数字</string>
-    <string name="lockscreen_clock_section_analog">指针与更多</string>
     <string name="spoofing_title">伪装</string>
     <string name="spoofing_summary">通过伪装欺骗绕过应用程序限制</string>
     <string name="misc_title">杂项</string>
     <string name="misc_summary">其他未分类的设置选项</string>
+    <string name="fonts_title">字体</string>
+    <string name="fonts_summary">预览并应用系统字体</string>
+
+    <!-- Custom font. Wording adapted from The uwuAOSP Project. -->
+    <string name="custom_font_summary_active">当前：%1$s</string>
+    <string name="custom_font_source_category">字体来源</string>
+    <string name="custom_font_import_title">导入字体或压缩包</string>
+    <string name="custom_font_import_summary">选择 TTF 或 OTF 文件，或包含字体的 ZIP 压缩包</string>
+    <string name="custom_font_available_category">可用字体</string>
+    <string name="custom_font_current_category">当前字体</string>
+    <string name="custom_font_candidate_summary">%1$s · 字重 %2$d · %3$s</string>
+    <string name="custom_font_style_normal">常规</string>
+    <string name="custom_font_style_italic">斜体</string>
+    <string name="custom_font_preview_default">系统默认预览</string>
+    <string name="custom_font_preview_text">一位老人正梦见狮子。</string>
+    <string name="custom_font_apply_action">应用所选字体</string>
+    <string name="custom_font_empty_summary">导入字体文件或压缩包以预览其中的可用字体。</string>
+    <string name="custom_font_restore_title">恢复默认字体</string>
+    <string name="custom_font_restore_summary">移除已导入的系统字体</string>
+    <string name="custom_font_file_invalid">请选择 TTF、OTF 或 ZIP 文件</string>
+    <string name="custom_font_archive_no_fonts">此压缩包中未找到有效字体</string>
+    <string name="custom_font_archive_invalid">无法读取此 ZIP 压缩包</string>
+    <string name="custom_font_archive_too_large">此压缩包包含的字体过多或体积过大</string>
+    <string name="custom_font_import_failed">无法导入此文件</string>
+    <string name="custom_font_apply_success">字体已应用</string>
+    <string name="custom_font_overlay_reset_failed">字体已应用，但无法将字体样式恢复为“默认”。</string>
+    <string name="custom_font_restore_success">已恢复默认字体</string>
+    <string name="custom_font_error_storage">无法保存字体。请检查可用存储空间并重试。</string>
+    <string name="custom_font_error_verification">字体未通过系统完整性验证。</string>
+    <string name="custom_font_error_invalid_file">这不是有效的 OpenType 字体文件。</string>
+    <string name="custom_font_error_invalid_name">字体不包含有效的内部名称。</string>
+    <string name="custom_font_error_older_version">旧版本字体无法替换已安装的版本。</string>
+    <string name="custom_font_error_update_config">无法更新系统字体配置。</string>
+    <string name="custom_font_error_unsupported">此内核不支持自定义字体。</string>
+    <string name="custom_font_error_version_changed">字体配置已更改，请重试。</string>
+    <string name="custom_font_error_not_found">所选字体文件已不存在。</string>
+    <string name="custom_font_error_rejected">系统拒绝了此字体。</string>
+    <string name="custom_font_error_unavailable">无法连接字体服务，请重试。</string>
+    <string name="custom_font_footer">此字体将应用于新启动的应用。重启设备可更新所有界面。</string>
 
     <string name="dark_mode_summary_default">启用系统深色主题</string>
     <string name="dark_mode_summary_powersave">已启用省电模式</string>
 
     <!-- Gradients -->
     <string name="gradients_title">渐变色</string>
-    <string name="gradients_summary">自定义磁贴、亮度和音量滑块的渐变色</string>
+    <string name="gradients_summary">自定义磁贴、滑块和快速设置状态区块的渐变颜色</string>
     <string name="gradient_toggles_category_title">渐变色开关</string>
     <string name="gradient_colors_category_title">自定义颜色</string>
     <string name="gradient_start_color_title">渐变起始颜色</string>
     <string name="gradient_start_color_summary">设为 0 或重置以使用默认值。当上方任一渐变色启用时生效。</string>
     <string name="gradient_end_color_title">渐变结束颜色</string>
     <string name="gradient_end_color_summary">设为 0 或重置以使用默认值。当上方任一渐变色启用时生效。</string>
+    <string name="gradient_colors_requires_toggle">开启上方任一渐变色开关，方可自定义颜色</string>
     <string name="volume_slider_gradient_title">音量滑块渐变色</string>
     <string name="volume_slider_gradient_summary">在音量对话框中为音量滑块显示渐变色样式</string>
+    <string name="qs_chip_gradient_enabled_title">渐变状态区块</string>
+    <string name="qs_chip_gradient_enabled_summary">在分隔式快速设置中，为信号和电池状态区块启用渐变样式</string>
+    <string name="qs_chip_gradient_requires_separate_qs">需要启用分隔式通知和快速设置</string>
 
     <!-- Categories -->
     <string name="general_category_title">通用</string>
     <string name="security_category_title">安全</string>
     <string name="dashboard_category_title">主界面</string>
-    <string name="effects_category_title">动效</string>
 
     <!-- Ignore window secure -->
     <string name="ignore_window_secure_title">忽略窗口安全标志</string>
     <string name="ignore_window_secure_summary">移除所有应用的截屏和录屏限制。这在某些情况下可能很方便，但可能导致隐私泄露。</string>
+
+    <!-- Hide screen capture status -->
+    <string name="hide_screen_capture_status_title">隐藏截屏状态</string>
+    <string name="hide_screen_capture_status_summary">向应用隐藏截屏和录屏状态。此功能很实用，但可能会带来隐私风险。需重启应用后生效。</string>
 
     <!-- Monet settings -->
     <string name="monet_settings_title">Monet 个性化</string>
@@ -109,25 +147,43 @@
     <string name="monet_engine_wallpaper_color_title">从壁纸中选择其他强调色</string>
     <string name="monet_engine_wallpaper_color_summary">壁纸颜色选择器</string>
     <string name="monet_engine_wallpaper_color_not_available">不可用</string>
+    <string name="monet_engine_wallpaper_color_requires_preset">将颜色来源设为“预设”后，才能从壁纸中选择颜色</string>
 
     <!-- Keybox Data -->
     <string name="keybox_data_title">Keybox 认证覆写</string>
     <string name="keybox_data_summary">加载自定义 Keybox XML 以覆写设备密钥认证</string>
+    <string name="keybox_excluded_apps_title">排除的应用</string>
+    <string name="keybox_excluded_apps_summary">被排除的应用将使用设备自身的认证实现，而不是已配置的 Keybox。在排除列表被修改前，Hook 框架管理器也会默认被排除。</string>
     <string name="keybox_data_loaded_summary">已加载 %1$s keybox，包含 %2$d 个证书 (%3$s)</string>
     <string name="keybox_delete_content_description">删除 Keybox 数据</string>
     <string name="keybox_toast_invalid_file_selected">这不是 XML 文件。请选择有效的 Keybox XML 文件。</string>
     <string name="keybox_toast_missing_data">无效的 Keybox XML 文件：必需字段缺失</string>
     <string name="keybox_toast_file_loaded">Keybox 已加载</string>
     <string name="keybox_toast_file_cleared">Keybox 已清除</string>
+    <string name="keybox_download_title">下载最新 Keybox</string>
+    <string name="keybox_download_summary">获取当前 Keybox 并将其用于认证</string>
+    <string name="keybox_toast_download_failed">无法下载 Keybox</string>
+    <string name="keybox_toast_download_valid">下载的 Keybox 有效</string>
+    <string name="keybox_toast_download_revoked">下载的 Keybox 已被吊销</string>
 
     <!-- Pif Data -->
     <string name="pif_data_title">选择用于伪装的 PIF JSON</string>
     <string name="pif_data_summary">选择用于对 Google 移动服务和 Play 商店进行设备属性认证欺骗的 PIF JSON。点击删除按钮将清除 PIF 数据属性，并改用默认的动态 PIF 属性。</string>
-    <string name="pif_data_loaded_summary">已加载 %1$d props (%2$s)</string>
+    <string name="pif_data_loaded_summary">已加载 %1$d 个属性（%2$s）</string>
     <string name="pif_delete_content_description">删除 PIF 数据</string>
     <string name="pif_toast_invalid_file_selected">这不是 JSON 文件。请选择有效的 PIF JSON 文件。</string>
     <string name="pif_toast_file_loaded">PIF JSON 已加载</string>
     <string name="pif_toast_file_cleared">PIF JSON 已清除</string>
+    <string name="pif_active_title">当前设备指纹</string>
+    <string name="pif_active_none">未配置设备指纹</string>
+    <string name="pif_active_source_imported">来源：导入的文件</string>
+    <string name="pif_active_source_fetched">来源：获取的配置</string>
+    <string name="pif_active_source_builtin">来源：内置配置</string>
+    <string name="pif_refresh_title">刷新设备指纹</string>
+    <string name="pif_toast_refresh_failed">无法下载设备指纹</string>
+    <string name="pif_toast_refresh_updated">设备指纹已更新</string>
+    <string name="pif_toast_refresh_unchanged">设备指纹已是最新</string>
+    <string name="pif_toast_refresh_imported">已更新获取的配置。导入的文件仍在使用。</string>
 
     <!-- Spoofing Categories -->
     <string name="spoofing_attestation_category_title">密钥认证</string>
@@ -182,6 +238,13 @@
     <string name="compact_heads_up_notifications_enabled_title">紧凑型悬浮通知</string>
     <string name="compact_heads_up_notifications_enabled_summary">以紧凑形式显示悬浮通知</string>
 
+    <!-- Now Playing -->
+    <string name="now_playing_title">听歌识曲</string>
+    <string name="now_playing_enabled_title">识别附近播放的歌曲</string>
+    <string name="now_playing_enabled_summary">聆听手机附近的音乐，并在锁屏上显示歌曲信息。默认关闭。</string>
+    <string name="now_playing_on_demand_title">手动识曲快捷方式</string>
+    <string name="now_playing_on_demand_summary">在锁屏上显示搜索图标。长按图标开始识曲。</string>
+
     <!-- Hide statusbar on lockscreen -->
     <string name="lockscreen_hide_status_bar_title">隐藏状态栏</string>
     <string name="lockscreen_hide_status_bar_summary">启用后，锁屏界面将隐藏状态栏</string>
@@ -215,6 +278,7 @@
     <string name="qs_header_file_select_title">选择图片</string>
     <string name="qs_header_file_select_summary">选择自定义图片</string>
     <string name="qs_header_needs_gallery">您必须安装相册应用！</string>
+    <string name="qs_header_file_failed">无法加载所选图片</string>
     <string name="qs_header_needs_omnistyle">请安装 Omni Style 以浏览或选择顶部图片包。</string>
     <string name="enable">启用</string>
     <string name="qs_header_offset_title">顶部图片偏移量</string>
@@ -234,6 +298,10 @@
     <string name="charging_animation_style_glow">光晕脉冲</string>
     <string name="charging_animation_style_battery">电池填充</string>
 
+    <!-- Lockscreen battery info indicator -->
+    <string name="lockscreen_battery_info_title">锁屏充电信息</string>
+    <string name="lockscreen_battery_info_summary">充电时在锁屏上显示充电电流、电压和电池温度</string>
+
     <!-- Pulse music visualizer -->
     <string name="pulse_visualizer_category_title">律动可视化</string>
     <string name="pulse_settings_title">律动可视化</string>
@@ -246,9 +314,12 @@
     <string name="pulse_color_lavalamp">熔岩灯</string>
     <string name="pulse_color_album">专辑封面</string>
     <string name="pulse_color_accent">强调色</string>
+    <string name="pulse_custom_color_requires_custom">将可视化颜色设为“自定义颜色”后方可选择颜色</string>
     <string name="pulse_bar_count_title">条形数量</string>
     <string name="pulse_bar_count_summary">设置可视化效果中显示的条形数量</string>
     <string name="pulse_bar_count_units">条</string>
+    <string name="pulse_height_multiplier_title">脉冲高度</string>
+    <string name="pulse_height_multiplier_summary">调整可视化效果显示高度</string>
     <string name="pulse_renderer">可视化样式</string>
     <string name="pulse_renderer_solid">实线</string>
     <string name="pulse_renderer_fading">渐隐方块</string>
@@ -259,50 +330,23 @@
     <string name="pulse_renderer_matrix">矩阵</string>
     <string name="pulse_renderer_particle">粒子系统</string>
     <string name="pulse_renderer_waveform">波形</string>
-    <string name="pulse_smoothing_enabled_title">平滑粒子生成</string>
-    <string name="pulse_smoothing_enabled_summary">使用粒子可视化样式时提高粒子生成速率</string>
+    <string name="pulse_renderer_dot_wave">点状波形</string>
 
     <!-- Units -->
     <string name="unit_milliseconds">ms</string>
     <string name="unit_pixels">px</string>
 
-    <!-- Single tap for keyguard affordance -->
-    <string name="keyguard_affordance_single_tap_title">锁屏快捷操作单击触发</string>
-    <string name="keyguard_affordance_single_tap_summary">单击即可执行锁屏快捷操作功能</string>
-
-    <!-- Small landscape notifications -->
-    <string name="small_landscape_notification_title">小型横屏通知</string>
-    <string name="small_landscape_notification_summary">按 AOSP 设计，在横屏模式下的通知面板中显示更窄的通知</string>
-
-    <!-- Blur intensity -->
-    <string name="blur_intensity_title">模糊强度</string>
-    <string name="blur_intensity_summary" formatted="false">调整系统模糊效果的强度。\n0% = 无模糊，100% = 系统默认，200% = 双倍强度。</string>
-
     <!-- QS Panel -->
     <string name="qs_appearance_category_title">外观</string>
-    <string name="pulse_qs_title">在快速设置面板显示律动</string>
-    <string name="pulse_qs_summary">在快速设置面板显示律动可视化效果</string>
     <string name="pulse_haptics_title">低音触感</string>
     <string name="pulse_haptics_off">低音尖峰时不产生微弱振动</string>
     <string name="pulse_haptics_while_visualizer">仅在律动可见时</string>
     <string name="pulse_haptics_while_media">媒体播放时始终启用</string>
     <string name="brightness_category_title">亮度滑块</string>
-    <string name="qs_show_brightness_slider_title">何时显示</string>
-    <string name="qs_show_brightness_slider_never">从不显示</string>
-    <string name="qs_show_brightness_slider_expanded">在展开时显示</string>
-    <string name="qs_show_brightness_slider_always">总是显示</string>
-    <string name="qs_show_brightness_slider_not_expanded">在未展开时显示</string>
     <string name="qs_brightness_gradient_enabled_title">滑块渐变背景</string>
     <string name="qs_brightness_gradient_enabled_summary">为亮度滑块启用渐变样式</string>
-    <string name="qs_brightness_slider_position_title">位置</string>
-    <string name="qs_brightness_slider_position_top">顶部</string>
-    <string name="qs_brightness_slider_position_bottom">底部</string>
     <string name="qs_show_auto_brightness_title">自动亮度图标</string>
     <string name="qs_show_auto_brightness_summary">在亮度调节滑块旁显示自适应亮度开关</string>
-    <string name="qs_media_volume_slider_enabled_title">媒体音量滑块</string>
-    <string name="qs_media_volume_slider_mode_disabled">禁用</string>
-    <string name="qs_media_volume_slider_mode_alongside">与亮度并排</string>
-    <string name="qs_media_volume_slider_mode_replace">替代亮度滑块</string>
     <string name="qs_tile_gradient_enabled_title">磁贴渐变背景</string>
     <string name="qs_tile_gradient_enabled_summary">为快速设置磁贴启用渐变背景</string>
     <string name="qs_show_settings_icon_title">显示设置图标</string>
@@ -328,6 +372,7 @@
 
     <!-- QS panel style (Settings.Secure qs_panel_style; SystemUI) -->
     <string name="qs_panel_style_title">快速设置面板风格</string>
+    <string name="qs_panel_style_summary">选择快速设置面板的视觉样式</string>
     <string name="qs_panel_style_card">卡片</string>
     <string name="qs_panel_style_circular">圆形</string>
     <string name="qs_tile_label_hide_title">隐藏磁贴标签</string>
@@ -366,6 +411,13 @@
     <!-- QS layout entry screens (qs_layout_settings, qs_classic_layout_settings) -->
     <string name="qs_layout_settings_title">快速设置面板布局</string>
     <string name="qs_layout_settings_summary">配置快速设置的行数和列数</string>
+    <string name="qs_layout_settings_summary_dual_shade">启用分隔式通知和快速设置后不可用</string>
+    <string name="qs_classic_layout_settings_summary_dual_shade">列数设置会立即生效。行数和折叠状态下的快速设置需要使用合并面板</string>
+    <string name="qs_layout_dual_shade_banner_title">已启用分隔式面板</string>
+    <string name="qs_layout_dual_shade_banner_summary">行数和列数仅在通知与快速设置共用合并面板时生效。分隔式面板改用可滚动网格。</string>
+    <string name="qs_layout_dual_shade_banner_classic_title">部分布局选项不适用</string>
+    <string name="qs_layout_dual_shade_banner_classic_summary">使用分隔式面板时，每页行数和折叠状态的快速设置不会生效。列数仍会改变快速设置网格。</string>
+    <string name="qs_layout_open_shade_panels">更改面板</string>
 
     <!-- Classic circular QS column layout (Settings.System qs_layout_*_classic / qqs_layout_*_classic; SystemUI) -->
     <string name="qs_classic_layout_columns_title">快速设置列数（竖屏）</string>
@@ -438,8 +490,6 @@
     <string name="qqs_layout_rows_landscape_title">行数（横屏）</string>
     <string name="qqs_layout_rows_landscape_summary">横屏模式下的行数</string>
     <string name="qqs_layout_rows_landscape_units"> 行</string>
-    <string name="qs_media_respect_halving_title">行内显示媒体控件时半宽显示</string>
-    <string name="qs_media_respect_halving_summary">启用时，若媒体控件与磁贴在同一行显示，则快速设置列数将减半</string>
     <string name="qs_layout_default">默认（系统）</string>
 
     <!-- Heads up -->
@@ -498,20 +548,6 @@
     <string name="ls_media_art_blur_level_title">媒体封面模糊强度</string>
     <string name="ls_media_art_blur_level_summary">应用模糊滤镜时的模糊强度</string>
 
-    <!-- Notification Row -->
-    <string name="notification_row_transparency_title">通知透明化</string>
-    <string name="notification_row_transparency_summary">为快速设置面板中的通知设置透明背景</string>
-    <string name="notification_row_transparency_lockscreen_title">锁屏通知透明化</string>
-    <string name="notification_row_transparency_lockscreen_summary">为锁屏上的通知设置透明背景</string>
-
-    <!-- Notification bubbles -->
-    <string name="notification_bubble_apps_title">气泡通知</string>
-    <string name="notification_bubble_apps_summary">点击通知时以气泡形式启动应用</string>
-
-    <!-- Spoofing -->
-    <string name="pixel_spoofing_apps_title">对应用伪装为 Pixel</string>
-    <string name="pixel_spoofing_apps_summary">选择要对其伪装为 Pixel 10 Pro XL 的应用</string>
-
     <!-- About -->
     <string name="about_title">关于</string>
     <string name="about_summary">关于 DerpFest 与一些有用的链接</string>
@@ -538,7 +574,11 @@
     <!-- About - Device specific links -->
     <string name="about_device_category">当前设备的特定链接</string>
     <string name="about_device_fw">所需固件</string>
+    <!-- Firmware version -->
+    <!-- Firmware link -->
     <string name="about_device_recovery">推荐的 Recovery</string>
+    <!-- Recovery version -->
+    <!-- Recovery link -->
 
     <!-- About - Easter Egg -->
     <plurals name="show_derped_countdown">
@@ -551,6 +591,13 @@
     <!-- chinese lunar calendar -->
     <string name="qs_show_lunar_calendar_title">显示农历</string>
     <string name="qs_show_lunar_calendar_summary">在快速设置面板显示农历</string>
+    <string name="lockscreen_show_lunar_calendar_title">中国农历</string>
+    <string name="lockscreen_show_lunar_calendar_summary">在锁屏日期上显示农历</string>
+
+    <!-- Bouncy motion mechanics -->
+    <string name="qs_bouncy_motion_mechanics_title">弹性动效机制</string>
+    <string name="qs_bouncy_motion_mechanics_summary">展开快速设置时启用弹性动效</string>
+
     <string name="qs_panel_bg_use_new_tint_title">快速设置磁贴强调色着色</string>
     <string name="qs_panel_bg_use_new_tint_summary">对活动的磁贴和粗体标签使用强调色着色</string>
     <string name="qs_tiles_classic_random_accent_title">快速设置磁贴迪斯科</string>
@@ -561,21 +608,28 @@
     <string name="ambient_media_art_summary">在息屏显示时也显示媒体封面（如有）</string>
 
     <!-- Dynamic Bar -->
-    <string name="dynamic_bar_category_title">灵动栏</string>
-    <string name="dynamic_bar">灵动栏</string>
+    <string name="dynamic_bar_category_title">动态栏</string>
+    <string name="dynamic_bar">动态栏</string>
     <string name="dynamic_bar_summary">用于录制、媒体、计时器等活跃事件的智能状态栏提示</string>
-    <string name="dynamic_bar_enable">启用灵动栏</string>
+    <string name="dynamic_bar_enable">启用动态栏</string>
     <string name="dynamic_bar_enable_summary">在状态栏显示实时事件的动态提示</string>
-    <string name="dynamic_bar_keyguard_enable">锁屏灵动栏</string>
-    <string name="dynamic_bar_keyguard_enable_summary">在锁屏上使用灵动栏提示替换锁屏指示，并提供控件和快捷操作</string>
+    <string name="dynamic_bar_keyguard_enable">锁屏动态栏</string>
+    <string name="dynamic_bar_keyguard_enable_summary">在锁屏上使用动态栏提示替换锁屏指示，并提供控件和快捷操作</string>
     <string name="dynamic_bar_keyguard_battery_chip">锁屏电池信息</string>
     <string name="dynamic_bar_keyguard_battery_chip_disabled">从不显示</string>
     <string name="dynamic_bar_keyguard_battery_chip_charging">仅充电时</string>
     <string name="dynamic_bar_keyguard_battery_chip_always">始终显示</string>
-    <string name="dynamic_bar_keyguard_music_pill">锁屏音乐胶囊</string>
-    <string name="dynamic_bar_keyguard_music_pill_summary">在锁屏上以胶囊形式显示音乐播放器</string>
-    <string name="dynamic_bar_keyguard_compact_chip">紧凑型锁屏提示</string>
-    <string name="dynamic_bar_keyguard_compact_chip_summary">在锁屏上始终使用紧凑型提示样式。禁用时仅在空间有限时使用紧凑模式。</string>
+    <string name="dynamic_bar_lockscreen_media">锁屏音乐</string>
+    <string name="dynamic_bar_lockscreen_media_summary">即使动态栏已关闭，也在锁屏上显示音乐播放器</string>
+    <string name="dynamic_bar_lockscreen_media_lyrics">锁屏歌词</string>
+    <string name="dynamic_bar_lockscreen_media_lyrics_summary">可用时，在锁屏音乐提示下方显示歌词</string>
+    <string name="dynamic_bar_lyric_settings_title">翻译与来源</string>
+    <string name="dynamic_bar_lyric_settings_summary">语言、逐字时间轴以及歌词的获取来源</string>
+    <string name="dynamic_bar_chip_style_title">状态栏提示样式</string>
+    <string name="dynamic_bar_chip_style_pill">胶囊</string>
+    <string name="dynamic_bar_chip_style_circle">圆形</string>
+    <string name="dynamic_bar_compact_notifications">紧凑型通知</string>
+    <string name="dynamic_bar_compact_notifications_summary">将通知显示为小胶囊，点击即可展开</string>
     <string name="dynamic_bar_events">事件</string>
     <string name="dynamic_bar_event_audio_recording">录音</string>
     <string name="dynamic_bar_event_audio_recording_summary">语音录制和音频采集</string>
@@ -613,17 +667,215 @@
     <string name="dynamic_bar_event_app_switch_summary">在最近应用之间切换时显示提示</string>
     <string name="dynamic_bar_event_biometric">生物识别解锁</string>
     <string name="dynamic_bar_event_biometric_summary">在指纹或面部解锁时显示提示</string>
-    <string name="dynamic_bar_guide_title">如何使用灵动栏</string>
+    <string name="dynamic_bar_guide_title">如何使用动态栏</string>
     <string name="dynamic_bar_guide_chip">事件会显示在状态栏中，展示录制、媒体播放和计时器等活跃事件</string>
     <string name="dynamic_bar_guide_swipe">多个事件同时活跃时，在提示条上左右滑动即可循环切换</string>
     <string name="dynamic_bar_guide_expand">轻点提示条可将其展开为详细卡片，显示控件和附加信息</string>
     <string name="dynamic_bar_guide_dismiss">将展开的卡片滑出即可关闭。事件将在后台继续。</string>
-    <string name="dynamic_bar_guide_keyguard">灵动栏提示也会出现在锁屏底部，提供播放控件和快捷操作</string>
+    <string name="dynamic_bar_guide_keyguard">动态栏提示也会出现在锁屏底部，提供播放控件和快捷操作</string>
     <string name="dynamic_bar_guide_chip_title">提示条外观</string>
     <string name="dynamic_bar_guide_swipe_title">在提示条间滑动</string>
     <string name="dynamic_bar_guide_expand_title">点击展开</string>
     <string name="dynamic_bar_guide_dismiss_title">滑动关闭</string>
     <string name="dynamic_bar_guide_keyguard_title">锁屏提示</string>
-    <string name="dynamic_bar_footer_title">关于灵动栏</string>
-    <string name="dynamic_bar_footer_body">灵动栏将您的状态栏转变为交互中心。状态提示会根据系统事件出现并动画展示，让您在不中断工作流程的情况下一目了然获取信息。\n\n每种事件类型都有其独特的强调色和带快捷操作的展开卡片。</string>
+    <string name="dynamic_bar_footer_title">关于动态栏</string>
+    <string name="dynamic_bar_footer_body">动态栏将您的状态栏转变为交互中心。状态提示会根据系统事件出现并动画展示，让您在不中断工作流程的情况下一目了然获取信息。\n\n每种事件类型都有其独特的强调色和带快捷操作的展开卡片。</string>
+
+    <!-- App Spoofing -->
+    <string name="user_selectable_app_spoofing_title">应用伪装</string>
+    <string name="user_selectable_app_spoofing_summary">选择要为其伪装设备属性的应用</string>
+    <string name="user_select_spoofing_profile_title">选择伪装配置文件</string>
+    <string name="app_spoofing_category_title">按应用伪装</string>
+    <string name="app_spoofing_header_title">启用伪装</string>
+    <string name="app_spoofing_configured_count">已对 %1$d 个应用伪装</string>
+    <string name="app_spoofing_disabled">已禁用</string>
+    <string name="app_spoofing_add_apps">添加应用</string>
+    <string name="app_spoofing_spoofed_model">选择机型</string>
+    <string name="app_spoofing_clear_all">清除全部</string>
+    <string name="app_spoofing_configured_apps">已配置的应用列表</string>
+    <string name="app_spoofing_no_apps_configured">未配置任何应用</string>
+    <string name="app_spoofing_spoof_model">伪装机型</string>
+    <string name="app_spoofing_select_spoof_model">选择伪装机型</string>
+    <string name="app_spoofing_change_app">更改应用</string>
+    <string name="show_system_apps">显示系统应用</string>
+    <string name="hide_system_apps">隐藏系统应用</string>
+
+    <!-- Custom App Spoofing Profiles -->
+    <string name="search_apps">搜索应用</string>
+    <string name="add_new_spoof_profile">新增配置</string>
+    <string name="add_custom_spoof_profile_title">添加自定义伪装配置</string>
+    <string name="custom_spoof_profile_name">配置文件名称</string>
+    <string name="custom_spoof_profile_brand">品牌</string>
+    <string name="custom_spoof_profile_manufacturer">制造商</string>
+    <string name="custom_spoof_profile_device">设备</string>
+    <string name="custom_spoof_profile_model">型号</string>
+    <string name="custom_spoof_profile_fingerprint">设备指纹（可选）</string>
+    <string name="custom_spoof_profile_product">产品（可选）</string>
+    <string name="app_spoofing_clear_all_confirm">这将移除所有已配置的应用伪装条目。</string>
+    <string name="app_spoofing_no_apps_available">没有可用的应用</string>
+    <string name="app_spoofing_no_apps_found">未找到与“%s”相关的应用</string>
+    <string name="app_spoofing_clear_search">清除搜索</string>
+    <string name="app_spoofing_longpress_hint">长按可快速重新分配配置文件</string>
+    <string name="app_spoofing_remove_title">移除应用？</string>
+    <string name="app_spoofing_remove_confirm">要将 %1$s 从伪装列表中移除吗？</string>
+
+    <!-- Dynamic Island -->
+    <string name="status_bar_dynamic_island_title">灵动岛</string>
+    <string name="status_bar_dynamic_island_summary">将实时活动、控制和更新显示在摄像头挖孔区域</string>
+    <string name="status_bar_dynamic_island_unavailable">需要居中的摄像头挖孔</string>
+    <string name="dynamic_island_width_title">灵动岛宽度</string>
+    <string name="dynamic_island_width_summary">调整灵动岛提示的水平长度</string>
+    <string name="dynamic_island_customization_title">灵动岛自定义</string>
+    <string name="dynamic_island_height_scale_title">高度缩放</string>
+    <string name="dynamic_island_height_scale_summary">缩放灵动岛提示的垂直尺寸</string>
+    <string name="dynamic_island_vertical_offset_title">垂直位置</string>
+    <string name="dynamic_island_vertical_offset_summary">按状态栏高度的百分比上下移动提示</string>
+    <string name="dynamic_island_footer_title">关于灵动岛</string>
+    <string name="dynamic_island_intro">灵动岛将进行中的活动显示在摄像头挖孔区域。\n\n您可以控制音乐、查看屏幕录制、管理手电筒、跟踪实时比分，并让通话和下载信息保持在屏幕顶部而不干扰操作。</string>
+    <string name="dynamic_island_features_title">功能</string>
+    <string name="dynamic_island_media_controls_title">媒体控制</string>
+    <string name="dynamic_island_media_controls_summary">通过播放控制、封面和实时活动随时掌控音乐</string>
+    <string name="dynamic_island_screen_recording_title">屏幕录制</string>
+    <string name="dynamic_island_screen_recording_summary">通过实时计时和快捷控制查看录制进度</string>
+    <string name="dynamic_island_alarms_title">闹钟</string>
+    <string name="dynamic_island_alarms_summary">在灵动岛中显示下一个闹钟</string>
+    <string name="dynamic_island_stopwatch_title">秒表</string>
+    <string name="dynamic_island_stopwatch_summary">在灵动岛中持续显示正在运行的秒表</string>
+    <string name="dynamic_island_flashlight_title">手电筒</string>
+    <string name="dynamic_island_flashlight_summary">通过灵动岛控制手电筒</string>
+    <string name="dynamic_island_live_scores_title">实时比分</string>
+    <string name="dynamic_island_live_scores_summary">查看受支持应用提供的实时体育比分和更新</string>
+    <string name="dynamic_island_lyrics_title">音乐歌词</string>
+    <string name="dynamic_island_lyrics_summary">可用时，在音乐卡片下方同步显示歌词</string>
+    <string name="dynamic_island_ongoing_activities_title">进行中的活动</string>
+    <string name="dynamic_island_ongoing_activities_summary">在灵动岛中显示下载、备份或解压等后台任务</string>
+    <string name="dynamic_island_calls_title">进行中的通话</string>
+    <string name="dynamic_island_calls_summary">显示进行中的通话状态、时长和快捷控制</string>
+
+    <!-- Advanced CPU / GPU spoofing -->
+    <string name="hardware_spoof_category_title">硬件伪装</string>
+    <string name="advanced_app_spoof_title">高级 CPU / GPU 伪装</string>
+    <string name="advanced_app_spoof_summary">在进程启动时，按应用伪装 GPU 渲染器、CPU 型号和 SoC 信息</string>
+    <string name="advanced_spoof_count">已配置 %d 个应用</string>
+    <string name="advanced_spoof_disabled">已禁用</string>
+    <string name="advanced_spoof_add_app">添加应用</string>
+    <string name="advanced_spoof_clear_all">全部清除</string>
+    <string name="advanced_spoof_clear_all_confirm">要移除所有高级硬件伪装规则吗？相关应用将被强制停止。</string>
+    <string name="advanced_spoof_configured_apps">已配置的应用</string>
+    <string name="advanced_spoof_no_rules">尚未配置规则。\n点按“添加应用”开始设置。</string>
+    <string name="advanced_spoof_remove_title">移除规则</string>
+    <string name="advanced_spoof_remove_confirm">要移除 %s 的硬件伪装规则吗？</string>
+    <string name="advanced_spoof_add_rule">添加规则</string>
+    <string name="advanced_spoof_edit_rule">编辑规则</string>
+    <string name="advanced_spoof_pick_app">选择应用…</string>
+    <string name="advanced_spoof_search_hint">搜索应用…</string>
+    <string name="advanced_spoof_select_policy">选择 CPU/GPU 型号</string>
+    <string name="advanced_spoof_next_set_policy">下一步：选择 CPU/GPU 型号</string>
+    <string name="advanced_spoof_back_to_apps">返回</string>
+    <string name="advanced_spoof_label_gpu">GPU</string>
+    <string name="advanced_spoof_label_cpu">CPU</string>
+    <string name="advanced_spoof_none">无</string>
+
+    <!-- Obscura -->
+    <string name="obscura_title">Obscura</string>
+    <string name="obscura_summary">应用隐藏、沙盒与设置伪装</string>
+    <string name="obscura_apps_title">应用控制</string>
+    <string name="obscura_manage_apps_title">管理应用</string>
+    <string name="obscura_manage_apps_summary">按应用配置隐藏、沙盒和伪装设置</string>
+    <string name="obscura_backup_menu_import">导入设置</string>
+    <string name="obscura_backup_menu_export">导出设置</string>
+    <string name="obscura_backup_export_success">设置导出成功</string>
+    <string name="obscura_backup_export_failed">导出设置失败</string>
+    <string name="obscura_backup_import_success">设置导入成功</string>
+    <string name="obscura_backup_import_failed">备份文件无效</string>
+    <string name="obscura_reboot_dialog_title">重启系统</string>
+    <string name="obscura_reboot_dialog_message">禁用可见性或 Play 商店限制后，需要重启系统，更改才能在所有启动器、Play 商店和系统服务中完全生效。\n\n要立即重启吗？</string>
+    <string name="obscura_reboot_dialog_button_now">立即重启</string>
+    <string name="obscura_reboot_dialog_button_later">稍后重启</string>
+    <string name="obscura_detach_playstore_title">从 Play 商店分离</string>
+    <string name="obscura_detach_playstore_summary">从 Google Play 商店隐藏应用以防止自动更新</string>
+    <string name="obscura_header_title">Obscura 隐私保护</string>
+    <string name="obscura_none_protected">未配置受保护的应用</string>
+    <string name="obscura_protected_summary">%1$d 个受保护（%2$d 个限定作用域 • %3$d 个隐藏）</string>
+    <string name="obscura_configured_only">仅显示已配置（%1$d）</string>
+    <string name="obscura_system_apps">系统应用</string>
+    <string name="obscura_launch_app">启动应用</string>
+    <string name="obscura_force_stop">强制停止</string>
+    <string name="obscura_force_stopped">已强制停止 %1$s</string>
+    <string name="obscura_system_application">系统应用</string>
+    <string name="obscura_user_installed">用户安装</string>
+    <string name="obscura_scope_mode">作用域模式</string>
+    <string name="obscura_disabled">已禁用</string>
+    <string name="obscura_blacklist">黑名单</string>
+    <string name="obscura_whitelist">白名单</string>
+    <string name="obscura_scope_blacklist_count">黑名单（%1$d）</string>
+    <string name="obscura_scope_whitelist_count">白名单（%1$d）</string>
+    <string name="obscura_badge_isolated">已隔离</string>
+    <string name="obscura_badge_detached">已分离</string>
+    <string name="obscura_badge_spoofed">已伪装</string>
+    <string name="obscura_badge_hidden">隐藏</string>
+    <string name="obscura_back">返回</string>
+    <string name="obscura_clear">清除</string>
+    <string name="obscura_cancel">取消</string>
+    <string name="obscura_add_presets">+ 预设与 Root</string>
+    <string name="obscura_add_all_user_apps">+ 所有用户应用</string>
+    <string name="obscura_toggle_all_spoofs">切换所有伪装</string>
+    <string name="obscura_hide_global">全局隐藏应用</string>
+    <string name="obscura_hide_global_subtitle">对其他应用隐藏此软件包</string>
+    <string name="obscura_hide_launcher">从启动器隐藏</string>
+    <string name="obscura_hide_launcher_subtitle">从主屏幕和应用抽屉中移除应用图标</string>
+    <string name="obscura_included_in_global_hide">已包含在“全局隐藏应用”中</string>
+    <string name="obscura_launcher_hidden">已在启动器中隐藏</string>
+    <string name="obscura_visibility_section_title">应用可见性与隐藏</string>
+    <string name="obscura_visibility_subtitle">对系统启动器或其他应用隐藏此应用。</string>
+    <string name="obscura_scope_section_title">目标作用域与隐藏列表</string>
+    <string name="obscura_scope_subtitle">控制此应用可通过 PackageManager 查看或禁止查看哪些应用。</string>
+    <string name="obscura_hide_scope_picker">隐藏作用域应用选择器</string>
+    <string name="obscura_configure_scope">配置作用域应用列表（已选择 %1$d 个）</string>
+    <string name="obscura_blacklist_mode_summary">黑名单模式：对 %2$s 隐藏选定的 %1$d 个应用。</string>
+    <string name="obscura_whitelist_mode_summary">白名单模式：对 %1$s 隐藏所有用户应用，但选定的 %2$d 个应用除外。</string>
+    <string name="obscura_hardware_section_title">硬件与存储隔离</string>
+    <string name="obscura_hardware_subtitle">控制网络、存储访问和私有数据隔离。</string>
+    <string name="obscura_master_isolation">启用主隔离</string>
+    <string name="obscura_master_isolation_subtitle">为此应用启用隔离沙盒</string>
+    <string name="obscura_restrict_internet">限制互联网访问</string>
+    <string name="obscura_restrict_internet_subtitle">阻止网络和互联网连接</string>
+    <string name="obscura_restrict_storage">限制存储访问</string>
+    <string name="obscura_restrict_storage_subtitle">阻止访问共享存储和媒体</string>
+    <string name="obscura_data_isolation">强制数据隔离</string>
+    <string name="obscura_data_isolation_subtitle">隔离应用内部数据存储</string>
+    <string name="obscura_spoof_section_title">设置伪装与隐蔽</string>
+    <string name="obscura_spoof_section_subtitle">对此应用隐藏开发者环境和安全状态。</string>
+    <string name="obscura_spoof_adb">伪装 ADB 调试状态</string>
+    <string name="obscura_spoof_dev_options">伪装开发者选项</string>
+    <string name="obscura_spoof_wireless_debug">伪装无线调试状态</string>
+    <string name="obscura_spoof_pkg_verifier">伪装软件包验证器</string>
+    <string name="obscura_spoof_usb_verify">伪装 USB 应用验证</string>
+    <string name="obscura_spoof_accessibility">伪装无障碍服务</string>
+    <string name="obscura_presets_title">Root 与隐私预设</string>
+    <string name="obscura_no_known_presets">设备上未检测到已知的 Root 或隐私应用</string>
+    <string name="obscura_matching_apps">在设备上检测到 %1$d 个匹配应用</string>
+    <string name="obscura_selected_count">已选择 %1$d 个</string>
+    <string name="obscura_select_all">全选</string>
+    <string name="obscura_deselect_all">取消全选</string>
+    <string name="obscura_no_filter_match">没有应用符合当前筛选条件</string>
+    <string name="obscura_no_root_tools">设备上未安装已知的 Root 工具、模块或检测器。</string>
+    <string name="obscura_add_selected">添加所选（%1$d）</string>
+    <string name="obscura_no_matching_apps">没有匹配的应用</string>
+    <string name="obscura_preset_all">全部</string>
+    <string name="obscura_preset_all_short">全部</string>
+    <string name="obscura_preset_root">Root 与管理器</string>
+    <string name="obscura_preset_root_short">Root</string>
+    <string name="obscura_preset_privacy">Mods 与隐私</string>
+    <string name="obscura_preset_privacy_short">Mods</string>
+    <string name="obscura_preset_detectors">检测器</string>
+    <string name="obscura_preset_detectors_short">检测器</string>
+    <string name="obscura_preset_tools">文件与开发工具</string>
+    <string name="obscura_preset_tools_short">工具</string>
+    <string name="obscura_preset_shizuku">Shizuku / Dhizuku</string>
+    <string name="obscura_preset_shizuku_short">Shizuku</string>
+    <string name="obscura_preset_count">%1$s（%2$d）</string>
+    <string name="accesscard_title">AccessCard</string>
+    <string name="accesscard_summary">启用 AccessCard 及其快速设置入口。卡片支持情况因设备而异。</string>
+    <string name="accesscard_toggle_error">无法更改 AccessCard 的可用性，请重试。</string>
 </resources>

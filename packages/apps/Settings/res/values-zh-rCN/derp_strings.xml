@@ -5,12 +5,8 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-    <!-- DerpFest -->
-    <string name="about_device_name">设备</string>
-
     <!-- About phone screen, DerpFest version -->
     <string name="derpfest_version">DerpFest 版本</string>
-    <string name="derpfest_version_default">未知</string>
 
     <!-- Hardware info -->
     <string name="soc_model">SoC 型号</string>
@@ -29,23 +25,6 @@
     <string name="copied_to_clipboard">已复制到剪贴板</string>
     <string name="longpress_to_clipboard">长按以复制</string>
 
-    <!-- About Phone -->
-    <string name="keywords_top_level_device_info">关于手机, derpfest, 设备名称</string>
-    <string name="more_device_info">更多信息</string>
-    <string name="more_device_info_summary">显示设备的更多信息</string>
-
-    <!-- About Device - Custom firmware version display -->
-    <string name="about_device_firmware_version">Android 16 QPR2</string>
-
-    <!-- About Phone Header -->
-    <string name="derpfest_device_title">设备</string>
-    <string name="derpfest_memory_storage_title">内存</string>
-    <string name="derpfest_battery_size_title">电池容量</string>
-    <string name="derpfest_screen_res_title">屏幕分辨率</string>
-
-    <!-- My Device - Phone Number Category -->
-    <string name="sim_num_info_cat">手机号码</string>
-
     <!-- DerpFest maintainer: empty by default; device trees overlay with maintainer name.
          When empty, derpfest_maintainer_unofficial is shown (translatable). -->
     <string name="derpfest_summary">由 %s 构建</string>
@@ -55,14 +34,19 @@
     <string name="derp_official_title">您知道吗？</string>
     <string name="derp_official_summary">您正在运行 DerpFest 的官方构建。</string>
 
+    <!-- About Device - Custom firmware version display -->
     <!-- Ambient wake -->
     <string name="doze_gesture_ambient_title">显示息屏</string>
     <string name="doze_gesture_ambient_summary">显示息屏而不是完全唤醒屏幕</string>
     <string name="gesture_wake_ambient">显示息屏</string>
     <string name="gesture_wake">完全唤醒</string>
 
+    <!-- wake gestures haptics -->
+    <string name="doze_gesture_vibrate_title">振动反馈</string>
+    <string name="doze_gesture_vibrate_summary">执行此手势时振动</string>
+
     <!-- Ambient Ticker -->
-    <string name="pulse_on_new_tracks_title">曲目切换显示</string>
+    <string name="pulse_on_new_tracks_title">音乐滚动显示</string>
     <string name="pulse_on_new_tracks_summary">播放新曲目时显示息屏</string>
 
     <!-- Game Space -->
@@ -70,7 +54,7 @@
     <string name="game_space_summary">增强您的游戏体验</string>
 
     <!-- Annoying Notifications -->
-    <string name="notification_sound_vib_screen_on_title">亮屏通知提醒</string>
+    <string name="notification_sound_vib_screen_on_title">烦人的通知</string>
     <string name="notification_sound_vib_screen_on_summary">在屏幕打开时播放通知音效并振动</string>
 
     <!-- Heads up notifications -->
@@ -78,30 +62,9 @@
     <string name="heads_up_blacklist_title">悬浮通知黑名单</string>
 
     <!-- Label for a numbered SIM card.  [CHAR LIMIT=40] -->
-    <string name="sim_card_number_title" translatable="false">SIM <xliff:g id="card_number">%1$d</xliff:g></string>
-
     <!-- Three-fingers-swipe to screenshot -->
     <string name="swipe_to_screenshot_gesture_title">三指截屏</string>
     <string name="swipe_to_screenshot_gesture_summary">三指下滑以截屏</string>
-
-    <!-- Smart Pause -->
-    <string name="adaptive_playback_screen_title">智能暂停</string>
-    <string name="adaptive_playback_enabled">使用智能暂停</string>
-    <string name="adaptive_playback_disabled_summary">关闭</string>
-    <string name="adaptive_playback_intro_text">当音量静音时自动暂停媒体，并在设定时间内恢复音量时自动恢复。</string>
-    <string name="adaptive_playback_timeout_title">使用超时时间</string>
-    <string name="adaptive_playback_timeout_none">无超时</string>
-    <string name="adaptive_playback_timeout_none_summary">始终启用</string>
-    <string name="adaptive_playback_timeout_30_secs">30 秒</string>
-    <string name="adaptive_playback_timeout_30_secs_summary">启用（30 秒）</string>
-    <string name="adaptive_playback_timeout_1_min">1 分钟</string>
-    <string name="adaptive_playback_timeout_1_min_summary">启用（1 分钟）</string>
-    <string name="adaptive_playback_timeout_2_min">2 分钟</string>
-    <string name="adaptive_playback_timeout_2_min_summary">启用（2 分钟）</string>
-    <string name="adaptive_playback_timeout_5_min">5 分钟</string>
-    <string name="adaptive_playback_timeout_5_min_summary">启用（5 分钟）</string>
-    <string name="adaptive_playback_timeout_10_min">10 分钟</string>
-    <string name="adaptive_playback_timeout_10_min_summary">启用（10 分钟）</string>
 
     <!-- Incall vibrate options -->
     <string name="incall_vibration_category">来电振动选项</string>
@@ -120,11 +83,6 @@
     <!-- Notch: Full screen apps -->
     <string name="display_cutout_force_fullscreen_title">全面屏应用</string>
     <string name="display_cutout_force_fullscreen_summary">强制应用程序忽略挖孔空间</string>
-
-    <!-- Per-app extended dark theme -->
-    <string name="extended_dark_theme_per_app_title">使用标准深色主题的应用</string>
-    <string name="extended_dark_theme_per_app_summary">选择使用标准深色主题（而非扩展深色主题）的应用</string>
-
     <string name="app_list_search">搜索</string>
     <string name="app_list_search_apps">搜索应用</string>
     <string name="app_list_loading">正在加载应用\u2026</string>
@@ -166,6 +124,13 @@
     <string name="wifi_hotspot_hidden_ssid_title">隐藏网络</string>
     <string name="wifi_hotspot_hidden_ssid_summary">您的移动热点名称将不会显示在可用 WLAN 网络列表中。</string>
     <string name="wifi_hotspot_client_manager_title">已连接设备</string>
+    <string name="one_time_data_limit_title">一次性流量上限</string>
+    <string name="one_time_data_limit_size">大小</string>
+    <string name="one_time_data_limit_size_dialog_message">本次热点会话的流量上限（MB）</string>
+    <string name="one_time_data_limit_size_value">%1$.1f MB</string>
+    <string name="one_time_data_limit_when_exceeded">超出上限时</string>
+    <string name="one_time_data_limit_turn_off_notify">关闭并通知</string>
+    <string name="one_time_data_limit_notify_only">仅通知</string>
     <string name="wifi_hotspot_client_manager_summary">查看、管理已连接到热点的设备</string>
     <string name="wifi_hotspot_client_manager_list_only_summary">查看已连接到热点的设备</string>
     <string name="wifi_hotspot_client_limit_title">设备连接限制</string>
@@ -213,6 +178,11 @@
     <string name="doze_on_charge_summary">在充电时始终显示时间和信息</string>
     <string name="doze_on_charge_category">充电选项</string>
 
+    <!-- Factory reset battery low dialog -->
+    <string name="factory_reset_battery_low_dialog_title">电量低</string>
+    <string name="factory_reset_battery_low_dialog_message">执行恢复出厂设置前，电量必须至少达到 15%。\n\n请连接充电器后继续。</string>
+    <string name="factory_reset_battery_low_dialog_button_text">知道了</string>
+
     <!-- SELinux Status -->
     <string name="selinux_status">SELinux 状态</string>
     <string name="selinux_status_disabled">已禁用</string>
@@ -255,7 +225,7 @@
     <string name="wifi_do_not_validate_eap_server_warning">未指定证书。您的连接将不再私密。</string>
 
     <!-- Back gesture animation -->
-    <string name="navbar_gesture_handle_category">手势处理</string>
+    <string name="navbar_gesture_handle_category">手势导航条</string>
     <string name="back_gesture_arrow_title">返回手势动画</string>
     <string name="back_gesture_arrow_summary">显示返回手势的动画箭头</string>
 
@@ -265,20 +235,57 @@
     <string name="scroll_fling_haptic_feedback_title">滚动到边缘时振动</string>
     <string name="scroll_fling_haptic_feedback_summary">在快速滚动到边缘时振动</string>
 
-    <!-- DerpFest Customizations on homepage -->
-    <string name="derpfest_customizations_title">DerpFest 自定义设置</string>
-    <string name="derpfest_customizations_summary">Where the broken stuff is placed</string>
-    <string name="menu_key_derpfest">top_level_derpfest_customizations</string>
+    <!-- Advanced VPN -->
+    <string name="advanced_vpn_preference_group_title">内置</string>
+    <string name="vpn_preference_group_title">其他</string>
+
+    <!-- Expressive QR -->
+    <string name="wifi_qr_code_animation_control">暂停动画</string>
+
+    <!-- App lock -->
+    <string name="app_lock_settings_title">应用锁</string>
+    <string name="app_lock_settings_summary">快速锁定应用，防止未经授权的访问</string>
+    <string name="app_lock_customization_category">自定义</string>
+    <string name="app_lock_apps_category">已锁定应用</string>
+    <string name="app_lock_auto_biometric_prompt_title">自动生物识别提示</string>
+    <string name="app_lock_auto_biometric_prompt_summary">打开已锁定应用时立即显示解锁提示</string>
+    <string name="app_lock_relock_behavior_title">重新锁定行为</string>
+    <string name="app_lock_relock_behavior_after_timeout">超时后</string>
+    <string name="app_lock_relock_behavior_screen_off">屏幕关闭时</string>
+    <string name="app_lock_grace_period_title">重新锁定超时</string>
+    <string name="app_lock_grace_period_immediately">立即</string>
+    <string name="app_lock_grace_period_5_seconds">5 秒</string>
+    <string name="app_lock_grace_period_15_seconds">15 秒</string>
+    <string name="app_lock_grace_period_30_seconds">30 秒</string>
+    <string name="app_lock_grace_period_1_minute">1 分钟</string>
+    <string name="app_lock_grace_period_5_minutes">5 分钟</string>
+    <string name="app_lock_separate_credential_title">应用锁凭据</string>
+    <string name="app_lock_separate_credential_none">设备凭据（默认）</string>
+    <string name="app_lock_separate_credential_pin">独立 PIN 码</string>
+    <string name="app_lock_separate_credential_pattern">独立图案</string>
+    <string name="app_lock_credential_set_pin">设置独立 PIN 码</string>
+    <string name="app_lock_credential_set_pattern">设置独立图案</string>
+    <string name="app_lock_credential_remove">使用设备凭据</string>
+    <string name="app_lock_no_lockable_apps">没有支持应用锁的应用</string>
+    <plurals name="app_lock_summary_count">
+        <item quantity="one">已锁定 1 个应用</item>
+        <item quantity="other">已锁定 <xliff:g id="count" example="3">%d</xliff:g> 个应用</item>
+    </plurals>
 
     <!-- IME button space -->
     <string name="show_ime_space_title">显示输入法切换按钮</string>
     <string name="show_ime_space_summary">启用输入法快速切换功能，以在屏幕底部的功能栏切换输入法或隐藏屏幕键盘</string>
 
+    <!-- DerpFest Customizations on homepage -->
+    <string name="derpfest_customizations_title">DerpFest 自定义设置</string>
+    <string name="derpfest_customizations_summary">那些坏掉的东西都放在这里</string>
+    <string name="menu_key_derpfest">top_level_derpfest_customizations</string>
+
     <!-- Running services - Background processes tab -->
     <string name="background_processes_settings_title">后台进程</string>
 
     <!-- Security dialog -->
-
+    <!-- DO NOT TRANSLATE -->
     <string name="security_dialog_title">安全更新</string>
     <string name="security_dialog_neutral_button">AOSP 安全公告</string>
     <string name="android_security_title">AOSP 安全补丁等级</string>
@@ -302,16 +309,17 @@
     <string name="button_settings_title">按键设置</string>
     <string name="gamespace_title">游戏空间</string>
 
-    <!-- DerpFest suggestion summaries for homepage suggestion card [CHAR LIMIT=55] -->
+    <!-- DerpFest homepage suggestion cards [CHAR LIMIT=55] -->
+    <string name="derpfest_suggestion_welcome_title">欢迎使用 DerpFest</string>
+    <string name="derpfest_suggestion_welcome_summary">探索您的新 ROM，打造专属于您的体验</string>
+    <string name="derpfest_suggestion_gamespace_title">游戏空间</string>
     <string name="derpfest_suggestion_gamespace_summary">优化您的游戏体验</string>
     <string name="derpfest_suggestion_customizations_title">DerpFest 自定义设置</string>
     <string name="derpfest_suggestion_customizations_summary">自定义您的设备外观与行为</string>
+    <string name="derpfest_suggestion_spoofing_title">设备伪装</string>
     <string name="derpfest_suggestion_spoofing_summary">管理设备指纹与属性</string>
+    <string name="derpfest_suggestion_button_settings_title">按键设置</string>
     <string name="derpfest_suggestion_button_settings_summary">配置物理按键行为</string>
-
-    <!-- Smart 5G -->
-    <string name="smart_5g_title">5G 智能省电</string>
-    <string name="smart_5g_summary">自动在 5G 与 4G 间切换以减少耗电量</string>
 
     <!-- AOD Schedule -->
     <string name="always_on_display_schedule_title">息屏显示时间表</string>
@@ -326,7 +334,7 @@
     <string name="pocket_judge_summary">当设备在口袋中时，屏蔽屏幕和按键输入</string>
 
     <!-- Enforce DNS for VPN -->
-    <string name="vpn_enforce_dns_title">为 VPN 禁用</string>
+    <string name="vpn_enforce_dns_title">连接 VPN 时禁用</string>
     <string name="vpn_enforce_dns_summary">连接到 VPN 时禁用专用 DNS。断开连接后将恢复。</string>
 
     <!-- Transient task mode (Tadi mode) -->
@@ -357,10 +365,6 @@
     <string name="cycle_type_daily_title">用量周期重置时刻</string>
     <string name="cycle_type_daily_sub">每日的具体小时：</string>
 
-    <!-- wake gestures haptics -->
-    <string name="doze_gesture_vibrate_title">振动反馈</string>
-    <string name="doze_gesture_vibrate_summary">执行此手势时振动</string>
-
     <!-- Ambient timeout -->
     <string name="ambient_time_out_title">息屏通知超时</string>
     <string name="ambient_time_out_summary">%1$d 秒</string>
@@ -369,6 +373,10 @@
     <string name="app_volume">应用音量</string>
     <string name="app_volume_title">多应用音量控制</string>
     <string name="app_volume_summary">在音量面板显示多应用音量按钮</string>
+
+    <!-- Multi Audio Focus -->
+    <string name="multi_audio_focus_title">多音频焦点</string>
+    <string name="multi_audio_focus_summary">允许多个应用同时播放音频</string>
 
     <!-- Per-app configs -->
     <string name="per_app_config_empty_text">无支持当前设定的已安装应用程序</string>
@@ -386,6 +394,27 @@
     <string name="battery_saver_refresh_rate_summary">在开启省电模式时使用 60 Hz 屏幕刷新率以节省电量</string>
     <string name="battery_saver_refresh_rate_disabled_summary">极限刷新率已开启</string>
 
+    <!-- Battery Saver -->
+    <string name="adaptive_battery_entry_purpose">允许用户启用或关闭自适应电池。该功能会根据手机使用模式优化应用耗电，以延长电池续航。</string>
+    <string name="adaptive_battery_management_enabled_purpose">是否启用自适应电池，以根据应用使用模式优化电池使用情况。</string>
+    <string name="adaptive_battery_switch_title">使用自适应电池</string>
+    <string name="basic_battery_saver_title">标准省电模式</string>
+    <string name="basic_battery_saver_summary">限制视觉效果和后台活动。若未开启深色主题则自动开启。</string>
+    <string name="basic_battery_saver_purpose">启用标准省电模式，限制视觉效果和后台活动</string>
+    <string name="battery_saver_reminder_category">提醒</string>
+    <string name="battery_saver_reminder_switch_title">省电模式提醒</string>
+    <string name="battery_saver_reminder_switch_summary">接收低电量提醒</string>
+    <string name="battery_saver_schedule_category">定时计划</string>
+    <string name="battery_saver_schedule_switch_title">根据电量自动开启</string>
+    <string name="battery_saver_schedule_switch_summary">电量降至设定值时自动开启省电模式</string>
+    <string name="battery_saver_schedule_purpose">允许用户配置省电模式计划，包括按电量自动启用、充电后自动停用，以及管理低电量通知提醒。</string>
+    <string name="battery_schedule_title">定时计划与提醒</string>
+    <string name="battery_schedule_summary">管理省电模式的开启时机</string>
+    <string name="extreme_battery_saver_title">超级省电模式</string>
+    <string name="extreme_battery_saver_summary">包含上述所有更改。同时暂停非必要应用及其通知。</string>
+    <string name="extreme_battery_saver_purpose">启用超级省电模式，暂停非必要应用及其通知</string>
+    <string name="low_power_mode_reminder_enabled_purpose">是否在电量低时接收通知提醒</string>
+
     <!-- Extreme refresh rate -->
     <string name="extreme_refresh_rate_title">极限刷新率</string>
     <string name="extreme_refresh_rate_summary">强制所有应用使用最高刷新率</string>
@@ -400,56 +429,6 @@
     <string name="clear_calling_title">清晰通话</string>
     <string name="clear_calling_toggle">使用清晰通话</string>
     <string name="clear_calling_topintro">减少通话期间的背景噪音</string>
-
-    <!-- Battery Saver -->
-    <string name="adaptive_battery_switch_title">使用自适应电池</string>
-    <string name="basic_battery_saver_title">标准省电模式</string>
-    <string name="basic_battery_saver_summary">限制视觉效果和后台活动。若未开启深色主题则自动开启。</string>
-    <string name="battery_saver_reminder_category">提醒</string>
-    <string name="battery_saver_reminder_switch_title">省电模式提醒</string>
-    <string name="battery_saver_reminder_switch_summary">接收低电量提醒</string>
-    <string name="battery_saver_schedule_category">定时计划</string>
-    <string name="battery_saver_schedule_switch_title">根据电量自动开启</string>
-    <string name="battery_saver_schedule_switch_summary">电量降至设定值时自动开启省电模式</string>
-    <string name="battery_schedule_title">定时计划与提醒</string>
-    <string name="battery_schedule_summary">管理省电模式的开启时机</string>
-    <string name="extreme_battery_saver_title">超级省电模式</string>
-    <string name="extreme_battery_saver_summary">包含上述所有更改。同时暂停非必要应用及其通知。</string>
-    <string name="smart_battery_a11y_expand_label">展开，自适应电池</string>
-    <string name="smart_battery_a11y_collapse_label">折叠，自适应电池</string>
-    <string name="smart_battery_title">自适应电池</string>
-    <string name="unified_battery_saver_page_intro">节省电量，提升电池续航</string>
-    
-    <!-- App lock -->
-    <string name="app_lock_title">应用锁</string>
-    <plurals name="app_lock_summary">
-        <item quantity="one"><xliff:g example="1" id="Number of applications">%1$d</xliff:g> 个应用受到保护</item>
-        <item quantity="other"><xliff:g example="10" id="Number of applications">%1$d</xliff:g> 个应用受到保护</item>
-    </plurals>
-    <string name="app_lock_authentication_dialog_title">解锁</string>
-    <string name="enable_debugging">启用调试</string>
-    <string name="disable_debugging">禁用调试</string>
-    <string name="app_lock_packages_title">受保护的应用</string>
-    <string name="app_lock_packages_summary">选择要通过生物识别或设备凭据保护的应用</string>
-    <string name="app_lock_timeout_title">自动锁定超时</string>
-    <string name="app_lock_timeout_summary">已解锁应用在后台运行指定时间后自动锁定</string>
-    <string name="app_lock_notifications_title">隐藏通知内容</string>
-    <string name="app_lock_notifications_summary">锁定后，所选应用的通知内容将被隐藏和折叠。悬浮通知将自动禁用。</string>
-    <string name="app_lock_notifications_disabled_summary">请先保护应用</string>
-    <string name="app_lock_biometrics_allowed_title">启用生物识别解锁</string>
-    <string name="app_lock_footer_text">超时后气泡将自动消失</string>
-    <string name="enable_protection">启用保护</string>
-    <string name="hide_from_launcher_title">从启动器隐藏</string>
-    <string name="hide_from_launcher_summary">阻止该应用在任何启动器中显示。需要重启启动器以使更改生效。</string>
-
-    <!-- Reality Display Engine -->
-    <string name="display_engine_category">显示引擎</string>
-    <string name="display_engine_mode_title">Reality 显示引擎</string>
-    <string name="x_reality_engine_mode_title">X-Reality 引擎</string>
-    <string name="vivid_engine_mode_title">生动显示</string>
-    <string name="triluminous_engine_mode_title">特丽魅彩显示</string>
-    <string name="display_engine_default">默认</string>
-    <string name="display_engine_mode_footer_text">受 Sony Bravia/X-Reality 引擎启发，显示引擎提供生动模式（增强亮度和色彩饱和度）、X-Reality 模式（提升细节和色彩准确性）以及特丽魅彩模式（更广的色域范围）。</string>
 
     <!-- Doze sensor settings -->
     <string name="doze_additional_settings_title">更多设置</string>
@@ -469,4 +448,50 @@
     <string name="doze_vibrate_summary">显示通知时的振动时长</string>
     <string name="caution">注意</string>
     <string name="sensor_warning_message">基于传感器的设置受硬件兼容性影响。为息屏显示启用传感器可能会增加电量消耗。</string>
+    <!-- Display settings screen, red color balance setting slider [CHAR LIMIT=NONE] -->
+    <string name="color_mode_balance_red">红色强度</string>
+    <!-- Display settings screen, green color balance setting slider [CHAR LIMIT=NONE] -->
+    <string name="color_mode_balance_green">绿色强度</string>
+    <!-- Display settings screen, blue color balance setting slider [CHAR LIMIT=NONE] -->
+    <string name="color_mode_balance_blue">蓝色强度</string>
+    <string name="keywords_color_balance">颜色, 色彩平衡, 颜色校正, 红, 绿, 蓝, LiveDisplay</string>
+
+    <!-- Display settings screen, color balance category title [CHAR LIMIT=30] -->
+    <string name="color_mode_advanced_category">高级控制</string>
+
+    <!-- Color temperature -->
+    <string name="color_temperature_title">色温</string>
+    <string name="color_temperature_start_label">暖色</string>
+    <string name="color_temperature_end_label">冷色</string>
+    <string name="keywords_color_temperature">颜色, 色温, 暖色, 冷色, LiveDisplay</string>
+
+    <!-- Color saturation -->
+    <string name="color_saturation_title">饱和度</string>
+    <string name="keywords_color_saturation">颜色, 饱和度, 暖色, 冷色, LiveDisplay</string>
+
+    <string name="color_hue_title">色相</string>
+    <string name="color_contrast_title">对比度</string>
+    <string name="color_picture_brightness_title">画面亮度</string>
+
+    <!-- Reality Display Engine -->
+    <string name="display_engine_category">显示引擎</string>
+    <string name="display_engine_mode_title">Reality 显示引擎</string>
+    <string name="x_reality_engine_mode_title">X-Reality 引擎</string>
+    <string name="vivid_engine_mode_title">生动显示</string>
+    <string name="triluminous_engine_mode_title">特丽魅彩显示</string>
+    <string name="display_engine_default">默认</string>
+    <string name="display_engine_mode_footer_text">受 Sony Bravia/X-Reality 引擎启发，显示引擎提供生动模式（增强亮度和色彩饱和度）、X-Reality 模式（提升细节和色彩准确性）以及特丽魅彩模式（更广的色域范围）。</string>
+
+    <!-- Vibration settings for sliders -->
+    <string name="accessibility_slider_haptics_category_title">滑块</string>
+    <string name="accessibility_brightness_slider_haptic_title">亮度滑块触感</string>
+    <string name="accessibility_volume_dialog_haptic_title">音量滑块触感</string>
+
+    <!-- Dual shade split ratio. The value is how much of the screen, from the start edge, opens notifications. -->
+    <string name="status_bar_shade_split_percentage_title">通知与快速设置分栏比例</string>
+    <string name="status_bar_shade_split_percentage_summary">通知 %1$d%% · 快速设置 %2$d%%</string>
+    <string name="status_bar_shade_split_percentage_value">%1$d%%</string>
+    <string name="status_bar_shade_split_more_quick_settings">更多快速设置</string>
+    <string name="status_bar_shade_split_more_notifications">更多通知</string>
+    <string name="keywords_shade_split_ratio">面板, 分栏, 比例, 通知, 快速设置, 边界</string>
 </resources>

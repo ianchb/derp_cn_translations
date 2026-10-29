@@ -6,7 +6,7 @@ These translations will be tested on **renoir**. Status: [<img src="https://badg
 
 [![Download Self-build Mi 11 Lite ROM](https://a.fsdn.com/con/app/sf-download-button)](https://sourceforge.net/projects/self-build-mi-11-lite-rom/files/latest/download)  
 Note: It may take some time for the flashable ZIP to be available for download after a successful build.  
-- DerpFest Version: **16.2**
+- DerpFest Version: **17**
 
 --------
 
@@ -24,12 +24,8 @@ Note: It may take some time for the flashable ZIP to be available for download a
 --------
 
 # Date of ...
-- ...synchronizing code: **2026/06/12**
-- ...updating translations: **2026/06/12**
-
-> Please note that since June 2026, some repositories of DerpFest are currently not open for development.
-> Instead, development is first completed on the private branch and then pushed to a new repository.
-> Therefore, some translation updates may not be timely. If you find any, please feel free to open an Issue.
+- ...synchronizing code: **2026/10/29**
+- ...updating translations: **2026/10/30**
 
 --------
 

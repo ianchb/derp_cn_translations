@@ -18,15 +18,20 @@
     <!-- Face unlock -->
     <string name="face_unlock_recognizing">正在识别人脸...</string>
 
-    <!-- Internet -->
+    <!-- Internet speed -->
     <string name="status_bar_settings_network_speed">网速显示</string>
-    <string name="status_bar_network_speed">network_speed</string>
-
+    <!-- Slot name; must stay identical to NetworkSpeedController.SLOT_NETWORK_SPEED. -->
     <!-- QuickSettings: InternetDialog: Summary for how many devices are connected to the hotspot [CHAR LIMIT=NONE] -->
     <plurals name="quick_settings_internet_hotspot_summary_num_devices">
         <item quantity="one">%d 部设备已连接</item>
         <item quantity="other">%d 部设备已连接</item>
     </plurals>
+
+    <!-- One-time hotspot data limit -->
+    <string name="hotspot_data_limit_channel_name">热点流量上限</string>
+    <string name="hotspot_data_limit_notification_title">已达到热点流量上限</string>
+    <string name="hotspot_data_limit_notification_text_off">流量已达上限，热点已关闭。</string>
+    <string name="hotspot_data_limit_notification_text">流量已达上限。</string>
 
     <!-- Name of the nfc status bar icon. -->
     <string name="status_bar_nfc">NFC</string>
@@ -60,21 +65,27 @@
     <string name="status_bar_vonr_icon_title">VoNR</string>
     <string name="status_bar_vowifi_icon_title">VoWiFi</string>
 
+    <string-array name="status_bar_ims_indicator_style_entries">
+        <item>@string/status_bar_ims_style_integrated</item>
+        <item>@string/status_bar_ims_style_dedicated</item>
+    </string-array>
+    <!-- Status bar tuner: system icon packs -->
+    <string name="status_bar_icon_packs_category_title">图标包</string>
+    <string name="status_bar_icon_packs_title">系统图标包</string>
+    <string name="status_bar_icon_packs_summary">替换设置、系统界面和启动器中的系统图标</string>
+    <string name="status_bar_icon_packs_action">浏览图标包</string>
+
     <!-- Status bar tuner: network icons -->
     <string name="status_bar_network_icons_category_title">网络图标</string>
     <string name="custom_system_theme_title">网络图标主题</string>
     <string name="custom_system_theme_summary">自定义网络图标外观</string>
+    <string name="status_bar_network_icon_themes_action">浏览网络图标</string>
 
     <!-- WiFi standard numbering on statusbar -->
     <string name="status_bar_wifi_standard">Wi-Fi 协议版本</string>
 
     <!-- CPUInfo tile -->
     <string name="quick_settings_cpuinfo_label">CPU 信息</string>
-
-    <!-- Blur QS tile -->
-    <string name="quick_settings_blur_label">模糊</string>
-    <string name="accessibility_quick_settings_blur_off">模糊已停用。</string>
-    <string name="accessibility_quick_settings_blur_on">模糊已启用。</string>
 
     <!-- Compass QS Tile -->
     <string name="quick_settings_compass_label">指南针</string>
@@ -127,14 +138,17 @@
     <string name="quick_settings_music_no_player">未连接到播放器</string>
     <string name="quick_settings_music_last_played">最近播放： %1$s</string>
 
-    <!-- USB function dialog - copied from Settings -->
-    <string name="usb_use_charging_only">不用于数据传输</string>
-    <string name="usb_use_file_transfers">文件传输</string>
-    <string name="usb_use_photo_transfers">照片传输（PTP）</string>
-    <string name="usb_use_uvc_webcam">网络摄像头</string>
-    <string name="usb_use_tethering">USB 网络共享</string>
-    <string name="usb_use_MIDI">MIDI</string>
-    <string name="usb_use">USB 用于</string>
+    <!-- QS layout editor -->
+    <string name="qs_edit_media_player">媒体播放器</string>
+    <string name="qs_edit_brightness_visibility_title">亮度滑块</string>
+    <string name="qs_edit_brightness_visibility_always">始终显示（包括常用快速设置）</string>
+    <string name="qs_edit_brightness_visibility_always_short">始终</string>
+    <string name="qs_edit_brightness_visibility_expanded">仅在展开时显示</string>
+    <string name="qs_edit_brightness_visibility_expanded_short">已展开</string>
+    <string name="qs_edit_brightness_visibility_hidden">隐藏</string>
+    <string name="qs_edit_brightness_visibility_show">显示</string>
+    <string name="qs_edit_brightness_visibility_hide">隐藏</string>
+    <string name="qs_edit_volume_visibility_title">音量滑块</string>
 
     <!-- DerpFest Tile -->
     <string name="quick_derpfest_label">DerpFest 自定义设置</string>
@@ -152,26 +166,21 @@
     <!-- 5G toggle in Internet Dialog -->
     <string name="enable_fiveg">启用 5G</string>
 
-    <!-- Data usage info in QS footer -->
-    <string name="usage_data">已于今日使用</string>
-    <string name="usage_data_weekly">已于本周使用</string>
-    <string name="usage_data_default_suffix">移动数据</string>
-    <string name="usage_wifi_default_suffix">Wi-Fi</string>
-
-    <!-- Label for notification action to delete a screen recording file [CHAR LIMIT=35] -->
-    <string name="screenrecord_delete_label">删除</string>
-    <!-- A toast message shown after successfully deleting a screen recording [CHAR LIMIT=NONE] -->
-    <string name="screenrecord_delete_description">已删除屏幕录制</string>
-
-    <!-- Screen record dialog -->
-    <string name="screenrecord_keep_screen_awake_label">保持屏幕常亮</string>
-
     <!-- 4G icon -->
     <string name="show_fourg_icon_title">4G 图标</string>
 
     <!-- Heads up snooze toast -->
     <string name="heads_up_snooze_message_one_minute"><xliff:g id="string">%s</xliff:g> - 悬浮通知已被临时屏蔽 1 分钟。</string>
     <string name="heads_up_snooze_message"><xliff:g id="string">%1$s</xliff:g> - 悬浮通知已被临时屏蔽 <xliff:g id="number">%2$d</xliff:g> 分钟。</string>
+
+    <!-- Data usage info in QS footer -->
+    <string name="usage_data">已于今日使用</string>
+    <string name="usage_data_weekly">已于本周使用</string>
+    <string name="usage_data_default_suffix">移动数据</string>
+    <string name="usage_wifi_default_suffix">Wi-Fi</string>
+
+    <!-- Screen record dialog -->
+    <string name="screenrecord_keep_screen_awake_label">保持屏幕常亮</string>
 
     <!-- Notification counter -->
     <string name="status_bar_combined_notification_count">显示合并的通知数量</string>
@@ -185,15 +194,53 @@
     <string name="flashlight_strength_turn_off">关闭</string>
     <string name="flashlight_strength_turn_on">开启</string>
 
+    <!-- Tiered low battery notifications -->
+    <!-- Text of the low battery notification shown when Extreme Battery Saver is in aggressive mode, suggesting it instead. [CHAR LIMIT=NONE]-->
+    <string name="low_battery_notification_text_ebs">开启超级省电模式以延长电池续航</string>
+    <!-- Title of the severe low battery notification, shown when the battery is about to run out. The placeholder is a localized percentage, e.g. "5%". [CHAR LIMIT=NONE]-->
+    <string name="severe_battery_notification_title"><xliff:g id="percentage" example="5%">%s</xliff:g> 电量剩余</string>
+    <!-- Text of the severe low battery notification, which suggests turning on Extreme Battery Saver. [CHAR LIMIT=NONE]-->
+    <string name="severe_battery_notification_text">开启超级省电模式。此模式会暂停所有非必要应用</string>
+    <!-- Text of the severe low battery notification shown when Battery Saver is already on or scheduled, offering to switch to Extreme Battery Saver. [CHAR LIMIT=NONE]-->
+    <string name="severe_battery_notification_switch_text">切换到超级省电模式？\n\n此模式会暂停所有非必要应用及其通知</string>
+    <!-- Notification action that switches to Extreme Battery Saver [CHAR LIMIT=30] -->
+    <string name="severe_low_battery_dialog_switch_action_text">切换</string>
+    <!-- Title of the extreme low battery notification, shown right before the device shuts down due to critically low battery. [CHAR LIMIT=NONE]-->
+    <string name="extreme_low_battery_notification_title">电量极低</string>
+    <!-- Text of the extreme low battery notification. [CHAR LIMIT=NONE]-->
+    <string name="extreme_low_battery_notification_text">如果未及时充电，手机将关机</string>
+
+    <!-- First-time Battery Saver confirmation dialog -->
+    <!-- Title of the first-time Battery Saver confirmation dialog shown from the QS tile. [CHAR LIMIT=NONE]-->
+    <string name="saver_confirmation_dialog_title">欢迎使用省电模式</string>
+    <!-- Subtitle of the first-time Battery Saver confirmation dialog, above the mode selection. [CHAR LIMIT=NONE]-->
+    <string name="saver_confirmation_dialog_subtitle">选择要使用的模式</string>
+    <!-- Option title for standard Battery Saver in the first-time confirmation dialog. [CHAR LIMIT=NONE]-->
+    <string name="saver_confirmation_dialog_title_standard_mode">标准省电模式</string>
+    <!-- Option summary for standard Battery Saver in the first-time confirmation dialog. [CHAR LIMIT=NONE]-->
+    <string name="saver_confirmation_dialog_summary_standard_mode">限制视觉效果和后台活动。如果尚未开启深色主题，则会开启深色主题。</string>
+    <!-- Option title for Extreme Battery Saver in the first-time confirmation dialog. [CHAR LIMIT=NONE]-->
+    <string name="saver_confirmation_dialog_title_extreme_mode">超级省电模式</string>
+    <!-- Option summary for Extreme Battery Saver in the first-time confirmation dialog. [CHAR LIMIT=NONE]-->
+    <string name="saver_confirmation_dialog_summary_extreme_mode">包含上述所有更改，还会暂停非必要应用及其通知。</string>
+    <!-- Button in the first-time Battery Saver confirmation dialog that opens Extreme Battery Saver onboarding. [CHAR LIMIT=30] -->
+    <string name="saver_confirmation_dialog_setup_action">开始设置</string>
+
+    <!-- Per-app volume panel -->
+    <string name="app_volume">应用音量</string>
+    <string name="app_volume_subtitle_idle">调整每个正在播放音频的应用音量</string>
+    <plurals name="app_volume_subtitle_active">
+        <item quantity="one"><xliff:g id="count" example="1">%d</xliff:g> 个应用正在播放音频</item>
+        <item quantity="other"><xliff:g id="count" example="3">%d</xliff:g> 个应用正在播放音频</item>
+    </plurals>
+    <string name="app_volume_no_active_apps">没有正在播放的音频</string>
+    <!-- Accessibility state description of an app volume slider [CHAR LIMIT=NONE] -->
+    <string name="app_volume_percent"><xliff:g id="percent" example="50">%d</xliff:g>%%</string>
+
     <!-- VPN tethering QS tile -->
     <string name="vpn_tethering_label">VPN 共享</string>
     <string name="vpn_tethering_changed_off">VPN 共享已关闭。</string>
     <string name="vpn_tethering_changed_on">VPN 共享已开启。</string>
-
-    <!-- Volume QS Tile -->
-    <string name="quick_settings_volume_label">音量</string>
-    <string name="qs_volume_dialog_title">音量控制</string>
-    <string name="qs_volume_dialog_mute">静音</string>
 
     <!-- AxDynamicBar strings [CHAR LIMIT=NONE] -->
     <string name="ax_dynamic_bar_timer">计时器</string>
@@ -251,7 +298,6 @@
     <string name="ax_dynamic_bar_wireless_charging">无线充电</string>
     <string name="ax_dynamic_bar_until_full">直至充满</string>
     <string name="ax_dynamic_bar_battery_saver">省电模式</string>
-    <string name="ax_dynamic_bar_call">通话</string>
     <string name="ax_dynamic_bar_incoming_call">来电</string>
     <string name="ax_dynamic_bar_connected">已连接</string>
     <string name="ax_dynamic_bar_disconnect">断开连接</string>
@@ -263,6 +309,9 @@
     <string name="ax_dynamic_bar_connecting">正在连接\u2026</string>
     <string name="ax_dynamic_bar_one_device">1 台设备</string>
     <string name="ax_dynamic_bar_bluetooth_device">蓝牙设备</string>
+    <string name="ax_dynamic_bar_left_earbud">左耳塞</string>
+    <string name="ax_dynamic_bar_right_earbud">右耳塞</string>
+    <string name="ax_dynamic_bar_earbuds_case">充电盒</string>
     <string name="ax_dynamic_bar_apps_count"><xliff:g id="count" example="2">%d</xliff:g> 个应用</string>
     <string name="ax_dynamic_bar_just_now">刚刚</string>
     <string name="ax_dynamic_bar_mins_ago"><xliff:g id="count" example="5">%d</xliff:g> 分钟前</string>
@@ -290,17 +339,22 @@
     <string name="ax_dynamic_bar_sports_final">终场</string>
     <string name="ax_dynamic_bar_sports_halftime">中场</string>
     <string name="ax_dynamic_bar_sports_upcoming">即将开始</string>
+    <string name="ax_dynamic_bar_call">通话</string>
+    <string name="ax_dynamic_bar_kill_app">关闭应用</string>
 
-    <!-- OnePlus-style volume panel -->
-    <string name="volume_panel_system_volume">系统音量</string>
-    <string name="volume_panel_settings">设置</string>
+    <!-- Indication on the keyguard that is shown when the device is charging with a dash charger. Should match keyguard_plugged_in_dash_charging [CHAR LIMIT=40]-->
+    <string name="keyguard_indication_dash_charging_time"><xliff:g id="percentage">%2$s</xliff:g> • Dash 快充（距离充满还需 <xliff:g id="charging_time_left" example="4 hours and 2 minutes">%1$s</xliff:g>）</string>
+    <string name="keyguard_plugged_in_dash_charging"><xliff:g id="percentage">%s</xliff:g> • Dash 快充</string>
 
-    <!-- Samsung-style volume panel: active stream label in header -->
-    <string name="volume_panel_stream_media">媒体</string>
-    <string name="volume_panel_stream_ringtone">铃声</string>
-    <string name="volume_panel_stream_notification">通知</string>
-    <string name="volume_panel_stream_alarm">闹钟</string>
-    <string name="volume_panel_stream_call">通话</string>
-    <string name="volume_panel_stream_system">系统</string>
-    <string name="volume_panel_stream_volume">音量</string>
+    <!-- Indication on the keyguard that is shown when the device is charging with a warp charger. Should match keyguard_plugged_in_warp_charging [CHAR LIMIT=40]-->
+    <string name="keyguard_indication_warp_charging_time"><xliff:g id="percentage">%2$s</xliff:g> • Warp 快充（距离充满还需 <xliff:g id="charging_time_left" example="4 hours and 2 minutes">%1$s</xliff:g>）</string>
+    <string name="keyguard_plugged_in_warp_charging"><xliff:g id="percentage">%s</xliff:g> • Warp 快充</string>
+
+    <!-- Indication on the keyguard that is shown when the device is charging with a VOOC charger. Should match keyguard_plugged_in_vooc_charging [CHAR LIMIT=40]-->
+    <string name="keyguard_indication_vooc_charging_time"><xliff:g id="percentage">%2$s</xliff:g> • VOOC 快充（距离充满还需 <xliff:g id="charging_time_left" example="4 hours and 2 minutes">%1$s</xliff:g>）</string>
+    <string name="keyguard_plugged_in_vooc_charging"><xliff:g id="percentage">%s</xliff:g> • VOOC 快充</string>
+
+    <!-- Indication on the keyguard that is shown when the device is charging with a turbo power charger. Should match keyguard_plugged_in_turbo_charging [CHAR LIMIT=40]-->
+    <string name="keyguard_indication_turbo_power_time"><xliff:g id="percentage">%2$s</xliff:g> • 快速充电（距离充满还需 <xliff:g id="charging_time_left" example="4 hours and 2 minutes">%1$s</xliff:g>）</string>
+    <string name="keyguard_plugged_in_turbo_charging"><xliff:g id="percentage">%s</xliff:g> • 快速充电</string>
 </resources>

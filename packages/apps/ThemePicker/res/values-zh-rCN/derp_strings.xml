@@ -14,10 +14,11 @@
     <string name="udfps_icon_description">自定义锁屏时的指纹图标</string>
     <string name="new_title">新建</string>
 
-    <!-- Title for dialog after font or icon pack is applied [CHAR_LIMIT=40] -->
-    <string name="systemui_restart_dialog_title">重新启动系统界面？</string>
-    <!-- Message explaining that restarting System UI applies changes system-wide [CHAR_LIMIT=NONE] -->
-    <string name="systemui_restart_dialog_message">重新启动系统界面以全局（包括状态栏）应用字体和图标更改。</string>
-    <!-- Confirms restarting System UI [CHAR_LIMIT=20] -->
-    <string name="systemui_restart_dialog_restart">重新启动</string>
+    <string name="global_icon_shape_title">全局应用图标形状</string>
+    <string name="global_icon_shape_description">在应用启动画面和系统自适应图标中使用此形状</string>
+    <string name="global_icon_shape_apply_failed">无法全局应用图标形状，已保留当前设置。</string>
+    <string name="global_icon_shape_restart_required">重启启动器或设备后，全局图标形状才会生效。</string>
+
+    <!-- Label for the buttons to change the clock style. [CHAR LIMIT=32] -->
+    <string name="clock_style_title">时钟样式</string>
 </resources>

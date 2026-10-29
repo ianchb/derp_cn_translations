@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (C) 2022 The Android Open Source Project
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+<resources>
+    <string name="default_color_name">经典</string>
+
+    <string name="bundle1_color_name">碳黑</string>
+    <string name="bundle2_color_name">纸张</string>
+    <string name="bundle3_color_name">阳光</string>
+
+    <string name="bue_color_name">薰衣草</string>
+    <string name="red_color_name">浆果</string>
+    <string name="wht_color_name">雾白</string>
+
+    <string name="indigo_color_name">靛蓝</string>
+    <string name="iris_color_name">鸢尾</string>
+    <string name="jade_color_name">翡翠</string>
+    <string name="lemongrass_color_name">柠檬草</string>
+    <string name="moonstone_color_name">月光石</string>
+    <string name="obsidian_color_name">黑曜石</string>
+    <string name="peony_color_name">牡丹</string>
+    <string name="porcelain_color_name">瓷白</string>
+
+    <string name="fruit1_color_name">黄红双色配色</string>
+    <string name="fruit2_color_name">绿橙双色配色</string>
+    <string name="fruit3_color_name">蓝绿双色配色</string>
+    <string name="fruit4_color_name">淡紫与蓝色双色配色</string>
+    <string name="fruit5_color_name">粉色与靛蓝双色配色</string>
+</resources>

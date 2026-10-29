@@ -1,12 +1,12 @@
-DerpFest 17 | 2026-10-10
+DerpFest 17 | 2026-10-30
 UNOFFICIAL build by siergtc
 **********************
 
 ⚠ THIS RELEASE IS NOT STABLE YET!
 ⚠ 此更新不是稳定版本！
 
-- 1st release of DerpFest 17.
-- DerpFest 17 的第一次版本发布。
+- 2nd release of DerpFest 17.
+- DerpFest 17 的第二次版本发布。
 
 - You can dirty flash this ROM, but if you encounter any issues, a clean flash is recommended.
 - 你可以保留数据升级，但如果遇到任何问题，建议清除数据后刷机。
@@ -15,13 +15,25 @@ UNOFFICIAL build by siergtc
 
 Changelogs
 
-- Updated the security patch level to October 2026.
-- 更新安全补丁等级到 2026 年 10 月。
+- Updated vendor security patch level to May 2026.
+- 更新厂商安全补丁等级到 2026 年 5 月。
 
-- Please note that this is the first Android 17 test build; SuSFS has been
-removed and ReSukiSU has been replaced with BakaSU. The LHDC codec is
-unavailable currently, and there may be other stability or performance issues.
-Please proceed with caution!
-- 请注意，这是第一个 Android 17 测试版本，移除了SuSFS，切换到了BakaSu。
-此版本 LHDC 暂不可用；暂未制作和添加中文翻译；
+- Brought back LHDC v3/v4 and LHDC v5 (with 192 kHz, Low Latency and Lossless
+support).
+- 重新支持 LHDC v3/v4 和 LHDC v5（支持 192 kHz、低延迟和无损）。
+
+- Added support for DerpFest's new AccessCard, and enabled Secure NFC.
+- 现已支持 DerpFest 的新 AccessCard 门禁卡应用；启用了安全 NFC。
+
+- Added QTI Diag support, you can now use apps like Network Signal Guru and
+Cellular-Pro.
+- 添加了高通 Diag 支持，现在你可以正常使用网络信号大师、Cellular-Pro 等应用了。
+
+- Optimized system performance.
+- 优化系统流畅度。
+
+- Please note that this is the second Android 17 test build; SuSFS has been
+removed and ReSukiSU has been replaced with BakaSU, and there may be other 
+stability or performance issues. Please proceed with caution!
+- 请注意，这是第二个 Android 17 测试版本，移除了SuSFS，切换到了BakaSu。
 另外还可能存在其他稳定性与性能问题，请谨慎更新！

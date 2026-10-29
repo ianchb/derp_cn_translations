@@ -11,7 +11,7 @@
     <!-- Button that copies the url to the log of a crashed application -->
     <string name="aerr_copy">复制崩溃日志 URL</string>
     <string name="url_copy_success">已成功复制 URL</string>
-    <string name="url_copy_failed">将日志上传到 mkr/bin 时发生错误</string>
+    <string name="url_copy_failed">日志上传失败；原始崩溃日志已复制到剪贴板</string>
 
     <!-- Lock gesture -->
     <string name="gesture_locked_warning">再次轻扫以解锁手势</string>
@@ -21,6 +21,19 @@
     <string name="pocket_view_title">口袋模式已开启</string>
     <string name="pocket_view_title_cancel">请清除设备顶部遮挡物，或长按电源键强制退出口袋模式</string>
 
-    <!-- App lock -->
-    <string name="unlock_application">解锁 <xliff:g id="label" example="Telegram">%1$s</xliff:g></string>
+    <!-- App Lock -->
+    <string name="app_lock_use_credential_button">使用应用锁 PIN 码或图案</string>
+    <string name="app_lock_credential_enter_pin">输入应用锁 PIN 码</string>
+    <string name="app_lock_credential_enter_pattern">绘制应用锁图案</string>
+    <string name="app_lock_credential_choose_new_pin">选择新的应用锁 PIN 码</string>
+    <string name="app_lock_credential_choose_new_pattern">绘制新的应用锁图案</string>
+    <string name="app_lock_credential_confirm_new_pin">重新输入新的 PIN 码</string>
+    <string name="app_lock_credential_confirm_new_pattern">再次绘制新的图案</string>
+    <string name="app_lock_credential_wrong">凭据错误。请重试</string>
+    <string name="app_lock_credential_mismatch">两者不一致。请重试</string>
+    <string name="app_lock_credential_too_short">必须包含至少 4 位数字或圆点</string>
+    <string name="app_lock_credential_lockout">尝试次数过多，请在 <xliff:g id="seconds" example="30">%1$d</xliff:g> 秒后重试</string>
+    <string name="app_lock_credential_continue">继续</string>
+    <string name="app_lock_credential_set_done">应用锁凭据已设置</string>
+    <string name="app_lock_credential_cleared">应用锁凭据已移除</string>
 </resources>

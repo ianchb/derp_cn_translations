@@ -15,11 +15,21 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<resources>
 
     <!-- Dashboard categories -->
     <string name="top_level_connectivity">连接</string>
     <string name="top_level_personalize">个性化</string>
     <string name="top_level_system">系统</string>
     <string name="top_level_info">信息</string>
+
+    <string name="wellbeing_title">数字健康与家长控制</string>
+    <string name="wellbeing_summary">屏幕使用时间、应用计时器、就寝时间表</string>
+
+    <!-- Window blur settings -->
+    <string name="window_blurs">允许窗口级模糊效果</string>
+    <string name="blur_intensity_title">模糊强度</string>
+    <string name="blur_intensity_value">%1$d%%</string>
+    <string name="blur_settings_summary_on">开启（%1$d%%）</string>
+    <string name="blur_settings_summary_off">关闭</string>
 </resources>

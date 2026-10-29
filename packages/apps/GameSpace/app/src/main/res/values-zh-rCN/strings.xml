@@ -13,7 +13,6 @@
     See the License for the specific language governing permissions and
     limitations under the License.
   -->
-
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="settings_title">游戏空间</string>
     <string name="settings_summary">管理您的游戏设置</string>
@@ -65,7 +64,10 @@
 
     <!-- Game picker -->
     <string name="game_list_title">游戏库</string>
+    <string name="auto_game_detect_title">自动游戏检测</string>
+    <string name="auto_game_detect_summary">将系统标记为游戏的应用添加到游戏库，并在安装新游戏时自动添加</string>
     <string name="game_list_add_title">添加</string>
+    <string name="launch_game">启动游戏</string>
     <string name="app_selector_label">选择您的游戏</string>
     <string name="app_search_title">搜索</string>
     <string name="game_remove_message">确定从您的游戏列表中删除 %1$s 吗？</string>
@@ -104,27 +106,11 @@
 
     <!-- Game Optimization -->
     <string name="game_optimization_title">启动优化</string>
-    <string name="game_launch_boost_title">启动加速</string>
-    <string name="game_launch_boost_summary">优化 CPU 和内存以加快游戏启动速度</string>
     <string name="game_memory_management_title">智能内存管理</string>
     <string name="game_memory_management_summary">在启动游戏时自动清理后台应用</string>
-    <string name="game_load_priority_title">加载优先级</string>
-    <string name="game_load_priority_summary">设置游戏启动时的资源优先级</string>
     <string name="game_cache_management_title">缓存管理</string>
     <string name="game_cache_management_summary">优化游戏缓存以加快加载时间</string>
 
-    <string-array name="game_load_priority_entries">
-        <item>均衡（推荐）</item>
-        <item>最高性能</item>
-        <item>省电</item>
-    </string-array>
-
-    <string-array name="game_load_priority_values">
-        <item>均衡</item>
-        <item>性能</item>
-        <item>省电</item>
-    </string-array>
-    
     <!-- Danmaku Notification Mode -->
     <string name="danmaku_notification_mode_title">弹幕通知模式</string>
     <string name="danmaku_notification_mode_summary">在游戏时以弹幕形式显示通知</string>
@@ -132,4 +118,11 @@
     <!-- Edge Cutout -->
     <string name="edge_cutout_title">边缘挖孔区域显示（BETA）</string>
     <string name="edge_cutout_summary">启用屏幕边缘挖孔区域显示</string>
+    <!-- Quick Start Apps -->
+    <string name="quick_start_apps_title">快速启动应用</string>
+    <string name="quick_start_apps_summary">选择要快速启动的应用</string>
+
+    <!-- Pulse bass haptics -->
+    <string name="pulse_bass_haptics_disabled_title">禁用律动低音触感</string>
+    <string name="pulse_bass_haptics_disabled_summary">若已启用律动低音触感，则自动禁用</string>
 </resources>
